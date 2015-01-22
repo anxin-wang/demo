@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>第三章：String字符关系的测试</title>
+</head>
+<body>
+<script type="text/javascript">	
+//var s='oppropkprk';
+//document.write(s.match(/pr?k/));	
+//var str="oneselfsufficient";
+
+//document.write(str.match(/(one((s1)|(self1))?(selfsufficient)?)/)[0]);	
+	//var a=/nfa|nfa•not/.test('nfa•not');
+	//var b=/nfa|nfa•not/.test('nfa');	
+   // var s='nfa•not';
+	//document.write(s.match(/nfa|nfa•not/g));	
+	//if(a==true&&b==false){
+	//alert("采用传统的NFA");
+	//}else{	
+	//alert("如果以下代码运行时间过长或弹出时间过长警告浏览器就是的是采用POSIX NFA，或者就是采用DFA标准");
+	/*document.write(/X(.+?)+X/.test('=XX===============================================================================================X '));
+	document.write(/X(.+)+X/.test('=XX===============================================================================================X '));
+	document.write(/X(.+)+?X/.test('=XX=X=========================================================================================='));
+	document.write(/X(.+?)+X/.test('=XX===============================================================================================X '));
+	*/
+	
+	//}		
+	//} 
+	
+	var s='xxx435333336323';
+	var a= s.match(/\d(?:3)/);
+	alert(a.index);
+	document.write(s.match(/\d(?:3)/g)+"<br> ");
+	
+	document.write(s.match(/\d(?=3)/g)+ "<br> ");
+	
+	document.write(s.match(/\d(?!3)/g));
+	</script>
+</body>
+</html>

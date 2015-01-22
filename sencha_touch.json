@@ -1,0 +1,26 @@
+{
+	'root': {
+		'Ext':{
+			'class_name': 'Ext',
+			'property': [
+				{
+				}
+			],
+			'methods': [
+				{
+					'method': 'application( Object config, Boolean glossOnIcon, String phoneStartupScreen, String tabletStartupScreen, String statusBarStyle )',
+					'description': ''
+				}, {
+					'method': 'apply( Object object, Object config, Object defaults )',
+					'description': ''
+				}, {
+					'method': 'applyIf( Object object, Object config )',
+					'description': ''
+				}, {
+					'method': 'callback( Function callback, [Object scope], [Array args], [Number delay] )',
+					'description': ''
+				}
+			]
+		}
+	}
+}

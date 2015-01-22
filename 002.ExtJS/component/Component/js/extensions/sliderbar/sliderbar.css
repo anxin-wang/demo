@@ -1,0 +1,57 @@
+/*
+ * remove the original background style
+ */
+.slider-bar, .slider-bar .x-slider-end, .slider-bar .x-slider-inner {
+    background: none no-repeat scroll 0 0 transparent;
+}
+/*
+ * add custom background
+ * position:relative is setted to make slider-thumb left offset 1px of itself
+ */
+.slider-bar {
+    background: url('slider.png') no-repeat -12px 0 ;
+    height: 41px;    
+	position:relative;
+}
+/*
+ * make slider-thumb move to the end,original setting is 7px 
+ */
+.slider-bar.x-slider-horz .x-slider-end {
+	padding-right:4px;
+}
+/*
+ * slider-thumb's style
+ */
+.slider-bar .x-slider-thumb, .slider-bar .x-slider-thumb-over {
+    background: url('slider.png') no-repeat 0 0 transparent;
+    height: 61px;
+	width:11px;    
+    top: -10px;
+}
+/*
+ * set selected div style
+ * left:1px=>1px left relative to its father element
+ */
+.slider-selected-bg {
+    background: url('slider_selected_bg.png') repeat-x transparent;
+    width: 0;
+    height: 41px;   
+    position: absolute;
+	left:1px;
+}
+/*
+ * set tip always shown
+ */
+.x-shadow {
+    display: block !important;
+}
+#slider-tip.x-tip {
+    display: block !important;
+    visibility: visible !important;   
+}
+/*
+ * set tip font
+ */
+#slider-tip.x-tip .x-tip-body {
+    font: 16px tahoma, arial, helvetica, sans-serif;
+}

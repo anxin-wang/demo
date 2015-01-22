@@ -1,0 +1,27 @@
+.message-panel-fail p{
+	background: url("icons-sprite.png") 20px -50px no-repeat #FFFFC5;
+	padding-left:56px;
+	margin-left:20px;
+	margin-right:20px;
+	font-size: 14px;
+	font-family: Arial, Helvetica, sans-serif;	
+	font-weight:bold;
+	color:#505050;
+	line-height:60px;
+	height:60px;
+	border:1px solid #ACACAC;
+}
+.message-panel-success p{
+	background: url("icons-sprite.png") 20px -136px no-repeat #EAFDC4;
+	padding-left:56px;
+	margin-left:20px;
+	margin-right:20px;
+	font-size: 14px;
+	font-family: Arial, Helvetica, sans-serif;	
+	font-weight:bold;
+	color:#505050;
+	line-height:60px;
+	height:60px;
+	border:1px solid #ACACAC;
+
+}

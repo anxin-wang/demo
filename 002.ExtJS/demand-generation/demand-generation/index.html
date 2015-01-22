@@ -1,0 +1,403 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Marketbright CAKE</title>
+<link href="resources/images/logo.ico" mce_href="resources/images/logo.ico" rel="shortcut icon" />
+<link rel="stylesheet" type="text/css" href="js/ext-3.2.2/resources/css/ext-all.css" />
+<link rel="stylesheet" type="text/css" href="js/ext-3.2.2/resources/css/xtheme-gray.css" />
+<link rel="stylesheet" type="text/css" href="js/markitup/markitup/sets/default/style.css" />
+<link rel="stylesheet" type="text/css" href="js/fancybox/jquery.fancybox-1.3.1.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="js/ext-3.2.2/ux/fileuploadfield/css/fileuploadfield.css"/>
+<link rel="stylesheet" type="text/css" href="js/markitup/markitup/skins/markitup/style.css" />
+<link rel="stylesheet" type="text/css" href="resources/css/style.css" />
+<!--<script type="text/javascript" src="//asset0.zendesk.com/external/zenbox/zenbox-2.0.js"></script>
+<style type="text/css" media="screen, projection">
+@import url(//asset0.zendesk.com/external/zenbox/zenbox-2.0.css);
+</style>
+<script type="text/javascript">
+if (typeof(Zenbox) !== "undefined") {
+Zenbox.init({ dropboxID: "11144", url: "https://marketbright2.zendesk.com", tabID: "feedback", tabColor: "#52699E", tabPosition: "Right" });
+}
+</script>-->
+</head>
+<body>
+<div id="maindiv2">
+  <div id="container">
+    <div id="nav">
+      <div class="nav-help-panel"> 
+        <!--span><b>Live Support: QA9</b></span><a href="#">Support</a--> 
+        
+        <a href="#" id="loginOut">Logout</a> </div>
+      <ul class="navbg">
+        <li class="btn-nav-home"><a href="http://www.demand-generation.com/email/list"></a></li>
+        <!--li class="btn-nav-collaborate">
+			<a href="#">Collaborate</a>
+			<  div class="nav-panel">
+			<table>
+				<tr>
+					<td class="nav-panel-left"></td>
+					<td class="nav-panel-middle nav-panel-middle-first">
+						<div class="nav-panel-middle-panel nav-panel-middle-panel-first">
+							<p>News&amp;Messages</p>
+							<ul class="nav-panel-middle-panel-ul">
+								<li><a href="">Show all</a></li>
+							</ul>
+							<button type="button" onclick="" class="nav-panel-middle-panel-btn">New Post</button>
+						</div>
+					</td>
+					<td class="nav-panel-middle">
+						<div class="nav-panel-middle-panel">
+							<p>Task</p>
+							<ul class="nav-panel-middle-panel-ul">
+								<li><a href="">Show all</a></li>
+								<li><a href="">Pending</a></li>
+								<li><a href="">Past-due</a></li>
+							</ul>
+							<button type="button" onclick="" class="nav-panel-middle-panel-btn">New Task</button>
+						</div>
+					</td>
+					<td class="nav-panel-middle nav-panel-middle-last">
+						<div class="nav-panel-middle-panel nav-panel-middle-panel-last">
+							<p>Files</p>
+							<ul class="nav-panel-middle-panel-ul">
+								<li><a href="">Show all</a></li>
+							</ul>
+							<button type="button" onclick="" class="nav-panel-middle-panel-btn">Upload new file</button>
+						</div>
+					</td>
+					<td class="nav-panel-right"></td>
+				</tr>
+			</table>							
+			</div>
+		</li-->
+        <li class="btn-nav-campaigns"> <a href="#">Emails</a>
+          <div class="nav-panel">
+            <table>
+              <tr>
+                <td class="nav-panel-left"></td>
+                <td class="nav-panel-middle nav-panel-middle-first hide"><div class="nav-panel-middle-panel nav-panel-middle-panel-first">
+                    <p>Campaigns</p>
+                    <ul class="nav-panel-middle-panel-ul">
+                      <li><a href="">Show all Campaigns</a></li>
+                      <li><a href="">Show all Flows</a></li>
+                    </ul>
+                    <button type="button" onclick="" class="nav-panel-middle-panel-btn">New Flow</button>
+                  </div></td>
+                <td class="nav-panel-middle"><div class="nav-panel-middle-panel">
+                    <p>Emails</p>
+                    <ul class="nav-panel-middle-panel-ul">
+                      <li><a href="http://www.demand-generation.com/email/list">Show all</a></li>
+                      <li><a href="http://www.demand-generation.com/email/list?searchType=Saved Drafts">Show drafts</a></li>
+                      <li><a href="http://www.demand-generation.com/email/list?searchType=Sent">Show sent</a></li>
+                    </ul>
+                    <button type="button" onclick="location.href=host+'email/create';" class="nav-panel-middle-panel-btn">New Email</button>
+                  </div></td>
+                <td class="nav-panel-middle hide"><div class="nav-panel-middle-panel">
+                    <p>Landing Pages</p>
+                    <ul class="nav-panel-middle-panel-ul">
+                      <li><a href="">Show all</a></li>
+                      <li><a href="">Active</a></li>
+                    </ul>
+                    <button type="button" onclick="" class="nav-panel-middle-panel-btn" style="font-size:11px">New Landing Page</button>
+                  </div></td>
+                <td class="nav-panel-middle nav-panel-middle-last hide"><div class="nav-panel-middle-panel nav-panel-middle-panel-last">
+                    <p>Event Pages</p>
+                    <ul class="nav-panel-middle-panel-ul">
+                      <li><a href="">Show all</a></li>
+                      <li><a href="">Active</a></li>
+                    </ul>
+                    <button type="button" onclick="" class="nav-panel-middle-panel-btn">New Event</button>
+                  </div></td>
+                <td class="nav-panel-right"></td>
+              </tr>
+            </table>
+          </div>
+        </li>
+
+        <li class="btn-nav-landing-pages"> <a href="#">Landing Pages</a>
+          <div class="nav-panel">
+            <table>
+              <tr>
+                <td class="nav-panel-left"></td>
+                <td class="nav-panel-middle nav-panel-middle-first hide"><div class="nav-panel-middle-panel nav-panel-middle-panel-first">
+                    <p>Campaigns</p>
+                    <ul class="nav-panel-middle-panel-ul">
+                      <li><a href="">Show all Campaigns</a></li>
+                      <li><a href="">Show all Flows</a></li>
+                    </ul>
+                    <button type="button" onclick="" class="nav-panel-middle-panel-btn">New Flow</button>
+                  </div></td>
+                <td class="nav-panel-middle"><div class="nav-panel-middle-panel">
+                    <p>Emails</p>
+                    <ul class="nav-panel-middle-panel-ul">
+                      <li><a href="http://www.demand-generation.com/email/list">Show all</a></li>
+                      <li><a href="http://www.demand-generation.com/email/list?searchType=Saved Drafts">Show drafts</a></li>
+                      <li><a href="http://www.demand-generation.com/email/list?searchType=Sent">Show sent</a></li>
+                    </ul>
+                    <button type="button" onclick="location.href=host+'email/create';" class="nav-panel-middle-panel-btn">New Email</button>
+                  </div></td>
+                <td class="nav-panel-middle hide"><div class="nav-panel-middle-panel">
+                    <p>Landing Pages</p>
+                    <ul class="nav-panel-middle-panel-ul">
+                      <li><a href="">Show all</a></li>
+                      <li><a href="">Active</a></li>
+                    </ul>
+                    <button type="button" onclick="" class="nav-panel-middle-panel-btn" style="font-size:11px">New Landing Page</button>
+                  </div></td>
+                <td class="nav-panel-middle nav-panel-middle-last hide"><div class="nav-panel-middle-panel nav-panel-middle-panel-last">
+                    <p>Event Pages</p>
+                    <ul class="nav-panel-middle-panel-ul">
+                      <li><a href="">Show all</a></li>
+                      <li><a href="">Active</a></li>
+                    </ul>
+                    <button type="button" onclick="" class="nav-panel-middle-panel-btn">New Event</button>
+                  </div></td>
+                <td class="nav-panel-right"></td>
+              </tr>
+            </table>
+          </div>
+        </li>
+        
+        <li class="btn-nav-people"> <a href="#">Lists</a>
+          <div class="nav-panel">
+            <table>
+              <tr>
+                <td class="nav-panel-left"></td>
+                <td class="nav-panel-middle nav-panel-middle-first hide"><div class="nav-panel-middle-panel nav-panel-middle-panel-first">
+                    <p>Contacts</p>
+                    <ul class="nav-panel-middle-panel-ul">
+                      <li><a href="">Show all</a></li>
+                      <li><a href="">Upload contacts</a></li>
+                    </ul>
+                    <button type="button" onclick="" class="nav-panel-middle-panel-btn">New Contact</button>
+                  </div></td>
+                <td class="nav-panel-middle"><div class="nav-panel-middle-panel">
+                    <p>Lists</p>
+                    <ul class="nav-panel-middle-panel-ul">
+                      <li><a href="http://www.demand-generation.com/list/list">Show all lists</a></li>
+                    </ul>
+                    <button type="button" onclick="location.href=host+'list/create';" class="nav-panel-middle-panel-btn">Upload New List</button>
+                  </div></td>
+                <td class="nav-panel-middle hide"><div class="nav-panel-middle-panel">
+                    <p>Segments</p>
+                    <ul class="nav-panel-middle-panel-ul">
+                      <li><a href="">Show all segments</a></li>
+                    </ul>
+                    <button type="button" onclick="" class="nav-panel-middle-panel-btn">New Segment</button>
+                  </div></td>
+                <td class="nav-panel-middle nav-panel-middle-last hide"><div class="nav-panel-middle-panel nav-panel-middle-panel-last">
+                    <p>Lead Scoring</p>
+                    <ul class="nav-panel-middle-panel-ul">
+                      <li><a href="">Show all models</a></li>
+                    </ul>
+                    <button type="button" onclick="" class="nav-panel-middle-panel-btn">New Score Model</button>
+                  </div></td>
+                <td class="nav-panel-right"></td>
+              </tr>
+            </table>
+          </div>
+        </li>
+        <li class="btn-nav-assets hide"> <a href="#">Assets</a>
+          <div class="nav-panel">
+            <table>
+              <tr>
+                <td class="nav-panel-left"></td>
+                <td class="nav-panel-middle nav-panel-middle-first"><div class="nav-panel-middle-panel nav-panel-middle-panel-first">
+                    <p>Email Templates</p>
+                    <ul class="nav-panel-middle-panel-ul">
+                      <li><a href="">Show all</a></li>
+                    </ul>
+                    <button type="button" onclick="" class="nav-panel-middle-panel-btn">Email Template</button>
+                  </div></td>
+                <td class="nav-panel-middle"><div class="nav-panel-middle-panel">
+                    <p>Page Templates</p>
+                    <ul class="nav-panel-middle-panel-ul">
+                      <li><a href="">Show landing pages</a></li>
+                      <li><a href="">Show thank you pages</a></li>
+                    </ul>
+                    <button type="button" onclick="" class="nav-panel-middle-panel-btn">Landing Page</button>
+                  </div></td>
+                <td class="nav-panel-middle nav-panel-middle-last"><div class="nav-panel-middle-panel nav-panel-middle-panel-last">
+                    <p>Image Library</p>
+                    <ul class="nav-panel-middle-panel-ul">
+                      <li><a href="">Show all</a></li>
+                      <li><a href="">Stock images</a></li>
+                    </ul>
+                    <button type="button" onclick="" class="nav-panel-middle-panel-btn">Upload Image</button>
+                  </div></td>
+                <td class="nav-panel-right"></td>
+              </tr>
+            </table>
+          </div>
+        </li>
+        <li class="btn-nav-reports hide"> <a href="#">Reports</a>
+          <div class="nav-panel">
+            <table>
+              <tr>
+                <td class="nav-panel-left"></td>
+                <td class="nav-panel-middle nav-panel-middle-first"><div class="nav-panel-middle-panel nav-panel-middle-panel-first" style="background-image:url('')">
+                    <p>Reports</p>
+                    <ul class="nav-panel-middle-panel-ul">
+                      <li><a href="">Show all</a></li>
+                    </ul>
+                    <button type="button" onclick="" class="nav-panel-middle-panel-btn">Build Report</button>
+                  </div></td>
+                <td class="nav-panel-right"></td>
+              </tr>
+            </table>
+          </div>
+        </li>
+        <li class="btn-nav-add"> <a href="#"></a>
+          <div class="nav-panel">
+            <table>
+              <tr>
+                <td class="nav-panel-left"></td>
+                <td class="nav-panel-middle nav-panel-middle-first"><div class="nav-panel-middle-panel nav-panel-middle-panel-first" style="background-image:url('')">
+                    <p>Quick Create</p>
+                    <ul class="nav-panel-middle-panel-ul nav-panel-middle-panel-ul-add">
+                      <li><a href="http://www.demand-generation.com/email/create">New Email</a></li>
+                      <li><a href="http://www.demand-generation.com/admin/user/useradd">New User</a></li>
+                      <li><a href="http://www.demand-generation.com/list/create">New List</a></li>
+                    </ul>
+                  </div></td>
+                <td class="nav-panel-right"></td>
+              </tr>
+            </table>
+          </div>
+        </li>
+        <li class="btn-nav-person"><a href="http://www.demand-generation.com/admin/user"></a></li>
+        <li class="btn-nav-admin"><a href="http://www.demand-generation.com/admin/user/userstart"></a></li>
+        <!--li class="btn-nav-search">
+			<div>
+				<input type="text" id="inputNavSearch" value="search" onfocus="inputNavSearchSetCls()" onblur="inputNavSearchReset()" class="input-nav-search-default"/>
+				<button type="button" onclick="">search</button>
+			</div>
+		</li-->
+      </ul>
+    </div>
+    <div id="breadcrumb">
+      <div class="left"><a href="http://www.demand-generation.com/email/list">Home</a><span>&gt;</span><a href="#">Landing Pages</a><span>&gt;</span><a href="http://www.demand-generation.com/email/create">Overview</a></div>
+      <div class="right"><a href="http://helpdocs.marketbright.com/" target="_blank" class="breadcrumb-help">Help for this page</a></div>
+      <div class="x-clear"></div>
+    </div>
+    <script type="text/javascript">
+        		var footer={"year":"2011","version":"QA2(12\/3\/2010)"};
+        	</script> 
+    
+    <!--  
+ @#$Id: index.phtml 858 2010-09-09 06:14:11Z swang $
+ $Id: index.phtml 858 2010-09-09 06:14:11Z swang $
+ Copyright 2010 © Marketbright, Inc. All Rights Reserved.
+--> 
+    <!-- <div id="topic-grid" ></div>-->
+    
+    <div id="content"> 
+      <!-- Add your Page Here --> 
+    </div>
+    <div style="display: none;">
+      <div id="inline1" style="overflow:auto;">
+        <div class="pop_wrap">
+          <div class="pop_title">
+            <div class="pop_title_left"> </div>
+            <div class="pop_title_center"> <span>Find/Replace</span> </div>
+            <div class="pop_title_right"> </div>
+          </div>
+          <a class="pop_drag" href="#"></a>
+          <div class="pop_content find_container">
+            <div class="find_wrap" id="find_wrap">
+              <table cellpadding="0" cellspacing="0" border="0" id="menuTab1" class="selected">
+                <tr>
+                  <td class="find_tab_left"></td>
+                  <td class="find_tab_center"> Find </td>
+                  <td class="find_tab_right"></td>
+                </tr>
+              </table>
+              <div class="find_top_line find_space"> </div>
+              <table cellpadding="0" cellspacing="0" border="0" class="replace_table" id="menuTab2">
+                <tr>
+                  <td class="find_tab_left"></td>
+                  <td class="find_tab_center"> Replace </td>
+                  <td class="find_tab_right"></td>
+                </tr>
+              </table>
+              <div class="find_top_line"> </div>
+            </div>
+            <div class="find_content" style="height:170px;">
+              <table cellpadding="0" cellspacing="0" border="0" class="table_common" id="find_table">
+                <tr>
+                  <td width="25%" align="right"><label> Find what: </label></td>
+                  <td width="75%"><input id="searchWord" type="text" style="width:218px;" value=""/></td>
+                </tr>
+                <tr>
+                  <td>&nbsp;</td>
+                  <td><input type="checkbox" id="matchCase"/>
+                    <span style="padding-left:5px">Match case</span></td>
+                </tr>
+                <tr>
+                  <td>&nbsp;</td>
+                  <td><input type="checkbox" id="wholeWord" />
+                    <span style="padding-left:5px">Whole words only</span></td>
+                </tr>
+              </table>
+              <table cellpadding="0" cellspacing="0" border="0" class="table_common" style="display:none;" id="replace_table">
+                <tr>
+                  <td width="25%" align="right"><label> Find what: </label></td>
+                  <td width="75%"><input id="searchWordR" type="text" style="width:218px;" value=""/></td>
+                </tr>
+                <tr id="replace_with">
+                  <td align="right"><label> Replace with: </label></td>
+                  <td><input type="text" id="replaceWord" style="width:218px;" value=""/></td>
+                </tr>
+                <tr>
+                  <td>&nbsp;</td>
+                  <td><input type="checkbox" id="matchCaseR"/>
+                    <span style="padding-left:5px">Match case</span></td>
+                </tr>
+                <tr>
+                  <td>&nbsp;</td>
+                  <td><input type="checkbox" id="wholeWordR" />
+                    <span style="padding-left:5px">Whole words only</span></td>
+                </tr>
+              </table>
+            </div>
+          </div>
+          <div class="clear"> </div>
+          <div class="pop_footer">
+            <div class="pop_button find_button"> <a href="#" id="find" class="insert_button">FIND NEXT</a> <a href="#" class="insert_button" style="display:none" id="replace">REPLACE</a> <a href="#" class="insert_button" style="display:none" id="replace_all">REPLACE ALL</a> </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End of container -->
+  <div id="footbg"></div>
+</div>
+<!-- End of maindiv --> 
+
+<!-- Add JS --> 
+<script type="text/javascript" src="js/markitup/jquery-1.4.2.min.js"></script>
+<!--  <script type="text/javascript" src="js/ext-3.2.2/adapter/jquery/ext-jquery-adapter.js"></script>-->
+
+<script type="text/javascript" src="js/ext-3.2.2/adapter/ext/ext-base.js"></script>
+<script type="text/javascript" src="js/ext-3.2.2/ext-all-mini.js"></script>
+<script type="text/javascript" src="js/layout/layout.js"></script>
+<script type="text/javascript" >
+        	var session={"id":"000RkDx000bT0K0014","tenantId":"68","lobId":{"defaultValue":"01BQ9lN0000A0I0001","arr":[{"name":"mktb","value":"01BQ9lN0000A0I0001"},{"name":"public","value":"01BQ9lN0000B0I0001"},{"name":"Admin","value":"01BQ9lN0000C0I0001"},{"name":"business-objects","value":"01BQ9lN0000D0I0001"},{"name":"marketing","value":"01BQ9lN0000E0I0001"}]},"orgId":{"defaultValue":"01BQ9lN0006a0J0001","arr":[{"name":"MOD111","value":"01BQ9lN0006a0J0001"},{"name":"Asia1","value":"01BQ9lN0006b0J0002"},{"name":"Asia2","value":"01BQ9lN0006c0J0003"},{"name":"Asia3","value":"01BQ9lN0006d0J0004"},{"name":"Asia4","value":"01BQ9lN0006e0J0005"}]},"language":{"defaultValue":"English (United States)","arr":[{"name":"English (United States)","value":"English (United States)"},{"name":"Chinese (China)","value":"Chinese (China)"}]},"name":"Brett Ryckman","defaultFromName":"brett","defaultFromEmail":"brettryckman@yahoo.com"};
+        	//console.log(session)
+        </script>
+<!--<script type="text/javascript" src="js/tiny_mce_jq/tiny_mce_src.js"></script> 
+<script type="text/javascript" src="js/markitup/markitup/jquery.markitup.js"></script> 
+<script type="text/javascript" src="js/fancybox/jquery.mousewheel-3.0.2.pack.js"></script> 
+<script type="text/javascript" src="js/fancybox/jquery.fancybox-1.3.1.js"></script> 
+<script type="text/javascript" src="js/ext-3.2.2/ux/fileuploadfield/ZipFileUploadField.js"></script> 
+-->
+
+<!--<script type="text/javascript" src="js/email/creation_wizard_lib.js"></script> 
+<script type="text/javascript" src="js/email/creation_wizard.js"></script>-->
+
+<script type="text/javascript" src="js/ext-3.2.2/ux/Ext.ux.plugin.PagingToolbarResizer.js"></script>
+<script type="text/javascript" src="js/email/library_lib.js"></script>
+<script type="text/javascript" src="js/email/library.js"></script>
+</body>
+</html>

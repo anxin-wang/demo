@@ -1,0 +1,52 @@
+@CHARSET "ISO-8859-1";
+/*
+ * Description: get rid off extjs default button background image
+ * 
+ * */
+.btn .x-btn-tl, .btn .x-btn-tr, .btn .x-btn-tc, .btn .x-btn-ml, .btn .x-btn-mr, .btn .x-btn-bl, .btn .x-btn-br, .btn .x-btn-bc {
+    background-image: url('');
+    height: 0px;
+    width: 0px;
+}
+.btn .x-btn-mc button {
+
+}
+.btn-delete .x-btn-mc {
+	background: url('btn_treegrid_panel_toolbar_delete.png') no-repeat scroll left top transparent;
+	width:97px;
+	height:23px;
+}
+.btn-archived .x-btn-mc {
+	background: url('btn_treegrid_panel_toolbar_archived.png') no-repeat scroll left top transparent;
+	width:114px;
+	height:23px;
+}
+.ext-strict .ext-ie7 .btn-delete .x-btn-mc{
+	height:23px;
+}
+.ext-strict .ext-ie7 .btn-archived .x-btn-mc{
+	height:23px;
+}
+.btn-archived{
+	margin-left:8px;
+}
+.btn-delete .x-btn-mc button{
+	text-indent:-99999px;
+}
+.btn-archived .x-btn-mc button{
+	text-indent:-99999px;
+}
+.displayfield-font-grid-panel-toolbar{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;	
+	font-style:normal;
+	color:#929191;
+	padding:5px 0 0 18px	
+}
+.panel-bg-grid-panel {
+	background:url(btn_treegrid_panel_toolbar_bg.png) no-repeat scroll left top transparent;
+	padding:8px 30px;
+}
+.panel-bg-grid-panel .x-panel-body{
+	background-color:transparent;	
+}

@@ -1,0 +1,8 @@
+.treegrid-panel-toolbar-bottom{
+	background:url(btn_treegrid_panel_toolbar_bg_o.png) no-repeat scroll left top transparent;
+	padding:8px 0 0 361px;
+	height:35px;
+}
+.treegrid-panel-toolbar-bottom .x-panel-body{
+	background-color:transparent;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+	<head>		
+    	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">		
+		<title>第三章：new String的测试</title>	       
+	</head>
+	<body>    
+	<script type="text/javascript">			
+			
+	var mm="{first:u0012},{second:u0023},{third:u0024}";
+   		
+    m1=mm.replace(/({(\w*):(\w*)})/g,"当前匹配字符串是\"$&\"，其中{$1:$2}之前内容为\"$`\"，其后内容为\"$'\"。{$3}\n");
+	document.write(m1+"<br/>"); 
+	alert(m1);
+	 var dd=function(match,sub1,sub2,start,whole){
+			  var m="\""+match+"\"位于\""+whole+"\"中第"+start+"处。";
+			  m=m+"它包含\""+sub1+"\"和\""+sub2+"\"。\n";
+			  return m;
+			};	
+	m2=mm.replace(/{(\w*):(\w*)}(?=(?:,?))/g,dd);
+	alert(m2);
+		document.write(m2);
+	
+     </script>
+	</body>
+
+
+</html>
+

@@ -1,0 +1,109 @@
+/*delete write background color*/
+.uxpaking .x-panel-body{
+	background-color:transparent;
+}
+/*delete button default background image*/
+.btn .x-btn-tl, .btn .x-btn-tr, .btn .x-btn-tc, .btn .x-btn-ml, .btn .x-btn-mr, .btn .x-btn-bl, .btn .x-btn-br, .btn .x-btn-bc {
+    background-image: url('');
+    height: 0px;
+    width: 0px;
+	display:none;
+}
+/*add button(prev/next/others) size and font style*/
+.btn-paking-prev .x-btn-mc button {
+    font-size:12px;
+	text-align:center;
+	text-indent: -99999px;
+	width:15px;
+	
+
+}
+.btn-paking-next .x-btn-mc button {
+    font-size:12px;
+	text-align:center;
+	text-indent: -99999px;
+	width:15px;
+	font-family:Arial,Helvetica,sans-serif;
+
+}
+.btn-paking-btn .x-btn-mc button {	
+    font-size:11px;
+	text-align:center;
+	width:18px;
+	text-indent: 0px;
+	
+}
+/*add button(prev/next/others) background image*/
+.btn-paking-prev .x-btn-mc{
+	background:url("treegrid_panel_paking_bg_o.png") left top no-repeat;
+}
+.btn-paking-next .x-btn-mc{
+	background:url("treegrid_panel_paking_bg.png") right top no-repeat;
+}
+.btn-paking-btn .x-btn-mc{
+	background: url('treegrid_panel_paking_btn.png') no-repeat scroll left top;
+}
+/*add button(prev/next) background image when disabled*/
+.btn-paking-prev-disabled .x-btn-mc{
+	background:url("treegrid_panel_paking_bg.png") no-repeat scroll left top;
+}
+.btn-paking-next-disabled .x-btn-mc{
+	background:url("treegrid_panel_paking_bg_o.png") no-repeat scroll right top;
+}
+/*add button(others) background image when select*/
+.btn-selected .x-btn-mc{
+	background: url('treegrid_panel_paking_selected.png') no-repeat scroll right top;
+
+}
+/*add button(prev/next/others) height in ie7(show half)*/
+.btn-paking-prev .x-btn-mc .x-btn-text{
+		height:26px;
+}
+.btn-paking-next .x-btn-mc .x-btn-text{
+		height:26px;
+}
+.btn-paking-btn .x-btn-mc .x-btn-text{
+		height:26px;
+}
+/*add paking label font style and padding*/
+.pakinglabel{
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+}	
+.pakinglabel p{
+	padding-top:5px;
+	padding-left:330px;
+}
+/*add combobox height in firefox and ie8*/
+.ext-strict .combo-paking-fieldclass{
+	height:26px;
+}
+
+/*delete default style in ie and firefox*/
+.ext-gecko .combo-paking-fieldclass{
+	padding-bottom:0;
+	padding-top:0;
+}
+.ext-ie8 .combo-paking-fieldclass {
+	padding-top:3px;
+}
+.ext-ie7 .combo-paking-fieldclass{
+	margin:0 0 0 10px;
+}
+/*add combobox font and background style*/
+.combo-paking-fieldclass, textarea.x-form-field {
+	background:url("treegrid_panel_paking_dropdown.png") no-repeat scroll left top transparent;
+	border-color:transparent;
+	padding-left:5px;
+	margin-left:10px;
+	font-size:11px;
+	font-family:Arial,Helvetica,sans-serif;
+}
+.x-form-field-wrap .combo-paking-triggerclass{
+	
+	background:url('') no-repeat scroll right top transparent;
+	border-color:transparent;
+	height:26px;
+	width:22px;
+	left:98px;
+}

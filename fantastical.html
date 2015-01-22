@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
+		Remove this if you use the .htaccess -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		<title>fantastical</title>
+		<meta name="description" content="" />
+		<meta name="author" content="王 佳燕" />
+		<meta name="viewport" content="width=device-width; initial-scale=1.0" />
+		<!-- Replace favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
+		<link rel="shortcut icon" href="/favicon.ico" />
+		<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+		<style>
+			#container {
+				position: relative;
+			}
+			#menubar {
+				width: 800px;
+				height: 29px;
+				position: absolute;
+				top: 0px;
+				background: url(images/Fantastical/fantastical-menubar-2.png) left top no-repeat;
+			}
+			#background {
+				width: 800px;
+				height: 378px;
+				/*不用多重background而要加一层div的原因是滚动时menubar不能覆盖，所以必须分出来*/
+				/*background: url(images/Fantastical/fantastical-menubar-2.png) left top no-repeat, url(images/Fantastical/fantastical-background-2.jpg) left top no-repeat;*/
+
+				background: url(images/Fantastical/fantastical-background-2.jpg) left top no-repeat;
+			}
+			#right-image {
+				width: 307px;
+				height: 378px;
+				background: url(images/Fantastical/fantastical-screenshot.png) left -35px no-repeat transparent;
+				float: right;
+				margin-right: 50px;
+				-moz-transition: background-position 1.4s ease;
+			}
+			#right-image:hover {
+				background-position: left -338px;
+			}
+			#scale-demo{
+				width:285px;
+				height:290px;
+				background: url(images/Fantastical/fantastical-screenshot-features-2.png) left top no-repeat transparent;
+			}
+			#glass1,#glass2{
+				background: url(images/Fantastical/fantastical-glass.png) left top no-repeat transparent;
+			}
+			#glass1:hover,#glass2:hover{
+				-moz-transition: scal 1.4s ease;
+				background: url(images/Fantastical/fantastical-glass.png) left top no-repeat transparent;
+			}
+
+		</style>
+	</head>
+	<body>
+		<div>
+			<header>
+				<h1>fantastical</h1>
+			</header>
+			<div id="container">
+				<div id="menubar"></div>
+				<div id="background">
+					<div id="right-image"></div>
+				</div>
+			</div>
+			<div id="scale-demo">
+				<div id="glass1"></div>
+				<div id="glass2"></div>
+			</div>
+			<footer>
+				<p>
+					&copy; Copyright  by 王 佳燕
+				</p>
+			</footer>
+		</div>
+	</body>
+</html>

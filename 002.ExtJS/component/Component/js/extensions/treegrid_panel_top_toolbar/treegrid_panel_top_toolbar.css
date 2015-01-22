@@ -1,0 +1,135 @@
+@CHARSET "ISO-8859-1";
+/*
+ * Description: get rid off extjs default button background image
+ *
+ * */
+.btn .x-btn-tl, .btn .x-btn-tr, .btn .x-btn-tc, .btn .x-btn-ml, .btn .x-btn-mr, .btn .x-btn-bl, .btn .x-btn-br, .btn .x-btn-bc {
+    background-image: url('');
+    height: 0px;
+    width: 0px;
+}
+.btn .x-btn-mc button {
+}
+/*
+ * Description: add createnew button background image
+ *
+ * */
+.btn-createnew .x-btn-mc {
+    background: url('btn_treegrid_panel_top_toolbar_createnew.png') no-repeat scroll left top transparent;
+    width: 141px;
+    height: 35px;
+}
+.ext-strict .ext-ie7 .btn-createnew .x-btn-mc{
+	height:35px;
+}
+.panel-createnew{
+	padding:10px 0 0 0;
+}
+.displayfield-font-grid-panel-top-toolbar {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #5B5B5B;
+	padding:8px 0;
+    }
+/*
+ * Description: add "what's this" link css
+ *
+ * */
+.displayfield-font-grid-panel-top-toolbar a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: #F18531;
+    margin: 0 0 0 17px;
+    padding: 0 18px 0 0;
+    background: url('what_is_this.png') no-repeat top right;
+    text-decoration: none;
+    font-weight: normal;
+}
+/*
+ * Description: add "View:" label css
+ *
+ * */
+.label-font-grid-panel-top-toolbar-view {
+    text-align: left;
+    font-weight: bold;
+    padding: 0 0.69em 0 0.69em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+/*
+ * Description: add "Go!" button(white) background image
+ *
+ * */
+.btn-go-white .x-btn-mc { 
+/*
+ 	-moz-border-radius: 3px 3px 3px 3px;
+*/
+    background: url("btn_white_go.png") repeat-x scroll right top #E8E8E9;
+    border-color: #B5B5B5 #B5B5B5 #7F7F7F;
+    border-style: solid;
+    border-width: 1px;    
+    padding: 2px 3px;
+	width:24px;
+	height:18px;
+	
+}
+.ext-strict .ext-ie7 .btn-go-white .x-btn-mc{
+	height:18px;
+}
+.btn-go-white .x-btn-mc button {
+    text-indent: 0px;
+	color: #333333;   
+    font-weight: bold;
+    margin: 1px;
+	line-height:18px;
+}
+.btn-go-white .x-btn-mc .x-btn-text{
+		height:auto;
+}
+.btn-go-black .x-btn-mc { 
+/*
+ 	-moz-border-radius: 3px 3px 3px 3px;
+*/
+    background: url("btn_black_go.png") no-repeat scroll right top #E8E8E9;
+    border-color: #B5B5B5 #B5B5B5 #7F7F7F;
+    border-style: solid;
+    border-width: 1px;    
+    padding: 2px 3px;
+	width:24px;
+	height:18px;
+	
+}
+.btn-go-black .x-btn-mc button {
+    text-indent: 0px;
+	color: #ffffff;   
+    font-weight: bold;
+    margin: 1px;
+	line-height:18px;
+}
+.btn-go-black .x-btn-mc .x-btn-text{
+		height:auto;
+}
+.link-font-grid-panel-top-toolbar{
+	padding:0 0 0 13px;
+}
+.link-font-grid-panel-top-toolbar a{
+	font-family:Arial,Helvetica,sans-serif;
+	color:#015BA7;
+	font-size:12px;
+	text-decoration:none;
+}
+.link-font-grid-panel-top-toolbar span{
+	color:#2d2d2d;
+	font-size:12px;
+}
+.ext-strict .input-textfield {
+    width: 220px;
+    height: 18px;
+    background: url("input_bg.jpg") repeat-x scroll left top #FFFFFF;
+    border: 1px solid #D3D3D3;
+}
+.select {
+width:150px;
+}
+

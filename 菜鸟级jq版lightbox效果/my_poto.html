@@ -1,0 +1,146 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>信息发布-啥啥网</title>
+<link rel="stylesheet" type="text/css" href="css/my.css">
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+	//鼠标移入移出效果
+	$(".photo_list td").mouseover(function(){
+		$(this).addClass("on_photo");
+	}).mouseout(function(){
+		if(!$(this).children().children().is(":checked")){
+			$(this).removeClass("on_photo");
+		}
+	})
+	//被选中的增加高亮样式	
+	$(".photo_list :checked").parent().parent().addClass("on_photo");
+	//点击图片弹出	
+	$(".photo_list img").click(function(){
+		var ligbox="<div id='lightBox'></div><div class='lightBox_wrap'><dl class='lightBox'><dt><strong>图片管理</strong><img src='images/close.gif' id='close' onclick=\"xxx()\" /></dt><dd><table><tr><td><img src="+this.src+"></td></tr></table></dd><dd class='edit'><span class='fr'><a href='#'>[修改]</a><a href='#'>[删除]</a></span><input type='text' class='bt_input' value="+this.alt+"><input type='button' value='确定' /><input type='button' value='取消' /></dd></dl></div>";
+		$("body").append(ligbox);
+		$("#lightBox").css("height",$(document).height());
+		$('.lightBox_wrap').animate({top:$(document).scrollTop()+$(window).height()-$('.lightBox_wrap').height()},{duration:222, queue:false});	
+		$("select").css("visibility","hidden");
+	});
+});
+//t弹出层随屏滚动
+$(window).scroll(function(){
+	$('.lightBox_wrap').animate({top:$(document).scrollTop()+$(window).height()-$('.lightBox_wrap').height()},{duration:222, queue:false});	
+});
+
+$(document).ready(function(){
+	$("#close").click(function(){alert("1")})
+})
+
+function xxx(){
+	$("#lightBox").remove();
+	$(".lightBox_wrap").remove();
+	$("select").css("visibility","visible");
+}
+</script>
+</head>
+
+<body>
+<div id="header">
+	<div id="logo"><a href="http://www.chinalao.com/"><img src="images/logo.gif" alt="啥啥网"/></a><h1>我的啥啥网</h1></div>
+	<div id="header_search">
+		<input type="text" class="search_txt"/>
+		<div class="search_type"><span><select><option>啥啥信息</option><option>劳务信息</option></select></span></div>
+		<input type="button" value="搜索" class="gosearch"/>
+	</div>
+</div>
+<div id="main">
+	<div id="crumb">
+		<div id="crumb_on">您现在的位置：<a href="#">我的啥啥网</a> &gt; 信息管理</div>
+	</div>
+	<div id="menu">
+		<div id="mycl_home"><strong><a href="#">我的啥啥网首页</a></strong></div>
+		<dl class="menu_on">
+			<dt><strong>信息管理</strong></dt>
+			<dd><a href="#">合作意向</a></dd>
+			<dd class="dd_on"><a href="#">个人应聘</a></dd>
+			<dd><a href="#">收藏夹</a></dd>
+			<dd><a href="#">信息订阅</a></dd>
+			<dd><a href="#">消息中心</a></dd>
+		</dl>
+		<dl>
+			<dt><strong>网点中心</strong> <a href="#" class="f12">开通</a></dt>
+			<dd><a href="#">机构简介</a></dd>
+			<dd><a href="#">联系方式</a></dd>
+			<dd><a href="#">图片展示</a></dd>
+		</dl>
+		<dl>
+			<dt><strong><a href="#">账户管理</a></strong></dt>
+		</dl>
+		<dl>
+			<dt><strong><a href="#">增值服务</a></strong></dt>
+			<dd><a href="#">啥啥通</a></dd>
+			<dd><a href="#">广告服务</a></dd>
+		</dl>
+	</div>
+	<div id="content">
+		<!--图片展示-->
+		<div class="bt"><strong>图片展示</strong></div>
+		<table cellpadding="0" cellspacing="0" class="photo_list" id="photo_list">
+			<tr>
+				<td>
+					<img src="photo/111.jpg"  alt="黑酷美女"/>
+					<span><input name="" type="checkbox" /> <a href="#">黑酷美女</a></span>
+				</td>
+				<td>
+					<img src="photo/222.jpg"  alt="都说毕业遥遥无期"/>
+					<span><input name="" type="checkbox" /> <a href="#">都说毕业遥遥无期</a></span>
+				</td>
+				<td>
+					<img src="photo/333.jpg"  alt="要抱琵琶半遮面"/>
+					<span><input name="" type="checkbox" /> <a href="#">要抱琵琶半遮面</a></span>
+				</td>
+				<td>
+					<img src="photo/444.jpg"  alt="moko美女"/>
+					<span><input name="" type="checkbox" /> <a href="#">moko美女</a></span>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<img src="photo/555.jpg" alt="第一清纯美女 " />
+					<span><input name="" type="checkbox" /> <a href="#">第一清纯美女</a></span>
+				</td>
+				<td>
+					<img src="photo/666.jpg"  alt="这个屁股有点圆"/>
+					<span><input name="" type="checkbox" /> <a href="#">这个屁股有点圆</a></span>
+				</td>
+				<td>
+					<img src="photo/777.jpg" alt="他的眼神很暧昧"/>
+					<span><input name="" type="checkbox" /> <a href="#">她的眼神很暧昧</a></span>
+				</td>
+				<td>
+					<img src="photo/888.jpg"  alt="小嘴嘟嘟"/>
+					<span><input type="checkbox" checked="checked" /> <a href="#">小嘴嘟嘟</a></span>
+				</td>
+			</tr>
+		</table>
+		<div class="tool_bottom">
+			<span class="fl"><input name="" type="checkbox" id="selectAll"/> <input type="button" value="删除" class="button"/></span>
+			<a href="#">首页</a> |
+			<strong>上一页</strong> |
+			<a href="#">下一页</a> |
+			<a href="#">末页</a>
+			
+			页数：<select><option>1/10</option></select>
+		</div>
+	</div>
+</div>
+<div id="foot">
+<div id="botlink"><a href="http://www.chinalao.com/about/">关于啥啥网</a> | <a href="http://www.chinalao.com/about/hr.aspx">诚聘英才</a> | <a href="http://bbs.chinalao.com/showforum-91.shtml">成功故事</a> | <a href="http://www.chinalao.com/about/trends.aspx">啥啥动态</a> | <a href="http://www.chinalao.com/about/Report.aspx">媒体报道</a> | <a href="http://help.chinalao.com/">帮助中心</a> | <a href="http://pages.chinalao.com/">广告服务</a> | <a href="http://www.chinalao.com/about/contact.aspx">联系我们</a></div>
+
+<div id="copyright">
+<a href="http://www.chinalao.com/brand.aspx">著作权与商标声明</a> | <a href="http://www.chinalao.com/lawbook.aspx">法律声明</a> | <a href="http://www.chinalao.com/service.aspx">服务条款</a> | <a href="http://www.chinalao.com/privacy.aspx">隐私声明</a> | <a href="http://www.chinalao.com/copyright.aspx">版权声明</a> | <a href="http://www.chinalao.com/link.html">友情链接</a> | <a href="http://www.chinalao.com/map.aspx">网站地图</a><br />
+
+啥啥网版权所有 2005-2009 | <a href="http://www.miibeian.gov.cn/">豫ICP备06003469号</a>
+</div>
+</div>
+</body>
+</html>

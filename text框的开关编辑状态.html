@@ -1,0 +1,35 @@
+<iframe id="ed" name="ed" style="border:solid 1px black;width:400px;height:200px;display:block;" frameborder="0" marginheight="0" marginwidth="0"></iframe>
+<div id='dvHTML' style="border:solid 1px black;width:400px;height:200px;display:none;"></div>
+<input type="button" value="关闭编辑状态" onclick="StateOp(this)"/>
+<script type="text/javascript">
+var oIfr,doc;
+window.onload=function(){
+ oIfr=document.getElementById('ed');
+ doc=oIfr.contentWindow.document;
+ doc.designMode='On';
+ /*
+ 1)如果v不为空，则在IE下在第二次设置designMode为Off时iframe中的内容竟然是当前页面的内容
+ 2)如果v为空，则ie下输入内容转换designMode为off时内容会被清空
+ */
+  var v='11111';
+  if(v){
+    doc.open();
+    doc.writeln('<html><head><meta http-equiv="content-type" content="text/html;charset=gb2312"/></head><body>'+v+'<body></html>');
+    doc.close();
+  }
+}
+function StateOp(btn){
+  var dv=document.getElementById('dvHTML');
+  if(btn.value=='关闭编辑状态'){
+    btn.value='开启编辑状态';
+    oIfr.style.display='none';
+    dv.style.display='block';
+    dv.innerHTML=doc.body.innerHTML;
+  }
+  else{
+    btn.value='关闭编辑状态';
+    oIfr.style.display='block';
+    dv.style.display='none';
+  }
+}
+</script> 

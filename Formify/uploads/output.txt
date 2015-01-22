@@ -1,0 +1,31 @@
+2012-01-17 07:04:16,712 [1] INFO  DynaCallOutputLogger - 
+----------------------------------------
+TimeStamp: 1/17/2012 7:04:16 AM
+MachineName: ASP20
+EventLogEntryType: Information
+Message1: Message = Dynacall Started...
+Clean up completed.....
+Dynacall is now running.....
+No task is active.
+----------------------------------------
+
+2012-01-17 07:04:16,712 [5] INFO  DynaCallOutputLogger - 
+----------------------------------------
+TimeStamp: 1/17/2012 7:04:16 AM
+MachineName: ASP20
+EventLogEntryType: Information
+Message1: Message = Connection with controller ASP20 lost, reconnecting # 1....
+
+
+----------------------------------------
+
+2012-01-17 07:04:16,743 [5] INFO  DynaCallOutputLogger - 
+----------------------------------------
+TimeStamp: 1/17/2012 7:04:16 AM
+MachineName: ASP20
+EventLogEntryType: Information
+Message1: Message = 
+
+
+----------------------------------------
+

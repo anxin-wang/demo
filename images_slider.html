@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
+		Remove this if you use the .htaccess -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		<title>images_slider</title>
+		<meta name="description" content="" />
+		<meta name="author" content="王 佳燕" />
+		<meta name="viewport" content="width=device-width; initial-scale=1.0" />
+		<!-- Replace favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
+		<link rel="shortcut icon" href="/favicon.ico" />
+		<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+		<style>
+		
+			body{
+				font-family: "Helvetica Neue",Arial,sans-serif;
+				
+			}
+			.previews {
+			    background-attachment: scroll, scroll, scroll, scroll;
+			    background-clip: border-box, border-box, border-box, border-box;
+			    background-color: transparent;
+			   /*这个渐变设得太好了，配合上background-size*/
+			    background-image: 
+			    -moz-radial-gradient(center top , ellipse farthest-side, rgba(16, 83, 130, 0.5), rgba(16, 83, 130, 0)), 
+			    -moz-radial-gradient(center bottom , ellipse farthest-side, rgba(16, 83, 130, 0.5), rgba(16, 83, 130, 0)), 
+			    -moz-linear-gradient(left center , #F4F8FC, rgba(255, 255, 255, 0), #F4F8FC),
+			    -moz-linear-gradient(center top , rgba(255, 255, 255, 0), #F4F8FC 50px, #F4F8FC 180px, rgba(255, 255, 255, 0));
+			    background-size: 100% 5px, 100% 5px, auto auto, auto auto;
+			    background-origin: padding-box, padding-box, padding-box, padding-box;
+			    background-position: 0 0pt, 0 bottom, 0 0pt, 0 0;
+			    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+			    
+			    clear: both;
+			    margin: 2em 0;
+			    overflow: hidden;
+			    padding: 30px 5%;
+			    position: relative;
+			}
+			.control{
+				display: block;
+				position: absolute;
+				width: 100px;
+				height:217px;
+				top:0px;
+				text-decoration: none;
+				line-height:200px;
+				vertical-align: middle;
+				text-align:center;
+				font-size:48px;
+				color:#CCC;
+				font-family:Georgia,serif;
+				font-weight:400;
+				z-index: 30;
+			}
+			.prev{
+				background:-moz-linear-gradient(left center , #FFFFFF 50%, rgba(255, 255, 255, 0)) repeat scroll 0 0 transparent;
+				left:0px;
+			}
+			.next{
+				background:-moz-linear-gradient(left center , rgba(255, 255, 255, 0), #FFFFFF 50%) repeat scroll 0 0 transparent;
+				right:0px;
+			}
+			ul{
+				padding:0px;
+				margin:0 0 0 40px;
+				white-space:nowrap;
+				position:relative;			
+			}
+			ul li{
+				padding-right:10px;
+				display:inline-block;
+				margin-right:55px;
+				list-style-type:none;
+				height:150px;
+				width:200px;
+				border:1px solid #000000;
+			}
+			
+		</style>
+	</head>
+	<body>
+		<div>
+			<header>
+				<h1>images_slider</h1><span>例子出处：</span><a href="https://addons.mozilla.org/en-US/firefox/addon/evernote-web-clipper/">evernote-web-clipper</a>
+			</header>
+			<p>
+	制作流程：
+	元素：div,a,ul&li
+	1.容器，*背景渐变
+	2.左右两个按钮：绝对定位，一个是left:0,另一个是right:0,文本水平和垂直居中，*背景渐变，*字体。一定要设背景，来遮住overflow的元素。且上下遮住容器背景的上下两条边，形成渐变效果。
+	3.中间的图片：错误的做法：列表项左浮动，ul的宽度设到使得li没有折行，全在一行里，且overflow:hidden。
+	           正确的做法:li设为display:inline-block,ul加上white-space:nowrap;即可，千万不能加上float:left,这样会换行
+	           宽度和水平padding,margin设得正好使几个元素显示在外，其余元素隐藏。*且最好可以根据浏览器的宽度的改变来改变显示个数。
+	           图片水平垂直居中
+	           a标签有边框，有阴影。<span style="color:red;">点击后有相应的动作。</span>
+	4.<span style="color:red;">*点击左右两个按钮进行滑动：有两种滑动：一是点一下移动一点，不一定要显示完整的下一项，只是移动一点位移，效果平滑。二是点一下移动到下一项（或全部替换的下N项）完整显示的位置，不完整的位置自动移过去，不会停留。*这是主要的功能。
+	  问题一：怎么知道后面还有？
+	  问题二：该移动多少距离？
+	  </span>且有transition
+	5.*Hover每一项会改变top位置，改变border颜色，增加border阴影。且是transition
+			</p>
+			<div class="previews">
+				<a href="#" class="control prev">《</a>
+				<a href="#" class="control next">》</a>
+				<ul id="image_lists">
+					<li><span>1</span></li>
+					<li><span>2</span></li>
+					<li><span>3</span></li>
+					<li><span>4</span></li>
+					<li><span>5</span></li>
+					<li><span>6</span></li>
+					<li><span>7</span></li>
+					<li><span>8</span></li>
+					<li><span>9</span></li>
+					<li><span>10</span></li>
+				</ul>
+			</div>
+			
+		</div>
+		<script src="js/jquery-1.7.1.min.js"></script>
+		<script type="text/javascript">
+			$(function(){
+				var left=$("#image_lists li").last().offset().left;
+				var width=$("#image_lists").outerWidth()-$("#image_lists li").first().width()+62;
+				$(".prev").click(function(){
+					
+				});
+				
+				$(".next").click(function(e){
+					e.preventDefault();
+					
+					if(left>width){
+						console.log(left);
+						console.log(width);
+						//循环就不要这一段，但没有动画效果
+						var currentleft=parseInt($("#image_lists").css("left"));
+						currentleft=currentleft-($("#image_lists li").first().width()+73);
+						$("#image_lists").animate({'left':currentleft+"px"},300,"linear",function(){
+							left=$("#image_lists li").last().offset().left;
+							console.log("after:"+left);
+						});
+						
+						//循环滚动
+						//var currentItem=$("#image_lists li").first();
+						//if(currentItem.offset().left+currentItem.width()<0){
+						//	console.log(currentItem)
+						//	currentItem.appendTo("#image_lists");
+						//}
+						
+						
+					}
+				})
+				
+				
+			});
+		</script>
+	</body>
+</html>

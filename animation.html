@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
+		Remove this if you use the .htaccess -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		<title>animation</title>
+		<meta name="description" content="" />
+		<meta name="author" content="王 佳燕" />
+		<meta name="viewport" content="width=device-width; initial-scale=1.0" />
+		<!-- Replace favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
+		<link rel="shortcut icon" href="/favicon.ico" />
+		<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+		<style>
+			#container{                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
+				-webkit-transform-style:preserve-3d;
+			}
+			#icon{
+				background:url(images/icon.png);
+				width:100px;
+				height:100px;
+				background-size:cover;
+				animation: myfirst 5s linear 2s infinite alternate;
+				/* Firefox: */
+				-moz-animation: myfirst 5s linear 2s infinite alternate;
+				/* Safari and Chrome: */
+				-webkit-animation: myfirst 5s linear 2s infinite alternate;
+			}
+			@keyframes myfirst
+			{
+				0%{transform: rotate(0deg);}
+				50%  {transform: rotate(180deg);}
+				100% {transform: rotate(360deg);}
+			}
+			
+			@-moz-keyframes myfirst /* Firefox 2D的只有rotate,没有rotateX，rotateY*/
+			{
+				0%{-moz-transform: rotate(0deg);}
+				50%  {-moz-transform: rotate(180deg);}
+				100% {-moz-transform: rotate(360deg);}
+			}
+			
+			@-webkit-keyframes myfirst /* Safari and Chrome */
+			{
+				0%{-webkit-transform: rotate3d(25,25,25,0deg);}
+				50%  {-webkit-transform: rotate3d(25,25,25,180deg);}
+				100% {-webkit-transform: rotate3d(25,25,25,360deg);}
+			}
+
+		</style>
+	</head>
+	<body>
+		<div>
+			<header>
+				<h1>animation</h1>
+			</header>
+			<div id="container">   
+			<div id="icon"></div>
+			</div> 
+			<footer>
+				<p>
+					&copy; Copyright  by Sophie
+				</p>
+			</footer>
+		</div>
+	</body>
+</html>

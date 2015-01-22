@@ -1,0 +1,231 @@
+/*
+ * summary panel bg
+ */
+.emailview_summary{
+	background:url('emailview_summary_panel_bg.png') left top no-repeat transparent;
+	width: 270px;
+    height: 200px;
+}
+/*
+ * summary sending-sent panel bg ,higher than ordinary panel
+ */
+.emailview_summary_sending_sent{
+	background:url('emailview_summary_panel_sent_sending_bg.png') left top no-repeat transparent;
+	width: 270px;
+    height: 231px;
+}
+/*
+ * descope inner panel bg
+ */
+#emailview_summary .x-panel-body{
+	background:none;
+}
+/*
+ * draft panel title 
+ */
+#emailview_summary .displayfield-title-draft{
+	font-size:14px;
+	font-weight:bold;
+	color:#6A6A6A;
+	font-family:Tahoma;
+	padding:10px 0 0 20px;
+	background:url('emailview_summary_panel_title_draft_bg.png') 20px 30px no-repeat transparent;
+	height:25px;
+}
+/*
+ * draft panel title right part
+ */
+#emailview_summary .displayfield-title-draft-small{
+	font-size:11px;
+	font-weight:normal;
+	color:#8F8F8F;
+	padding-left:40px;
+}
+/*
+ * schedule panel title
+ */
+#emailview_summary .displayfield-title-schedule{
+	font-size:14px;
+	font-weight:bold;
+	color:#333333;
+	font-family:Tahoma;
+	padding:18px 0 0 20px;
+}
+/*
+ * sending panel title
+ */
+#emailview_summary .displayfield-title-sending{
+	padding:10px 0 0 40px;
+	background:url('emailview_summary_panel_title_draft_bg.png') 20px -250px no-repeat transparent;
+	height:30px;
+}
+#emailview_summary .displayfield-title-sending p{
+	display:inline-block;
+	font-size:14px;
+	font-weight:bold;
+	color:#6A6A6A;
+	font-family:Tahoma;
+}
+#emailview_summary .displayfield-title-sending a{
+	font-size:11px;
+	font-weight:normal;
+	color:#1F4699;
+	font-family:Arial;	
+	padding:10px 0 0 30px;	
+	text-decoration:none;	
+}
+.summary-body{
+	padding-left:20px;
+}
+/*
+ * draft panel body completed step displayfield
+ */
+#emailview_summary .displayfield-body-draft-completed{
+	background:url('emailview_summary_panel_title_draft_bg.png') left -3px no-repeat transparent;
+	padding-left:20px;
+	margin-top:10px;
+	font-size:12px;
+	color:#505050;
+	font-family:Arial;	
+}
+
+/*
+ * draft panel body not-completed step displayfield
+ */
+#emailview_summary .displayfield-body-draft-notcompleted{
+	background:url('emailview_summary_panel_title_draft_bg.png') left -21px no-repeat transparent;
+	padding-left:20px;
+	margin-top:12px;
+	font-size:12px;
+	color:#CC3300;
+	font-weight:bold;
+	font-family:Tahoma;
+}
+#emailview_summary .displayfield-body-draft-notcompleted a{
+	display:inline-block;
+	font-size:11px;
+	font-weight:normal;
+	color:#1F4699;
+	font-family:Arial;	
+	padding-left:10px;		
+}
+/*
+ * schedule panel body displayfield
+ */
+#emailview_summary .displayfield-body-schedule{
+	background:url('emailview_summary_panel_title_draft_bg.png') left -38px no-repeat transparent;
+	margin:15px 0;	
+}
+#emailview_summary .displayfield-body-schedule p{		
+	font-family:Arial;
+	font-weight:bold;
+	text-align:center;
+	color:#FFFFFF;	
+}
+#emailview_summary .displayfield-body-schedule p.displayfield-body-schedule-recipients_amount{
+	padding-top:10px;		
+	font-size:11px;
+}
+#emailview_summary .displayfield-body-schedule p.displayfield-body-schedule-schedule_time{
+	padding-top:20px;		
+	font-size:14px;
+}
+/*
+ * sending panel body displayfield
+ */
+.ext-gecko .displayfield-body-sending, .ext-strict .ext-ie7 .displayfield-body-sending
+{
+	padding-top:5px;
+}
+.displayfield-body-sending-left{
+	font-size:12px;
+	font-weight:bold;
+	color:#333333;
+	font-family:Arial;
+	width:40px;	
+	padding-left:5px;
+}
+.displayfield-body-sending-right{
+	font-size:12px;	
+	color:#505050;
+	font-family:Arial;
+	padding-left:20px;
+	width:170px;	
+}
+.panel-body-sending{
+	padding-bottom:10px;
+}
+/*
+ * sent panel body displayfield
+ */
+.displayfield-body-sent-winner{
+	background: url('emailview_summary_panel_title_draft_bg.png') left -292px no-repeat transparent;
+	font-size:12px;
+	font-weight:bold;
+	color:#1F4699;
+	font-family:Arial;
+	padding-left:30px;
+	margin-top:10px;
+	padding-top:10px;
+	height:33px;
+}
+
+/*
+ * btn css
+ */
+.cancel-send-btn .x-btn-mc {
+    background: url('emailview_summary_panel_title_draft_bg.png') left -183px no-repeat transparent;
+    width: 148px;
+    height: 33px;
+}
+.cancel-send-btn.x-btn-over .x-btn-mc{
+    background-position: left -183px;
+}
+.ext-strict .ext-ie7 .cancel-send-btn .x-btn-mc {
+    height: 33px;
+}
+.cancel-send-btn{
+	padding-left:60px;
+}
+.cancel-btn .x-btn-mc {
+    background: url('emailview_summary_panel_title_draft_bg.png') left -113px no-repeat transparent;
+    width: 112px;
+    height: 33px;
+}
+.cancel-btn.x-btn-over .x-btn-mc{
+    background-position: left -113px;
+}
+.ext-strict .ext-ie7 .cancel-btn .x-btn-mc {
+    height: 33px;
+}
+.cancel-btn{
+	margin-left:20px;
+}
+.resume-btn .x-btn-mc {
+    background: url('emailview_summary_panel_title_draft_bg.png') left -217px no-repeat transparent;
+    width: 112px;
+    height: 33px;
+}
+.resume-btn.x-btn-over .x-btn-mc{
+    background-position: left -217px;
+}
+.ext-strict .ext-ie7 .resume-btn .x-btn-mc {
+    height: 33px;
+}
+.resume-btn{
+	margin-left:12px;
+}
+.suspend-btn .x-btn-mc {
+    background: url('emailview_summary_panel_title_draft_bg.png') left -148px no-repeat transparent;
+    width: 112px;
+    height: 33px;
+}
+.suspend-btn.x-btn-over .x-btn-mc{
+    background-position: left -148px;
+}
+.ext-strict .ext-ie7 .suspend-btn .x-btn-mc {
+    height: 33px;
+}
+.suspend-btn{
+	margin-left:12px;
+}

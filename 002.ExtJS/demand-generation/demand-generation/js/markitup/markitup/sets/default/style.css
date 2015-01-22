@@ -1,0 +1,91 @@
+/* -------------------------------------------------------------------
+// markItUp!
+// By Jay Salvat - http://markitup.jaysalvat.com/
+// ------------------------------------------------------------------*/
+
+
+.markItUp a{
+	background-image:url('images/all.gif');
+	width:16px;
+}
+.markItUpHeader ul a {
+	background-repeat:no-repeat;
+	display:block;
+	height:16px;
+	margin:2px;
+	padding:0;
+	text-indent:-10000px;
+	width:16px;
+}
+.markItUp .markItUpButton1 a {
+	background-position:0 0;
+}
+.markItUp .markItUpButton2 a {
+	background-position:-16px 0;
+}
+.markItUp .markItUpButton3 a {
+	background-position:-32px 0;
+}
+.markItUp .markItUpButton4 a {
+	background-position:-48px 0;
+}
+.markItUp .markItUpButton5 a {
+	background-position:-64px 0;
+}
+.markItUp .markItUpButton6 a {
+	background-position:-80px 0;
+}
+.markItUp .markItUpButton7 a {
+	background-position:-96px 0;
+}
+
+.markItUp .markItUpButton8 a {
+	background-position:-112px 0;
+}
+.markItUp .markItUpButton9 a {
+	background-position:-128px 0;
+}
+.markItUp .markItUpButton10 a {
+	background-position:-144px 0;
+}
+
+.markItUp .markItUpButton11 a {
+	background-position:-160px 0;
+}
+.markItUp .markItUpButton12 a {
+	background-position:-176px 0;
+}
+.markItUp .markItUpButton13 a {
+	background-position:-192px 0;
+}
+
+.markItUp .markItUpButton14 a {
+	background-position:-208px 0;
+}
+.markItUp .markItUpButton15 a {
+	background-position:-224px 0;
+}
+
+.markItUp .clean a {
+	background-position:-240px 0;
+}
+.markItUp .preview a {
+	background-image:url('images/preview.png');
+}
+/*
+.markItUp .htmlTidyRepair a {
+	background-image:url(htmltidyrepair.png);
+}
+*/
+.markItUp .htmlTidyReport a {
+	background-position:-304px 0;
+}
+.markItUp .tablegenerator a {
+	background-position:-288px 0;
+}
+.markItUp .select_copy a {
+	background-position:-256px 0;
+}
+.markItUp .find_replace a {
+	background-position:-272px 0;
+}

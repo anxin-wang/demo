@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
+		Remove this if you use the .htaccess -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		<title>tunes</title>
+		<meta name="description" content="" />
+		<meta name="author" content="王 佳燕" />
+		<meta name="viewport" content="width=device-width; initial-scale=1.0" />
+		<!-- Replace favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
+		<link rel="shortcut icon" href="/favicon.ico" />
+		<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+		<style>
+		ul.album-shelf{
+			background-image: url(images/wooden_background.png);
+			background-repeat:no-repeat;
+			width:320px;
+			height:480px;
+		}
+		li{
+			position: relative;
+			width:80px;
+			margin-top:20px;
+			height:70px;
+			float:left;
+			margin-left:50px;
+			list-style-type: none;
+		}
+		li:nth-child(2n-1){
+			margin-left:0px;
+		}
+		li:nth-child(2n){
+			margin-right:50px;
+		}
+		div.album img{
+			position: relative;			
+			z-index: 30;
+			width:70px;
+			height:auto;
+			min-height:64px;
+			-webkit-box-shadow:0 3px 6px rgba(0,0,0,.5);
+			-webkit-border-radius:2px;
+		}
+		div.album  div.disc{				
+				position: absolute;
+				top:2px;
+				left:20px;
+				display:block;
+				z-index:10;
+				-webkit-box-shadow:0 0 6px rgba(0,0,0,.5);
+				-webkit-transition:all .25s linear;
+			    /*制作圆形光碟*/
+				width:62px;
+				height:62px;
+				-webkit-border-radius:31px;
+				background: -webkit-gradient(linear,left top,left bottom,from(transparent),color-stop(0.1,transparent),color-stop(0.5,rgba(255,255,255,0.25)),color-stop(0.9,transparent),to(transparent)),
+				-webkit-gradient(radial,31 31,4,31 31,62, from(transparent),color-stop(0.01,transparent),color-stop(0.021,rgba(0,0,0,1)),color-stop(0.09,rgba(0,0,0,1)),to(rgba(28,28,28,1)));
+			}
+
+			div.album:hover div.disc{
+				-webkit-transform:translateX(40px) rotate(120deg) ;
+				border-left:1px solid rgba(255,255,255,.25);
+			}
+		</style>
+	</head>
+	<body>
+		<div>
+			<header>
+				<h1>tunes</h1>
+			</header>
+			<ul class="album-shelf">
+				<li>
+					<div class="album">
+						<a href=""><img src="images/disk001.jpg"/></a>
+						<!-- <span class="vinyl"><div></div></span> -->
+						<div class="disc"></div>						
+						<ul class="actions">
+							<li class="play-pause"><a href=""></a></li>
+							<li class="info"><a href=""></a></li>
+						</ul>
+						
+					</div>
+				</li>
+				<li>
+					<div class="album">
+						<a href=""><img src="images/disk002.jpg"/></a>
+						<!-- <span class="vinyl"><div></div></span> -->
+						<div class="disc"></div>						
+						<ul class="actions">
+							<li class="play-pause"><a href=""></a></li>
+							<li class="info"><a href=""></a></li>
+						</ul>
+						
+					</div>
+				</li>
+				<li>
+					<div class="album">
+						<a href=""><img src="images/disk003.jpg"/></a>
+						<!-- <span class="vinyl"><div></div></span> -->
+						<div class="disc"></div>						
+						<ul class="actions">
+							<li class="play-pause"><a href=""></a></li>
+							<li class="info"><a href=""></a></li>
+						</ul>
+						
+					</div>
+				</li>
+				<li>
+					<div class="album">
+						<a href=""><img src="images/disk004.jpg"/></a>
+						<!-- <span class="vinyl"><div></div></span> -->
+						<div class="disc"></div>						
+						<ul class="actions">
+							<li class="play-pause"><a href=""></a></li>
+							<li class="info"><a href=""></a></li>
+						</ul>
+						
+					</div>
+				</li>
+				<li>
+					<div class="album">
+						<a href=""><img src="images/disk005.jpg"/></a>
+						<!-- <span class="vinyl"><div></div></span> -->
+						<div class="disc"></div>						
+						<ul class="actions">
+							<li class="play-pause"><a href=""></a></li>
+							<li class="info"><a href=""></a></li>
+						</ul>
+						
+					</div>
+				</li>
+				<li>
+					<div class="album">
+						<a href=""><img src="images/disk006.jpg"/></a>
+						<!-- <span class="vinyl"><div></div></span> -->
+						<div class="disc"></div>						
+						<ul class="actions">
+							<li class="play-pause"><a href=""></a></li>
+							<li class="info"><a href=""></a></li>
+						</ul>
+						
+					</div>
+				</li>
+			</ul>
+			<footer>
+				<p>
+					&copy; Copyright  by 王 佳燕
+				</p>
+			</footer>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,33 @@
+.creation_wizard_header_title{
+	font-size:18px;
+	margin-right:20px;
+	color:#666666;
+	font-family:Arial,Helvetica,sans-serif;
+	
+}
+.creation_wizard_header_link a{
+	width:85px;
+	text-decoration:none;
+	padding-top:6px;
+	display:block;
+	color:#F18531;
+	font-size:12px;
+	background:url('a_creation_wizard_header_help.png') no-repeat right center transparent;
+	font-family:Arial,Helvetica,sans-serif;
+}
+.creation_wizard_header_link a:hover{
+	text-decoration:underline;
+}
+.creation_wizard_header_link a:focus{
+	text-decoration:underline;
+}
+
+#help-window{
+	margin-top:300px;
+}
+.help-window-wrap .x-shadow{
+	margin-top:300px;
+}
+#help-window .x-window-tl,#help-window .x-window-tr,#help-window .x-window-tc{
+	background-image:url('');
+}

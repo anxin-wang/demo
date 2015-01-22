@@ -1,0 +1,347 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Formify</title>
+    <link href="style/default.css" rel="stylesheet" type="text/css" />
+    <script src="js/jquery-1.4.2.min.js" type="text/javascript"></script>
+    <script src="js/ajaxfileupload.js" type="text/javascript"></script>
+    <script src="js/formify.js" type="text/javascript"></script>
+</head>
+<body>
+    <div id="wrapper">
+        <!-- header start -->
+        <div id="header">
+            <a href="#">
+                <img src="images/logo.png" style="display: none" alt="Formify Logo" /></a>
+        </div>
+        <!-- header end -->
+        <!-- content start -->
+        <form action="" method="POST" enctype="multipart/form-data">
+        <div id="content">
+            <div class="switcher">
+                <select name="form-types" id="form-types">
+                    <option value="none">Select Form Type</option>
+                    <option value="question-form" selected="true">Ask a Question Form</option>
+                    <option value="report-issue-form">Report an Issue Form</option>
+                    <option value="contact-form">Contact Form</option>
+                    <option value="apply-for-job-form">Apply for a Job Form</option>
+                    <option value="feedback-form">Feedback Form</option>
+                    <option value="hireme-form">Hire Me / Start a Project Form</option>
+                </select>
+            </div>
+            <div class="form-fields">
+                <!-- Ask a Question Form -->
+                <div id="question-form" class="form">
+                    <h1>
+                        Ask a Question Form</h1>
+                    <table cellpadding="5" cellspacing="0">
+                        <tr>
+                            <td>
+                                <input type="text" id="qf-full-name" value="Full Name" class="required" title="Full Name" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="text" id="qf-email-address" value="Email Address" class="email-address"
+                                    title="Email Address" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="text" id="qf-subject" value="Subject" title="Subject" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <textarea rows="7" id="qf-message"></textarea>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="checkbox" id="qf-cc" />
+                                CC this message to yourself
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <!-- Report an Issue Form -->
+                <div id="report-issue-form" class="form hidden">
+                    <h1>
+                        Report an Issue Form</h1>
+                    <table cellpadding="5" cellspacing="0">
+                        <tr>
+                            <td>
+                                <input type="text" id="ri-full-name" value="Full Name" title="Full Name" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="text" id="ri-email-address" value="Email Address" class="email-address"
+                                    title="Email Address" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="text" id="ri-telephone" value="Telephone" class="telephone" title="Telephone" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="text" id="ri-issue" value="Issue" title="Issue" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="text" id="ri-subject" value="Subject" title="Subject" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <textarea rows="7" id="ri-message"></textarea>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="imp">
+                                    <input type="checkbox" id="ri-callback" />
+                                    I want a callback
+                                    <input type="checkbox" id="ri-cc" />
+                                    CC this message to yourself
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <!-- Contact Form -->
+                <div id="contact-form" class="form hidden">
+                    <h1>
+                        Contact Form</h1>
+                    <table cellpadding="5" cellspacing="0">
+                        <tr>
+                            <td>
+                                <input type="text" id="cf-full-name" value="Full Name" title="Full Name" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="text" id="cf-email-address" value="Email Address" class="email-address"
+                                    title="Email Address" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="text" id="cf-telephone" value="Telephone" class="telephone" title="Telephone" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="text" id="cf-website" value="Website" title="Website" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="text" id="cf-subject" value="Subject" title="Subject" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <textarea rows="7" id="cf-message"></textarea>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <!-- Apply for a Job Form -->
+                <div id="apply-for-job-form" class="form hidden">
+                    <h1>
+                        Apply for a Job Form</h1>
+                    <table cellpadding="5" cellspacing="0">
+                        <tr>
+                            <td>
+                                <input type="text" id="af-full-name" value="Full Name" title="Full Name" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="text" id="af-email-address" value="Email Address" class="email-address"
+                                    title="Email Address" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="text" id="af-telephone" value="Telephone" class="telephone" title="Telephone" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="text" id="af-online-portfolio" value="Online Portfolio" title="Online Portoflio" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="text" id="af-subject" value="Subject" title="Subject" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="file" id="attachment" name="attachment" />
+                                <img src="images/sending.gif" alt="uploading..." id="uploading" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <textarea rows="7" id="af-message"></textarea>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <!-- Feedback Form -->
+                <div id="feedback-form" class="form hidden">
+                    <h1>
+                        Feedback Form</h1>
+                    <table cellpadding="5" cellspacing="0">
+                        <tr>
+                            <td>
+                                <input type="text" id="ff-full-name" value="Full Name" title="Full Name" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="text" id="ff-email-address" value="Email Address" class="email-address"
+                                    title="Email Address" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="text" id="ff-telephone" value="Telephone" class="telephone" title="Telephone" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <select id="ff-options">
+                                    <option>I have a suggestion</option>
+                                    <option>I want to register a complain</option>
+                                    <option>I am not satisfied</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="checkbox" id="ff-other" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="text" id="ff-subject" value="Subject" title="Subject" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <textarea rows="7" id="ff-message"></textarea>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="checkbox" id="ff-keep-anonymous" />
+                                Keep anonymous
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <!-- Hire Me / Start a Project Form -->
+                <div id="hireme-form" class="form hidden">
+                    <h1>
+                        Hire Me / Start a Project Form</h1>
+                    <table cellpadding="5" cellspacing="0">
+                        <tr>
+                            <td>
+                                <input type="text" id="hf-full-name" value="Full Name" title="Full Name" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="text" id="hf-email-address" value="Email Address" class="email-address"
+                                    title="Email Address" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="text" id="hf-telephone" value="Telephone" class="telephone" title="Telephone" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="text" id="hf-website" value="Website" title="Website" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input id="hf-type-of-business" type="text" title="Type of Business" value="Type of Business" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="text" id="hf-budget" value="Budget" title="Budget" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="text" id="hf-current-status" value="Current Status" title="Current Status" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <textarea rows="7" id="hf-objective-of-project">Objectives of the Project</textarea>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <select id="hf-priority">
+                                    <option>Priority</option>
+                                    <option>Get back ASAP</option>
+                                    <option>Can wait for a couple of days</option>
+                                    <option>Take your time, just want to get in touch</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="checkbox" id="hf-callback" />
+                                I want a callback
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <table>
+                <tr>
+                    <td>
+                        <img id="siimage" style="border: 1px solid #000; margin-right: 15px" src="securimage/securimage_show.php?sid=<?php echo md5(uniqid()) ?>"
+                            alt="CAPTCHA Image" align="left">
+                        <object type="application/x-shockwave-flash" data="securimage/securimage_play.swf?audio_file=securimage/securimage_play.php&amp;bgColor1=#fff&amp;bgColor2=#fff&amp;iconColor=#777&amp;borderWidth=1&amp;borderColor=#000"
+                            height="32" width="32">
+                            <param name="movie" value="securimage/securimage_play.swf?audio_file=securimage/securimage_play.php&amp;bgColor1=#fff&amp;bgColor2=#fff&amp;iconColor=#777&amp;borderWidth=1&amp;borderColor=#000">
+                        </object>
+                        &nbsp; <a tabindex="-1" style="border-style: none;" href="#" title="Refresh Image"
+                            onclick="document.getElementById('siimage').src = 'securimage/securimage_show.php?sid=' + Math.random(); this.blur(); return false">
+                            <img src="securimage/images/refresh.png" id="refresh-captcha" alt="Reload Image"
+                                onclick="this.blur()" align="bottom" border="0"></a><br />
+                        <strong>Enter Code*:</strong><br />
+                        <input type="text" id="captcha" size="12" maxlength="8" autocomplete='off' />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="submit" class="large button green" value="Send Message" />
+                        <label class="submit-message">
+                        </label>
+                        <img class="submit-sending" src="images/sending.gif" alt="sending..." />
+                    </td>
+                </tr>
+            </table>
+        </div>
+        </form>
+        <!-- content end -->
+    </div>
+</body>
+</html>

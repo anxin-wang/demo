@@ -1,0 +1,96 @@
+.creation-wizard-tab-panel-header ul.x-tab-strip-top {
+	background-color:transparent;
+	background:url("tab_creation_wizard_bg.png") no-repeat;
+	background-position:0px 0px;
+	border-bottom-color:transparent;
+	padding-top:0;
+	/*
+background:no-repeat scroll top left transparent;
+*/
+
+}
+.creation-wizard-tab-first .x-tab-right, .creation-wizard-tab-first .x-tab-left, .creation-wizard-tab-first .x-tab-strip-inner 
+{
+	background:none;
+	height:32px;
+}
+.creation-wizard-tab-step1{
+	width:144px;	
+}
+
+.creation-wizard-tab-step1.x-tab-strip-active{
+	background:url("tab_creation_wizard_bg.png") no-repeat;
+	background-position:0px -34px;
+}
+
+.creation-wizard-tab-panel-header .x-tab-strip-active span.x-tab-strip-text,.creation-wizard-tab-first span.x-tab-strip-text,.creation-wizard-tab span.x-tab-strip-text{
+	text-indent:-9999px;
+}
+/*Step2-Step5*/
+/*
+ * delete <li>-><a>'s background
+ * set <li>-><a>'s height
+*/
+.creation-wizard-tab .x-tab-right, .creation-wizard-tab .x-tab-left, .creation-wizard-tab .x-tab-strip-inner 
+{
+	background:none;
+	height:32px;	
+}
+/*
+ * set Step2-5's margin
+*/
+ul.x-tab-strip li.creation-wizard-tab{
+	margin-left:-9px;	
+}
+/*
+ * set Step2's width
+*/
+.creation-wizard-tab-step2{
+	width:120px;	
+}
+/*
+ * set Step2's active background image
+ */
+.creation-wizard-tab-step2.x-tab-strip-active{
+	background:url("tab_creation_wizard_bg.png") no-repeat;
+	background-position:-145px -34px;
+}
+/*
+ * set Step3's width
+*/
+.creation-wizard-tab-step3{
+	width:135px;	
+}
+/*
+ * set Step3's active background image
+ */
+.creation-wizard-tab-step3.x-tab-strip-active{
+	background:url("tab_creation_wizard_bg.png") no-repeat;
+	background-position:-266px -34px;
+}
+/*
+ * set Step4's width
+*/
+.creation-wizard-tab-step4{
+	width:111px;	
+}
+/*
+ * set Step4's active background image
+ */
+.creation-wizard-tab-step4.x-tab-strip-active{
+	background:url("tab_creation_wizard_bg.png") no-repeat;
+	background-position:-402px -34px;
+}
+/*
+ * set Step5's width
+*/
+.creation-wizard-tab-step5{
+	width:106px;	
+}
+/*
+ * set Step5's active background image
+ */
+.creation-wizard-tab-step5.x-tab-strip-active{
+	background:url("tab_creation_wizard_bg.png") no-repeat;
+	background-position:-514px -34px;
+}

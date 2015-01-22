@@ -1,0 +1,36 @@
+/*多个背景图片重叠，表层的放前面
+ * 设默认字体，默认line-height
+ * 
+ */
+ 
+html,body{
+	height:100%;
+	margin:0px;
+}
+h1{
+	margin:0px;
+}
+body {
+    background: url("../images/webislove/left-bg.png") no-repeat scroll left 150px, url("../images/webislove/right-bg.png") no-repeat scroll right 150px, url("../images/webislove/body-bg.jpg") repeat-x scroll left top #FAF8F5;
+    color: #000000;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: left;
+}
+header,#content,#footer-wrapper{
+	width:978px;
+	margin:0 auto;
+}
+header{
+	height:153px;
+}
+#content_main{
+	float: left;
+	width:680px;
+	height:753px;
+}
+#content_sub{
+	height:653px;
+	padding-left: 16px;
+	float: left;
+}

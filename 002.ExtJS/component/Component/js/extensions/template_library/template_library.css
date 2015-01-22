@@ -1,0 +1,100 @@
+/**
+ 
+ * @(#) template_library.css
+ 
+ * $Id: template_library.css 312 2010-08-04 13:04:52Z swang $
+ * Copyright 2010 © Marketbright, Inc. All Rights Reserved.
+ */
+.create-from-template-cls {
+    margin-top: 20px;
+    padding-right: 12px;
+}
+
+.template-library-sidebar .create-from-template-cls .x-panel-body {
+    border: none;
+}
+
+.create-from-template-cls .x-tool.x-tool-toggle {
+    float: left;
+    background-position: 0 -75px;
+}
+
+.create-from-template-cls.x-panel-collapsed .x-tool.x-tool-toggle {
+    background-position: 0 -60px;
+}
+
+.create-from-template-cls.x-panel-noborder .x-panel-header-noborder {
+    border: none;
+    background-image: none;
+}
+
+.create-from-template-cls .x-panel-header-text {
+    padding-left: 5px;
+    color: #767676;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: normal;
+}
+
+.create-from-template-list {
+    /*
+     list-style: square inside;
+     */
+}
+
+.create-from-template-list a {
+    background: url('list_style_template_library_create_from_template.png') 0 50% no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-weight: normal;
+    color: #979797;
+    text-decoration: none;
+    display: block;
+    float: right;
+    width: 147px;
+    height: 18px;
+    padding-left: 17px;
+    line-height: 18px;
+}
+
+.create-from-template-list a:hover {
+    background: url('list_style_template_library_create_from_template.png') -10px 50% no-repeat #6F87BA;
+    color: #FFFFFF;
+    padding-left: 17px;
+}
+
+.create-from-template-list a:focus {
+    background: url('list_style_template_library_create_from_template.png') -10px 50% no-repeat #6F87BA;
+    color: #FFFFFF;
+    padding-left: 17px;
+}
+
+.import-create-cls .x-panel-header-text {
+    padding-left: 20px;
+}
+
+.free-template-icon {
+    background-image: url('title_template_library_free_template_bg.png');
+    margin-left: 15px;
+}
+
+.create-from-template-cls span {
+    padding-top: 10px;
+}
+
+.free-template-text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-weight: normal;
+    color: #979797;
+    display: block;
+    height: auto;
+    width: 117px;
+    padding-left: 22px;
+}
+
+.template-library-sidebar .x-panel-body {
+    background-color: #F9F9F9;
+    border: #EEEEEE solid 1px;
+}

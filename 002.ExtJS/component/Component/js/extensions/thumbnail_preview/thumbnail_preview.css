@@ -1,0 +1,22 @@
+.thumbnail-preview-next-btn .x-btn-mc {
+    background: url('thumbnail_btn.png') no-repeat scroll -19px 0 transparent;
+    width: 18px;
+    height: 59px;
+}
+.thumbnail-preview-next-btn.x-btn-over .x-btn-mc{
+    background-position: -19px 0;
+}
+.ext-strict .ext-ie7 .thumbnail-preview-next-btn .x-btn-mc {
+    height: 59px;
+}
+.thumbnail-preview-prev-btn .x-btn-mc {
+    background: url('thumbnail_btn.png') no-repeat scroll 0 0 transparent;
+    width: 18px;
+    height: 59px;
+}
+.thumbnail-preview-prev-btn.x-btn-over .x-btn-mc{
+    background-position: 0px 0;
+}
+.ext-strict .ext-ie7 .thumbnail-preview-prev-btn .x-btn-mc {
+    height: 59px;
+}

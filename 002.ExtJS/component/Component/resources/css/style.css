@@ -1,0 +1,38 @@
+@CHARSET "ISO-8859-1";
+/*
+ * Description: get rid off extjs default button background image
+ * 
+ * */
+.btn .x-btn-tl, .btn .x-btn-tr, .btn .x-btn-tc, .btn .x-btn-ml, .btn .x-btn-mr, .btn .x-btn-bl, .btn .x-btn-br, .btn .x-btn-bc {
+    background-image: url('');
+    height: 0px;
+    width: 0px;
+    display: none;
+}
+
+.btn .x-btn-mc button {
+    text-align: center;
+    text-decoration: none;
+    text-indent: -9999px;
+}
+/*solve the problem that button picture was showed half in ie7*/
+.ext-strict .ext-ie7 .btn .x-btn-mc {
+    height: 35px;
+}
+
+.displayfield-font-grid-panel-top-toolbar {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #5B5B5B;
+	padding:8px 0;
+    }
+.red{
+	color:#CC0000;
+}
+.highlightbackground{
+	background:yellow;
+}
+.fixHeight{
+	height:100px;
+}

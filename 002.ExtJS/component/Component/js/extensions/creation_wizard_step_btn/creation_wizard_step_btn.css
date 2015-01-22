@@ -1,0 +1,86 @@
+/**
+
+ * @(#) $Id: creation_wizard_step_btn.css 383 2010-08-06 07:58:30Z swang $
+
+ * $Id: creation_wizard_step_btn.css 383 2010-08-06 07:58:30Z swang $
+ * Copyright 2010 � Marketbright, Inc. All Rights Reserved.
+ */
+.creation-wizard-link-text{
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:11px;
+	font-weight:bold;
+	color:#3155A7;
+	margin-right:10px;
+}
+.creation-wizard-link-text a{
+	text-decoration:none;
+}
+.creation-wizard-link-text a:active{
+	color:#000000;
+}
+.creation-wizard-link-text a:visited{
+	color:#3155A7;
+}
+.ext-gecko .creation-wizard-link-displayfield, .ext-strict .ext-ie7 .creation-wizard-link-displayfield,.ext-strict .ext-ie8 .creation-wizard-link-displayfield {
+	padding-top:5px;
+}
+/*button*/
+.creation-wizard-link-btn{
+	margin-right:10px;
+}
+.creation-wizard-link-btn .x-btn-tl, .creation-wizard-link-btn .x-btn-tr, .creation-wizard-link-btn .x-btn-tc, .creation-wizard-link-btn .x-btn-ml, .creation-wizard-link-btn .x-btn-mr, .creation-wizard-link-btn .x-btn-bl, .creation-wizard-link-btn .x-btn-br, .creation-wizard-link-btn .x-btn-bc {
+    background-image: url('');
+    height: 0px;
+    width: 0px;
+	display:none;
+	
+}
+/*button next*/
+.creation-wizard-link-btn-next .x-btn-mc{
+	background: url('btn_creation_wizard_step_btn_next.png') no-repeat left top;
+	height:25px;
+	width:63px;
+}
+.creation-wizard-link-btn-next .x-btn-mc button{
+	text-indent:-9999px;
+}
+/*fix ie7 height 100% bug*/
+.ext-strict .ext-ie7 .creation-wizard-link-btn-next .x-btn-mc{
+	height:25px;
+}
+/*button send immediately*/
+.creation-wizard-link-btn-send-immediately .x-btn-mc{
+	background: url('btn_creation_wizard_step_btn_send_immediately.png') no-repeat left top;
+	height:33px;
+	width:145px;
+}
+.creation-wizard-link-btn-send-immediately .x-btn-mc button{
+	text-indent:-9999px;
+}
+/*fix ie7 height 100% bug*/
+.ext-strict .ext-ie7 .creation-wizard-link-btn-send-immediately .x-btn-mc{
+	height:33px;
+}
+/*button send schedule*/
+.creation-wizard-link-btn-send-schedule .x-btn-mc{
+	background: url('btn_creation_wizard_step_btn_send_schedule.png') no-repeat left top;
+	height:33px;
+	width:125px;
+}
+.creation-wizard-link-btn-send-schedule .x-btn-mc button{
+	text-indent:-9999px;
+}
+.creation-wizard-link-btn-submit-for-approval .x-btn-mc {
+    background: url('../images/btn_creation_wizard_step_btn_Submit for Approval.png') no-repeat left top;
+    height: 33px;
+    width: 152px;
+}
+
+.creation-wizard-link-btn-submit-for-approval .x-btn-mc button {
+    text-indent: -9999px;
+}
+/*fix ie7 height 100% bug*/
+.ext-strict .ext-ie7 .creation-wizard-link-btn-send-schedule .x-btn-mc{
+	height:33px;
+}
+

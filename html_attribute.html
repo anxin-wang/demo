@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
+		Remove this if you use the .htaccess -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		<title>html_attribute</title>
+		<meta name="description" content="" />
+		<meta name="author" content="王 佳燕" />
+		<meta name="viewport" content="width=device-width; initial-scale=1.0" />
+		<!-- Replace favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
+		<link rel="shortcut icon" href="/favicon.ico" />
+		<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+		<style>
+			/*reset*/
+			dd, ul {
+				padding: 0;
+				margin: 0;
+			}
+			html{
+				background-color:#383838;
+				color: #fffaf4;
+			}
+			/*isotope 动画效果CSS*/
+			.isotope, .isotope .isotope-item {
+				/* change duration value to whatever you like */
+				-webkit-transition-duration: 0.8s;
+				-moz-transition-duration: 0.8s;
+				/*延迟执行可以解决主要变动的属性不能再有动画效果这个问题，可以使其有动画效果，但效果比较怪异*/
+				/*-moz-transition-delay: 0.2s;*/
+				-o-transition-duration: 0.8s;
+				transition-duration: 0.8s;
+			}
+			.isotope {
+				-webkit-transition-property: height, width;
+				-moz-transition-property: height, width;
+				-o-transition-property: height, width;
+				transition-property: height, width;
+			}
+			.isotope .isotope-item {
+				-webkit-transition-property: -webkit-transform, opacity;
+				-moz-transition-property: -moz-transform, opacity;
+				/*主要变动的属性不能再有动画效果，不然isotope获取不到变化后的长或宽而无法变化*/
+				/*-moz-transition: width 0.5s;*/
+				-o-transition-property: top, left, opacity;
+				transition-property: transform, opacity;
+			}
+			/*自己写的*/
+			.element {
+				width: 100px;
+				height: 18px;
+				text-align: center;
+				overflow-y: hidden;
+				background-color: #acc5b6;
+				border-radius: 10px;
+				margin: 10px;
+				padding: 10px;
+			}
+			#filters{
+				background-color: #efce8f;
+				border-radius:5px;
+				width:100%;
+				height:auto;
+				float:left;
+				
+			}
+			#filters li{
+				float:left;
+				border-radius:5px;
+				background-color: #efce8f;
+				list-style:none;
+				padding:5px 10px;
+				
+			}
+			#filters li a{
+				text-align:center;
+				text-decoration:none;
+				color:#383838;
+				display:block;
+				height:20px;
+				width:auto;
+			}
+			.big {
+				width: 200px;
+				height: 200px;
+				overflow-y: hidden;
+			}
+			dt {
+				font-size: 18px;
+				color: #383838;
+			}
+			
+			dd {
+				margin: 10px;
+				color: #383838;
+			}
+			.attr_browser_support {
+				background-color: #fffaf4;
+				border-radius:5px;
+			}
+			.clearfix{
+				clear:both;
+			}
+			#options{
+				width:80%;
+				height:auto;
+				float:right;
+			}
+			#container{
+				width:80%;
+				float:right;
+			}
+
+		</style>
+	</head>
+	<!--首先显示全部attribute,可以按照元素过滤显示
+	点击某一个attribute时，变大并显示定义和浏览器支持情况。宽高按元素本身自由变化
+	例子的话专门做一版来支持例子吧，元素、属性和例子的，
+	JSON数据还是同一份的
+	-->
+	<body>
+		<!--过滤列表-->
+		<section id="options" class="clearfix">
+			<h3>Filters</h3>
+			<ul id="filters" class="option-set clearfix" data-option-key="filter">
+				<li>
+					<a href="#filter" data-option-value="*" class="selected">show all</a>
+				</li>
+				<li>
+					<a href="#filter" data-option-value=".global_attributes">Global Attributes</a>
+				</li>
+				<li>
+					<a href="#filter" data-option-value=".class2">class2</a>
+				</li>
+			</ul>
+		</section>
+		<!-- #options -->
+		<ul id="container" class="clearfix">
+			<!-- <section class="element">
+			<h2>Global Attributes</h2>
+			<dl>
+			<dt >
+			accesskey
+			</dt>
+			<dd>
+			<h3>定义</h3>
+			<p>
+			specifies a shortcut key to activate/focus an element
+			</p>
+			<h3>浏览器支持情况</h3>
+			<ul>
+			<img />
+			<img />
+			<img />
+			<img />
+			<img />
+			</ul>
+			<code>
+			&lt;a href="http://www.w3schools.com/html5" accesskey="h"&gt;HTML5&lt;/a&gt;&lt;br /&gt;
+			&lt;a href="http://www.w3schools.com/css3" accesskey="c">CSS3&lt;/a&gt;
+			</code>
+			</dd>
+			</dl>
+			</section> --><!--第一版HTML结构-->
+			<li class="element global_attributes">
+				<dt class="attr_name">
+					accesskey
+				</dt>
+				<dd class="attr_definition">
+					Specifies a shortcut key to activate/focus an element
+				</dd>
+				<ul class="attr_browser_support">
+					<img width="31" height="30" title="Internet Explorer" alt="Internet Explorer" src="images/browser_support/compatible_ie.gif">
+					<img width="31" height="30" title="Firefox" alt="Firefox" src="images/browser_support/incompatible_firefox.gif">
+					<img width="28" height="30" title="Opera" alt="Opera" src="images/browser_support/incompatible_opera.gif">
+					<img width="31" height="30" title="Google Chrome" alt="Google Chrome" src="images/browser_support/incompatible_chrome.gif">
+					<img width="28" height="30" title="Safari" alt="Safari" src="images/browser_support/incompatible_safari.gif">
+				</ul>
+			</li>
+						<li class="element global_attributes">
+				<dt class="attr_name">
+					accesskey
+				</dt>
+				<dd class="attr_definition">
+					Specifies a shortcut key to activate/focus an element
+				</dd>
+				<ul class="attr_browser_support">
+					<img width="31" height="30" title="Internet Explorer" alt="Internet Explorer" src="images/browser_support/compatible_ie.gif">
+					<img width="31" height="30" title="Firefox" alt="Firefox" src="images/browser_support/incompatible_firefox.gif">
+					<img width="28" height="30" title="Opera" alt="Opera" src="images/browser_support/incompatible_opera.gif">
+					<img width="31" height="30" title="Google Chrome" alt="Google Chrome" src="images/browser_support/incompatible_chrome.gif">
+					<img width="28" height="30" title="Safari" alt="Safari" src="images/browser_support/incompatible_safari.gif">
+				</ul>
+			</li>
+						<li class="element global_attributes">
+				<dt class="attr_name">
+					accesskey
+				</dt>
+				<dd class="attr_definition">
+					Specifies a shortcut key to activate/focus an element
+				</dd>
+				<ul class="attr_browser_support">
+					<img width="31" height="30" title="Internet Explorer" alt="Internet Explorer" src="images/browser_support/compatible_ie.gif">
+					<img width="31" height="30" title="Firefox" alt="Firefox" src="images/browser_support/incompatible_firefox.gif">
+					<img width="28" height="30" title="Opera" alt="Opera" src="images/browser_support/incompatible_opera.gif">
+					<img width="31" height="30" title="Google Chrome" alt="Google Chrome" src="images/browser_support/incompatible_chrome.gif">
+					<img width="28" height="30" title="Safari" alt="Safari" src="images/browser_support/incompatible_safari.gif">
+				</ul>
+			</li>
+						<li class="element global_attributes">
+				<dt class="attr_name">
+					accesskey
+				</dt>
+				<dd class="attr_definition">
+					Specifies a shortcut key to activate/focus an element
+				</dd>
+				<ul class="attr_browser_support">
+					<img width="31" height="30" title="Internet Explorer" alt="Internet Explorer" src="images/browser_support/compatible_ie.gif">
+					<img width="31" height="30" title="Firefox" alt="Firefox" src="images/browser_support/incompatible_firefox.gif">
+					<img width="28" height="30" title="Opera" alt="Opera" src="images/browser_support/incompatible_opera.gif">
+					<img width="31" height="30" title="Google Chrome" alt="Google Chrome" src="images/browser_support/incompatible_chrome.gif">
+					<img width="28" height="30" title="Safari" alt="Safari" src="images/browser_support/incompatible_safari.gif">
+				</ul>
+			</li>
+						<li class="element global_attributes">
+				<dt class="attr_name">
+					accesskey
+				</dt>
+				<dd class="attr_definition">
+					Specifies a shortcut key to activate/focus an element
+				</dd>
+				<ul class="attr_browser_support">
+					<img width="31" height="30" title="Internet Explorer" alt="Internet Explorer" src="images/browser_support/compatible_ie.gif">
+					<img width="31" height="30" title="Firefox" alt="Firefox" src="images/browser_support/incompatible_firefox.gif">
+					<img width="28" height="30" title="Opera" alt="Opera" src="images/browser_support/incompatible_opera.gif">
+					<img width="31" height="30" title="Google Chrome" alt="Google Chrome" src="images/browser_support/incompatible_chrome.gif">
+					<img width="28" height="30" title="Safari" alt="Safari" src="images/browser_support/incompatible_safari.gif">
+				</ul>
+			</li>
+						<li class="element global_attributes">
+				<dt class="attr_name">
+					accesskey
+				</dt>
+				<dd class="attr_definition">
+					Specifies a shortcut key to activate/focus an element
+				</dd>
+				<ul class="attr_browser_support">
+					<img width="31" height="30" title="Internet Explorer" alt="Internet Explorer" src="images/browser_support/compatible_ie.gif">
+					<img width="31" height="30" title="Firefox" alt="Firefox" src="images/browser_support/incompatible_firefox.gif">
+					<img width="28" height="30" title="Opera" alt="Opera" src="images/browser_support/incompatible_opera.gif">
+					<img width="31" height="30" title="Google Chrome" alt="Google Chrome" src="images/browser_support/incompatible_chrome.gif">
+					<img width="28" height="30" title="Safari" alt="Safari" src="images/browser_support/incompatible_safari.gif">
+				</ul>
+			</li>
+						<li class="element global_attributes">
+				<dt class="attr_name">
+					accesskey
+				</dt>
+				<dd class="attr_definition">
+					Specifies a shortcut key to activate/focus an element
+				</dd>
+				<ul class="attr_browser_support">
+					<img width="31" height="30" title="Internet Explorer" alt="Internet Explorer" src="images/browser_support/compatible_ie.gif">
+					<img width="31" height="30" title="Firefox" alt="Firefox" src="images/browser_support/incompatible_firefox.gif">
+					<img width="28" height="30" title="Opera" alt="Opera" src="images/browser_support/incompatible_opera.gif">
+					<img width="31" height="30" title="Google Chrome" alt="Google Chrome" src="images/browser_support/incompatible_chrome.gif">
+					<img width="28" height="30" title="Safari" alt="Safari" src="images/browser_support/incompatible_safari.gif">
+				</ul>
+			</li>
+						<li class="element global_attributes">
+				<dt class="attr_name">
+					accesskey
+				</dt>
+				<dd class="attr_definition">
+					Specifies a shortcut key to activate/focus an element
+				</dd>
+				<ul class="attr_browser_support">
+					<img width="31" height="30" title="Internet Explorer" alt="Internet Explorer" src="images/browser_support/compatible_ie.gif">
+					<img width="31" height="30" title="Firefox" alt="Firefox" src="images/browser_support/incompatible_firefox.gif">
+					<img width="28" height="30" title="Opera" alt="Opera" src="images/browser_support/incompatible_opera.gif">
+					<img width="31" height="30" title="Google Chrome" alt="Google Chrome" src="images/browser_support/incompatible_chrome.gif">
+					<img width="28" height="30" title="Safari" alt="Safari" src="images/browser_support/incompatible_safari.gif">
+				</ul>
+			</li>
+						<li class="element global_attributes">
+				<dt class="attr_name">
+					accesskey
+				</dt>
+				<dd class="attr_definition">
+					Specifies a shortcut key to activate/focus an element
+				</dd>
+				<ul class="attr_browser_support">
+					<img width="31" height="30" title="Internet Explorer" alt="Internet Explorer" src="images/browser_support/compatible_ie.gif">
+					<img width="31" height="30" title="Firefox" alt="Firefox" src="images/browser_support/incompatible_firefox.gif">
+					<img width="28" height="30" title="Opera" alt="Opera" src="images/browser_support/incompatible_opera.gif">
+					<img width="31" height="30" title="Google Chrome" alt="Google Chrome" src="images/browser_support/incompatible_chrome.gif">
+					<img width="28" height="30" title="Safari" alt="Safari" src="images/browser_support/incompatible_safari.gif">
+				</ul>
+			</li>
+		</ul><!--container-->
+		<script src="js/jquery-1.7.1.min.js"></script>
+		<script src="js/jquery.isotope.min.js"></script>
+		<script>
+			$(function() {
+				//read json file ,create dom
+
+				//Isotope
+				var $container = $('#container');
+
+				$container.isotope({
+					itemSelector : '.element',
+					layoutMode : 'fitRows'
+				});
+
+				//显示element的全部内容
+				var $element = $(".element");
+				$element.click(function() {
+					var $this = $(this);
+					if($this.hasClass('big')) {
+						$this.removeClass("big");
+					} else {
+						$this.addClass("big");
+					}
+
+					$container.isotope('reLayout');
+				});
+				//Filter
+				var $optionSets = $('#options .option-set'), $optionLinks = $optionSets.find('a');
+				//处理链接点击后显示类别下的内容
+				$optionLinks.click(function(e) {
+					var $this = $(this);
+					// don't proceed if already selected
+					if($this.hasClass('selected')) {
+						return false;
+					}
+					//设置选中样式
+					var $optionSet = $this.parents('.option-set');
+					$optionSet.find('.selected').removeClass('selected');
+					$this.addClass('selected');
+
+					// make option object dynamically, i.e. { filter: '.my-filter-class' }
+					var options = {}, key = $optionSet.attr('data-option-key'), value = $this.attr('data-option-value');
+					//parse 'false' as false boolean
+					value = value === 'false' ? false : value;
+					options[key] = value;
+					if(key === 'layoutMode' && typeof changeLayoutMode === 'function') {
+						// changes in layout modes need extra logic
+						changeLayoutMode($this, options)
+					} else {
+						$container.isotope(options);
+					}
+					//阻止click默认操作
+					return false;
+				});
+			});
+
+		</script>
+	</body>
+</html>

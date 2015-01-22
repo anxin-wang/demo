@@ -1,0 +1,88 @@
+/*
+ * the first panel CSS
+ */
+.templatelibraryimagegalary-cls{
+	margin-left:40px;
+}
+/*
+ * The Category Filter CSS
+*/
+.displayfield-select{
+	width:73px;
+	height:22px;
+}
+/*
+ * The Category Filter label CSS
+*/
+.displayfield-span{
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:13px;
+	color:#5A5959;
+	padding:0 5px 0 20px;
+	height:22px;
+	line-height:22px;
+}
+/*
+ * the black go button:get rid of the ExtJS default button background images
+*/
+.btn .x-btn-tl, .btn .x-btn-tr, .btn .x-btn-tc, .btn .x-btn-ml, .btn .x-btn-mr, .btn .x-btn-bl, .btn .x-btn-br, .btn .x-btn-bc {
+    background-image: url('');
+    height: 0px;
+    width: 0px;
+	display:none;
+}
+/*
+ * the black go button CSS
+*/
+.btn-go-black{
+	margin-left:5px;
+}
+.btn-go-black .x-btn-mc { 
+    background: url("btn_black_go.png") no-repeat scroll left top transparent;
+	width:34px;
+	height:23px;
+}
+.btn-go-black .x-btn-mc button {
+    text-indent: -9999px;
+	line-height:22px;
+}
+/*
+ * the Filter Bar CSS
+*/
+.displayfield-panel{
+	margin-bottom:20px;
+	border:1px solid #EDEDED;
+	padding-top:8px;
+}
+/*
+ * Images CSS
+*/
+.template-galary-link a{
+	padding:10px;
+	border:2px solid #EDEDED;
+	margin-right:40px;
+	margin-bottom:30px;
+	cursor:pointer;
+	display:block;
+	text-align:center;
+	text-decoration:none;
+}
+
+.template-galary-link a:hover,.template-galary-link a:focus{
+	border:2px solid #E48100;
+	text-decoration:underline;
+}
+.template-galary-link a:focus{	
+	text-decoration:none;
+}
+br{
+	line-height:10px;
+}
+
+
+.template-galary-link span{
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:12px;
+	color:#5A5955;
+	font-weight:bold;
+}

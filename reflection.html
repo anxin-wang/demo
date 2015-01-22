@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+	    <style type="text/css" media="screen">
+	        .box {
+	            height: 100px;
+	            width: 100px;
+	            background: url(images/QuickTime_X_icon.png);
+	            -webkit-background-size: contain;
+	            display: inline-block;
+	            margin: 10px;
+	            -webkit-transition:-webkit-transform .5s linear;
+	            -webkit-box-reflect: below 2px -webkit-gradient(linear, left top, left bottom, from(transparent), to(rgba(0, 0, 0, 0.2)));
+	        }
+	        
+	        div:hover {
+	            -webkit-transform: scale(1.5,1.5);
+	        }
+	
+	        /*.transformed2 {
+	            -webkit-transform: skewX(10deg);
+	        }*/
+	       
+	    </style>
+	</head>
+	<body>
+	    <p>You should not see any pixel artifacts around the reflections.</p>
+	    <div class="box"></div>
+	    <div class="transformed box"></div>
+	    <div class="transformed2 box"></div>
+	</body>
+	</html>

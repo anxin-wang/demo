@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css">
+html{
+	height:100%;
+}
+body{
+	width:100%;
+	height:100%;
+    display: box;
+    display:-moz-box;
+    display:-webkit-box;
+    box-pack:center;
+    -moz-box-pack:center;
+    -webkit-box-pack:center;
+    box-align:center;
+    -moz-box-align:center;
+    -webkit-box-align:center;
+}
+div{
+    height:50px;
+    width:30px;
+}
+#box1{
+    background: #F6F;
+    -moz-box-ordinal-group:2;
+    -webkit-box-ordinal-group:2;
+    box-ordinal-group:2;
+    border:5px solid #dedede;
+    -moz-border-right-colors:#333 #aaa;
+    -moz-border-bottom-colors:#333 #aaa;
+    -moz-border-top-colors:#aaa #666;
+    -moz-border-left-colors:#aaa #666;
+}
+/*#box2{
+    background: #3F9;
+    -moz-box-ordinal-group:1;
+    -webkit-box-ordinal-group:1;
+     box-ordinal-group:1;
+    
+    -moz-border-image: url(border.png) 29/10px round; 
+    -webkit-border-image: url(border.png) 29 round; 
+    -o-border-image: url(border.png) 29 round; 
+    border-image: url(border.png) 29 round;
+}*/
+#box2{
+   background:#0FF url(border.png) no-repeat;
+   width:306px;
+   height:226px;
+   -webkit-transition:-webkit-transform .5s ease-in,background .5s ease-in;
+   -moz-transition:-moz-transform .5s ease-in,background .5s ease-in;
+   -o-transition:-o-transform .5s ease-in,background .5s ease-in;
+   transition:transform .5s ease-in,background .5s ease-in;
+}
+#box2:hover{
+   -webkit-transform:rotate(180deg) scale(2);
+   -moz-transform:rotate(180deg) scale(2);
+   -o-transform:rotate(180deg) scale(2);
+   transform:rotate(180deg) scale(2);
+   background:blue;
+
+#box3{
+    
+    -moz-box-ordinal-group:3;
+    -webkit-box-ordinal-group:3;
+    box-ordinal-group:3;
+    border:10px solid red;
+    -moz-border-radius-topright:20px ;
+    -webkit-border-top-right-radius:20px ;
+    border-top-right-radius:20px ;
+    -moz-border-radius-bottomright:20px ;
+    -webkit-border-bottom-right-radius:20px ;
+    border-bottom-right-radius:20px;
+    -webkit-box-shadow: 7px 7px 5px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow: 7px 7px 5px rgba(50, 50, 50, 0.75);
+    box-shadow: 7px 7px 5px -2px rgba(50, 50, 50, 0.75);
+    background-image:url(border.png);
+    -moz-background-size:cover;
+    -webkit-background-size:contain;
+    background-repeat:no-repeat;
+    max-width:800px;
+    max-height:800px;
+    resize:both;
+    overflow:auto;
+}
+</style>
+</head>
+<body>
+<div id="box1"></div>
+<div id="box2"></div>
+<div id="box3"></div>
+</body>
+</html>

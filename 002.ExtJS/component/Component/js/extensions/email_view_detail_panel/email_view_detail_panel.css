@@ -1,0 +1,378 @@
+/*
+ * Email View-Email Details[start]
+*/
+/*
+ * EmailView Panel Header CSS
+ */
+.ext-gecko .viewdetail-panel-header-displayfield, .ext-strict .ext-ie7 .viewdetail-panel-header-displayfield{
+	font-size:14px;
+	color:#505050;
+	font-family:Arial;
+	font-weight:bold;
+}
+.viewdetail-panel-header-btn-edit .x-btn-mc {
+    background: url('emailview_emaildetail_content_bg.png') left -125px no-repeat transparent;
+    width: 45px;
+    height: 21px;
+}
+.viewdetail-panel-header-btn-edit.x-btn-over .x-btn-mc{
+    background-position: left -125px;
+}
+.ext-strict .ext-ie7 .viewdetail-panel-header-btn-edit .x-btn-mc {
+    height: 21px;
+}
+.viewdetail-panel-header-btn-edit{
+	float:right;	
+}
+.viewdetail-panel-header-btn-addRecipient .x-btn-mc {
+    background: url('emailview_emaildetail_content_bg.png') -47px -125px no-repeat transparent;
+    width: 110px;
+    height: 21px;
+}
+.viewdetail-panel-header-btn-addRecipient.x-btn-over .x-btn-mc{
+    background-position: -47px -125px;
+}
+.ext-strict .ext-ie7 .viewdetail-panel-header-btn-addRecipient .x-btn-mc {
+    height: 21px;
+}
+.viewdetail-panel-header-btn-addRecipient{
+	float:right;	
+}
+.viewdetail-panel-header-btn-addVariants .x-btn-mc {
+    background: url('emailview_emaildetail_content_bg.png') -160px -125px no-repeat transparent;
+    width: 131px;
+    height: 21px;
+}
+.viewdetail-panel-header-btn-addVariants.x-btn-over .x-btn-mc{
+    background-position: -160px -125px;
+}
+.ext-strict .ext-ie7 .viewdetail-panel-header-btn-addVariants .x-btn-mc {
+    height: 21px;
+}
+.viewdetail-panel-header-btn-addVariants{
+	float:right;	
+}
+.viewdetail-panel-header-btn-testNow .x-btn-mc {
+    background: url('emailview_emaildetail_content_bg.png') -293px -125px no-repeat transparent;
+    width: 86px;
+    height: 21px;
+}
+.viewdetail-panel-header-btn-testNow.x-btn-over .x-btn-mc{
+    background-position: -293px -125px;
+}
+.ext-strict .ext-ie7 .viewdetail-panel-header-btn-testNow .x-btn-mc {
+    height: 21px;
+}
+.viewdetail-panel-header-btn-testNow{
+	float:right;	
+}
+.viewdetail-panel-header-btn-addmorerecipient .x-btn-mc {
+    background: url('emailview_emaildetail_content_bg.png') -382px -125px no-repeat transparent;
+    width: 145px;
+    height: 21px;
+}
+.viewdetail-panel-header-btn-addmorerecipient.x-btn-over .x-btn-mc{
+    background-position: -382px -125px;
+}
+.ext-strict .ext-ie7 .viewdetail-panel-header-btn-addmorerecipient .x-btn-mc {
+    height: 21px;
+}
+.viewdetail-panel-header-btn-addmorerecipient{
+	float:right;	
+}
+
+/*
+ * Email-View Email-Details Missing Panel bg & height & width
+*/
+.viewdetail-missing-panel .x-panel-body{
+	background-color:#F8F8F8;
+	height:30px;
+	width:925px;
+}
+/*
+ * Email-View Email-Details Missing Panel 'Missing' CSS
+*/
+.ext-gecko .viewdetail-missing-panel-displayfield, .ext-strict .ext-ie7 .viewdetail-missing-panel-displayfield{
+	background:url(emailview_summary_panel_title_draft_bg.png) no-repeat 10px -19px #F8F8F8;
+	font-size:12px;
+	color:#CC0000;
+	font-family:Arial;
+	font-weight:bold;
+	padding-left:30px;
+	margin-top:10px;	
+}
+.ext-gecko .viewdetail-missing-panel-displayfield-completed, .ext-strict .ext-ie7 .viewdetail-missing-panel-displayfield-completed{
+	background:url(emailview_summary_panel_title_draft_bg.png) no-repeat 10px -5px #F8F8F8;
+	font-size:12px;
+	color:#505050;
+	font-family:Arial;
+	font-weight:bold;
+	padding-left:30px;
+	margin-top:8px;	
+	padding-top:0;
+}
+
+/*
+ * Email-View Email-Details EmailDetails Panel & Delivery Panel table
+*/
+.viewdetail-details-panel table,.viewdetail-delivery-panel table{
+	border:solid 1px #EAEDF4;
+	background-color:#F8F8F8;
+	border-collapse: collapse;	
+	width:926px;
+}
+/*
+ * Email-View Email-Details EmailDetails Panel & Delivery Panel first column
+*/
+.viewdetail-details-table-label,.viewdetail-delivery-table-label{
+	font-size:12px;
+	color:#040404;
+	font-family:Arial;
+	font-weight:bold;
+	text-align:right;
+	padding:8px 5px 8px 0px;
+	border-bottom:solid 1px #EAEDF4;
+	border-right:solid 1px #EAEDF4;
+	width:150px;	
+}
+/*
+ * Email-View Email-Details EmailDetails Panel second column emailname CSS
+*/
+.viewdetail-details-table-field-emailname{
+	font-size:12px;
+	color:#040404;
+	font-family:Arial;
+	font-weight:normal;
+	border-bottom:solid 1px #EAEDF4;
+	padding-left:10px;
+}
+/*
+ * Email-View Email-Details EmailDetails Panel & Delivery Panel second column
+*/
+.viewdetail-details-table-field-common,.viewdetail-delivery-table-field-common{
+	font-size:12px;
+	color:#505050;
+	font-family:Arial;
+	font-weight:normal;
+	border-bottom:solid 1px #EAEDF4;
+	padding-left:10px;
+}
+/*
+ * Email-View Email-Details EmailDetails Panel "show advanced options"
+*/
+.viewdetail-details-panel .x-panel-header{
+	background-color:#F8F8F8;
+	background-image:none;
+} 
+/*
+ * Email-View Email-Details EmailDetails Panel "show advanced options" icon
+*/
+.viewdetail-details-panel .x-tool{
+	float:left;	
+}
+/*
+ * Email-View Email-Details EmailDetails Panel "show advanced options" expanded icon 
+*/
+.viewdetail-details-panel .x-tool-toggle {
+background-position:0 -75px;
+}
+/*
+ * Email-View Email-Details EmailDetails Panel "show advanced options" collapsed icon
+*/
+.viewdetail-details-panel .x-panel-collapsed .x-tool-toggle {
+background-position:0 -120px;
+}
+/*
+ * Email-View Email-Details EmailDetails Panel "show advanced options" text
+*/
+.viewdetail-details-panel .x-panel-header-text{
+	padding-left:10px;
+}
+/*
+ * Email-View Email-Details Delivery Panel table second column CSS
+*/
+.viewdetail-delivery-table-field-common span{
+	font-size:11px;
+	color:#1F4699;
+}
+/*
+ * Email-View Email-Details Recipients Panel bg
+ */
+.viewdetail-recipients-panel .x-panel-body{
+	background-color:#F8F8F8;
+	height:30px;
+	width:925px;
+}
+.viewdetail-recipients-fields {
+	margin-left:20px;
+	margin-top:5px;
+	margin-bottom:7px;
+	font-size:12px;
+	color:#040404;			
+	font-family:Arial;
+}
+
+.viewdetail-recipients-fields span{
+	color:#1F4699;			
+}
+.ext-gecko .viewdetail-recipients-viewall, .ext-strict .ext-ie7 .viewdetail-recipients-viewall
+ {
+	background:url(emailview_emaildetail_recipient_bg.png) no-repeat left top;
+	margin-left:20px;	
+	margin-top:7px;
+	padding-top:7px;
+	margin-bottom:5px;
+	font-size:12px;
+	color:#040404;			
+	font-family:Arial;
+}
+/*
+ * Email-View Email-Details Content(Draft) Panel
+ */
+/*
+ * First Column[start]
+ */
+.x-grid3-row .viewdetail-content-panel-firstcol{
+	width:24px;
+}
+.x-grid3-row .viewdetail-content-panel-firstcol p{
+	background:url(emailview_emaildetail_content_bg.png) no-repeat left -89px;
+	height:23px;
+	width:24px;
+	font-size:16px;
+	color:#FFFFFF;
+	text-align:center;
+	font-family:Arial;
+	font-weight:bold;
+}
+.x-grid3-row .viewdetail-content-panel-promotionpercent{
+	font-size:12px;
+	color:#1F4699;	
+	font-family:Arial;
+	font-weight:bold;
+	padding-left:10px;
+}
+.x-grid3-row .viewdetail-content-panel-creationdate{
+	font-size:11px;
+	color:#999999;	
+	font-family:Arial;
+	font-weight:normal;
+	padding-left:10px;
+}
+/*
+ * First Column[end]
+ */
+#viewDetail_draftContentPanel .x-grid3-cell-inner{
+	padding:10px 0px 5px 20px;
+}
+#viewDetail_draftContentPanel .x-grid3-col-1{
+	white-space:normal;
+}
+/*
+ * Header Font CSS
+ */
+#viewDetail_draftContentPanel .x-grid3-hd-inner{
+	font-size:12px;
+	color:#333333;	
+	font-family:Arial;
+	font-weight:bold;
+	padding-left:20px;
+}
+/*
+ * TD Font CSS
+ */
+.x-grid3-row td, .x-grid3-summary-row td{
+	font-size:12px;
+	color:#505050;	
+}
+/*
+ * edit link
+ */
+.viewdetail-content-panel-grid-edit{
+	display: inline-block;	
+	font-size:11px;
+	color:#1F4699;			
+	font-family:Arial;
+	font-weight:normal;
+}
+/*
+ * delete link
+ */
+.viewdetail-content-panel-grid-delete{
+	display: inline-block;
+	text-indent:-9999px;
+	background:url(emailview_emaildetail_content_bg.png) no-repeat left -112px;
+	margin-left:10px;	
+	margin-top:1px;
+	margin-bottom:1px;
+	height:11px;
+	width:11px;
+}
+.grid-odd-row-bg{
+	
+}
+.grid-even-row-bg{
+	background-color:#F8F8F8;
+}
+
+/*
+ * Email-View Email-Details Content(Schedule) Panel Winner div
+ */
+.viewdetail-schedulecontent-panel-winner{
+	background:url(emailview_emaildetail_content_bg.png) no-repeat left -23px;
+	height:63px;
+	width:924px !important;
+}
+.viewdetail-schedulecontent-panel-winner p{
+	font-size:14px;
+	color:#505050;
+	font-family:Arial;
+	font-weight:bold;
+	text-align:center;
+	line-height:63px;
+	padding-top:7px;
+}
+/*
+ * Email-View Email-Details Content(Completed) Panel bg
+ */
+#viewDetail_completedContentPanel .x-panel-body{
+	border:none;
+}
+/*
+ * Winner div[start]
+ */
+.viewdetail-completedcontent-panel-winner{
+	background:url(emailview_emaildetail_content_bg.png) no-repeat left top;
+	font-size:11px;
+	color:#009F3D;
+	font-family:Arial;
+	font-weight:bold;
+	text-align:center;	
+	height:19px;	
+	width:924px !important;
+}
+.viewdetail-completedcontent-panel-winner p{
+	padding-top:2px;
+}
+/*
+ * Winner div[end]
+ */
+/*
+ * Winner Row CSS
+ */
+.grid-first-row-bg{
+	background-color:#F4FFF0;
+	height:63px;	
+	/*
+border-top:solid 1px #F4FFF0;
+*/
+	border-bottom:solid 2px #86C663;
+	border-left:solid 2px #86C663;
+	border-right:solid 2px #86C663;
+	width:920px !important;	
+}
+/*
+ * Email View-Email Details[end]
+*/
+
+

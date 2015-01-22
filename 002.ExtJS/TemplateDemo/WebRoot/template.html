@@ -1,0 +1,96 @@
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<link rel="stylesheet" type="text/css" href="extjs/resources/css/ext-all.css" />
+				<script type="text/javascript"	src="extjs/adapter/ext/ext-base.js"></script>
+		<script type="text/javascript" src="extjs/ext-all-debug.js"></script>			
+		<script type="text/javascript" src="extjs/ext-lang-zh_CN.js"></script>	
+		<script type="text/javascript"	src="extjs/ext-lang-zh_CN.js"></script>
+      <script type="text/javascript"	src="modify/XTemplate.js"></script>
+		
+		<script type="text/javascript">
+		Ext.onReady(function(){
+    var aa='<table><tbody><tr><td width="80">编号</td><td width="80">姓名</td><td width="60" >年龄</td><td width="100" align="center">部门</td></tr>'
+          +'<tpl for = "departments" >'
+             + '<tpl for = "users">' 
+                 +'<tpl if = "parent.name.length &gt; 3">'       
+                       +'<tr><td>{#}</td><td>{name:this.formatName}</td><td>{age+5*2-(8)}</td>'
+                       +'<td>{[fm.ellipsis(parent.name,5)]}</td></tr>'                       
+                  +'</tpl>'   
+                +'</tpl>'
+          +'</tpl>'
+   + '<tbody></table>';
+    
+    var data={name:'江中集团',departments:[
+     {name:'信息技术部', users:[{name:'彭华',age:29,sex:1},{name:'张三',age:21}]},
+     {name:'财务部', users:[{name:'李明',age:25,sex:1},{name:'李四',age:27}]},
+     {name:'人力资源部', users:[{name:'廖菜',age:30,sex:1},{name:'五二',age:22}]}    
+    ]};
+      var formatName=function(v,vs){
+                var ch=vs['sex']==1?"先生":"小姐";
+                return v.slice(0,1)+ch;
+              };
+    var tpl=new Ext.XTemplate(aa);
+      tpl.formatName=formatName;               
+     tpl.append(document.body,data);
+    
+   
+                       
+   /*  var aa='<table><tbody><tr><td width="150">编号</td><td width="150">姓名</td><td width="150">年龄</td><td width="150">部门</td></tr>'         
+             + '<tpl for="users">' 
+                 +'<tpl if="age&gt;5">'     
+                       +'<tr><td>{#}</td>'     
+                       +'<td>{name:this.formatName}</td>'     
+                       +'<td>{age+5*2-(8)}或{[values.age+5/2-1*2]}</td>'
+                       +'<td>{parent.name:ellipsis(2)}或{[fm.ellipsis(parent.name,2)]}</td></tr>'                       
+                  +'</tpl>'   
+                +'</tpl>'         
+   + '<tbody></table>';
+    
+    var data={name:'xxp',age:8, users:[
+       {name:'prk0',age:21,sex:1},{name:'prk1',age:28,sex:0},
+       {name:'prk3',age:22,sex:1},{name:'prk4',age:29,sex:0},
+       {name:'prk5',age:23,sex:1},{name:'prk6',age:30,sex:0},
+       {name:'prk7',age:24,sex:1},{name:'prk8',age:24,sex:0}               
+                     
+     ]};
+       
+ 
+      var formatName=function(v,vs){
+                var ch=vs['sex']==1?"先生":"小姐";
+                return v.slice(0,1)+ch;
+              };
+    var tpl=new Ext.XTemplate(aa);
+      tpl.formatName=formatName;               
+     tpl.append(document.body,data);
+                       
+   */ 
+    /*
+    
+		   var aa="<div style=color:blue>{name:this.formatName}</div>"+
+                 "<div style=color:blue>{birthday:date(Y年m月d)}</div>"
+                 +"<div style=color:red>{sex:this.formatSex}</div>";
+             var formatSex=function(v,vs){
+                return v==1?"男":"女";
+               };        
+           var formatName=function(v,vs){
+                var ch=vs['sex']==1?"先生":"小姐";
+                return v.slice(0,1)+ch;
+              };
+          var data={name:"王小明",sex:1,birthday:new Date(1983,9,24)};
+           var tpl=new Ext.Template(aa,{formatSex:formatSex});
+            tpl.formatName=formatName;
+           // var s= tpl.apply(data); 
+           tpl.append(document.body,data);  
+                */ 
+        });
+        </script>
+		
+	</head>
+
+	<body>
+
+	</body>
+
+
+</html>

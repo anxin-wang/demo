@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<meta name="description" content="" />
+		<meta name="author" content="Sophie Wong" />
+		<link rel="stylesheet" type="text/css" media="all" href="resources/stylesheet/style.css">
+		<style>
+			.input-file {
+				overflow:hidden;
+				position:relative;
+				width:100px;
+				line-height:50px;
+				text-decoration: none;
+				height:50px;
+				background:#57BC30;
+				text-align: center;
+			}
+			.input-file input{
+				cursor: pointer;
+			    font-size: 45px;
+			    opacity: 0;
+			    position: absolute;
+			    right: -5px;
+			    top: -5px;
+			}
+		</style>	
+	</head>
+	<body>
+		<form action="test.php" target="" method="post" enctype="multipart/form-data">
+			<div id="message"></div>
+			<input type="text" id="filename" name="filename" />
+			<div class="input-file">浏览...<input type="file" name="file" id="file" /></div>
+		    <!--<input type="submit" id="J_submit"  value="submit" />-->
+		</form>
+		
+		<script src="js/jquery-1.7.1.min.js"></script>
+		<script src="js/fileupload2.js"></script>
+	</body>
+</html>
