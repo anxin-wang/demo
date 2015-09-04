@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0, width=device-width"/>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <title>上传裁切图片</title>
+    <link rel="stylesheet" type="text/css" href="static/style/base.css">
+    <link href="static/style/jcrop/jquery.jcrop.css" rel="stylesheet" type="text/css" />
+  </head>
+<body>
+ <div class="pure-g pc_demo">
+        <div class="pure-u-1" style="margin:1em auto;">
+			<form enctype="multipart/form-data" method="post" action="upload.php" class="pure-form image_uploadForm" id="image_uploadForm">
+		        <legend>拍照片</legend>
+                <!-- 上传图片按钮开始 -->
+                <div class="file_box">
+                    <div class="file_item">
+                        <a href="javascript:void(0)" class="pure-button file_text">上传图片</a>
+                    </div>
+                    <input type="file" name="image_file" class="image_file" />
+                </div>
+                <!-- 上传图片按钮结束 -->
+                <div class="vspace"></div>
+				<!-- 裁切参数和显示图层开始 -->
+                <div class="preview_box">
+                    <div class="preview_info undis">
+                        <!-- hidden crop params -->
+                        <input type="hidden" id="file_size" name="file_size" class="file_size"/>
+                        <input type="hidden" id="file_type" name="file_type" class="file_type"/>
+                        <input type="hidden" id="file_dim" name="file_dim" class="file_dim"/>
+                        <input type="hidden" id="file_width" name="file_width" class="file_width" />
+                        <input type="hidden" id="file_height" name="file_height" class="file_height" />
+                        <input type="hidden" id="x1" name="x1" class="x1" />
+                        <input type="hidden" id="y1" name="y1" class="y1"/>
+                        <input type="hidden" id="x2" name="x2" class="x2" />
+                        <input type="hidden" id="y2" name="y2" class="y2" />
+                    </div>
+                    <!-- 原始显示图层开始 -->
+                    <div class="preview_src" id="preview_src"><img id="target" class="preview" src=""/></div>
+                    <!-- 原始显示图层结束 -->
+                    <div class="vspace"></div>
+                    <!-- 裁切后显示图层开始 -->
+                    <div class="preview_dest" id="preview_dest">
+                        <img id="preview1"/>
+                    </div>
+                    <!-- 裁切后显示图层结束 -->
+                    <!-- 提交上传开始 -->
+                    <input type="submit" value="保存" class="pure-button pure-button-primary submit_form" />
+                    <!-- 提交上传结束 -->
+                </div>
+                <!-- 裁切参数和显示图层结束 -->
+			</form>
+		</div>
+ </div>
+<!-- add scripts -->
+<script src="static/javascript/jquery/jquery.js"></script>
+<script src="static/javascript/jcrop/jquery.jcrop.js"></script>
+<script src="static/javascript/jcrop/jquery.jcrop.avatar.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+    $('.image_uploadForm').on('submit',function(){
+        var $id = $(this).attr('id');
+        sjcrop.checkForm($id);
+    });
+    //监听change
+    $('.image_uploadForm .image_file').on('change',function(){
+        var $id = $(this).parents('.image_uploadForm').attr('id');
+        sjcrop.fileSelectHandler($id);
+    });
+});
+</script> 
+</body>
+</html>
