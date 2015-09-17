@@ -1,0 +1,1 @@
+g_adCookie.onerrorCallback=function(){var url="http://zquery.gtags.net/similarity/?zid=4943de93b525cdfce536075fd7bb49a4&zdata=&r="+Math.random();if(g_adCookie.LoginStatusGuid!=null){url+="&id="+g_adCookie.LoginStatusGuid;g_adCookie.LoginStatusGuid=null;}new Image().src=url;};g_adCookie.LoginStatusGuid="00000000-0000-0000-0000-000000000000";g_adCookie.setUrl();

@@ -1,0 +1,507 @@
+﻿@charset "utf-8";
+.cui_hd a,.cui_nav a,#base_ft a{text-decoration:none;}
+.cui_hd a:hover,.cui_nav a:hover,#base_ft a:hover{text-decoration:underline;}
+/*base btn*/
+.basebtns_01{height:35px;line-height:32px;text-align:center;color:#fff;font-size:16px;border:1px solid #d5790a;cursor:pointer;vertical-align:middle;background-color:#ffba14;font-weight:bold;text-shadow:1px 1px 0 #e57c00;border-radius:3px;box-shadow:0 2px 2px rgba(0,0,0,0.2);letter-spacing: 0.4em;text-indent:0.4em;*text-indent:0;}
+.basebtns_01:hover{background-color:#ff9914;box-shadow:0 2px 2px rgba(0,0,0,0.2),0 0 5px #fb0 inset;}
+/*css sprite*/
+.language_list  a,.language_en em.ico-langen,.cui_tel b,.myctrip b.arrow,.cui_myctrip,.cui_weibo,.cui_lang b,.cui_lang_hover b,#cui_lang_bottom a,#cui_nav .cui_ico_triangle,
+.badge,
+.cui_ico_new,
+.cui_ico_beta,
+.cui_ico_sale,
+.cui_ico_order,
+.cui_ico_hot,
+.cui_ico_price,
+.cui_ico_snatch,
+.cui_ico_popular,
+.cui_ico_1111,
+.cui_ico_save,
+.cui_ico_notejj,
+.cui_ico_rebate,
+.ft_guide i,
+.ft_lang a,
+.cui_ico_tips,
+.cui_search button,
+.user_center b.arrow,
+.language b.arrow,
+.cui_service b.arrow,
+.ico-user{background-image:url(http://pic.c-ctrip.com/common/un_header_footer20150317.png);background-repeat:no-repeat;}
+.cui_wireless .cui_wireless_pic, .cui_wireless_type dt, .cui_wireless_msg i, .cui_wireless_code, .cui_link_app i, .cui_input_close{background:url(http://pic.c-ctrip.com/common/un_wireless_140722.png?150104.png) 0 -9999em no-repeat;}
+
+/* ----------------------responsive header---------------------- */
+/*
+	Default monitor-1180px
+*/
+.cui_hd_cont{background:#fff;}
+.cui_hd{position:relative;z-index:26;min-width:1000px;max-width:1180px;height:59px;margin:0 auto;}
+.cui_hd .ctriplogo{position: relative;z-index:10;display:inline-block;width:126px;height:43px;margin:8px 0;overflow:hidden;}
+.cui_hd .ctriplogo a{display:block;width:126px;height:43px;background:url(http://pic.c-ctrip.com/common/c_logo2013.png) no-repeat;text-indent:-999px;overflow: hidden;}
+
+/* cui tourism festival theme */
+.cui_tourism_festival{position: absolute;width:100%;height: 59px;top:0;margin-left:-32px;background:url(http://pic.c-ctrip.com/index/pic_doodle_mar.jpg) 0 0 no-repeat;}
+
+/* cui_search */
+.cui_hd .cui_search{position: absolute;top:15px;left:170px;z-index:100;width:28%;font-family:"Microsoft Yahei",Tahoma;}
+.cui_hd .cui_search input{position:absolute;top:0;left:0;width:100%;height:28px;padding:0 45px 0 5px;line-height:28px\9;font-size:12px;font-family:"Microsoft Yahei",Tahoma;border:1px solid #8EBEFC;box-shadow:2px 2px 1px 0 rgba(164,203,255,0.25) inset;outline:0 none}
+.cui_hd .cui_search input[type="text"]{border-radius:4px;}
+.cui_hd .cui_search input:focus{border-color:#2577E3;box-shadow:1px 1px 0 0 rgba(146,187,241,1) inset;}
+.cui_hd .cui_search button{position:absolute;top:1px;right:-51px;width:42px;height:28px;cursor:pointer;border:0 none;background-color:#A4CBFF;background-position:-52px -603px;border-radius:0 0 0 0;}
+.cui_hd .cui_search button:hover,.cui_hd .cui_search input:focus+button:hover{background-color:#299CFF;background-position:-52px -653px;}
+.cui_hd .cui_search input:focus+button{background-color:#2B82F4;background-position:-52px -628px;}
+
+
+/*cui_search*/
+.cui_search{position:absolute;top:15px;left:170px;z-index:100;width:28%;font-family:"Microsoft Yahei",Tahoma;}
+.cui_search input{position:absolute;top:0;left:0;width:100%;height:28px;padding:0 45px 0 5px;line-height:28px\9;font-size:12px;font-family:"Microsoft Yahei",Tahoma;border:1px solid #8EBEFC;box-shadow:2px 2px 1px 0 rgba(164,203,255,0.25) inset;outline:0 none}
+.cui_search input[type="text"]{border-radius:4px;}
+.cui_search input:focus{border-color:#2577E3;box-shadow:1px 1px 0 0 rgba(146,187,241,1) inset;}
+.cui_search button{position:absolute;top:1px;right:-51px;width:42px;height:28px;cursor:pointer;border:0 none;background-color:#A4CBFF;background-position:-52px -603px;border-radius:0 0 0 0;}
+.cui_search button:hover,.cui_search input:focus+button:hover{background-color:#299CFF;background-position:-52px -653px;}
+.cui_search input:focus+button{background-color:#2B82F4;background-position:-52px -628px;}
+.cui_search_list{position:absolute;top:29px;left:0;z-index:100;width:380px;overflow:hidden;border:1px solid #999;background-color:#FFF;border-radius:1px;}
+.cui_search_list div{padding:6px 10px 4px;color:#999;}
+.cui_search_list .search_split{margin:0 4px;padding:6px 6px 4px;border-top:1px dotted #999;}
+.cui_search_list a{display:block;padding:5px 20px 5px 34px;text-indent:-25px;font-size:12px;color:#333;word-break:break-all;}
+.cui_search_list a .first_item{display:block;padding-right:15px;color:#333;}
+.cui_search_list a strong{font-weight:normal;color:#06C;}
+.cui_search_list a span{color:#999;}
+.cui_search_list .history_link{position:relative;padding-left:10px;padding-right:40px;text-indent:0;}
+.cui_search_list a .history_del{display:none;position:absolute;*top:6px;right:10px;cursor:pointer;}
+.cui_search_list a:hover{text-decoration:none;cursor:pointer;}
+.cui_search_list .hover{text-decoration:none;color:#FFF;background-color:#2577E3;}
+.cui_search_list .hover strong{color:#FFF;}
+.cui_search_list .hover span{color:#FFF;}
+.cui_search_list .hover .history_del{display:inline;}
+.cui_search_list .search_close{position:absolute;top:0;right:0;width:30px;height:32px;padding:0;line-height:32px;text-align:center;text-indent:0;cursor:pointer;font-weight:bold;font-size:16px;font-family:Simsun;color:#666;*background-color:;}
+.cui_search_list .search_close:hover{color:#FFA800;background-color:transparent;}
+.cui_search_list i{display:inline-block;width:20px;height:20px;margin-right:5px;vertical-align:-6px;*vertical-align:0;background-image:url(http://pic.c-ctrip.com/common/un_search.png?141204.png);background-repeat:no-repeat;}
+.cui_search_list .ico_location{background-position:0 0;}
+.cui_search_list .hover .ico_location{background-position:-20px 0;}
+.cui_search_list .ico_hotel{background-position:0 -20px;}
+.cui_search_list .hover .ico_hotel{background-position:-20px -20px;}
+.cui_search_list .ico_flight{background-position:0 -40px;}
+.cui_search_list .hover .ico_flight{background-position:-20px -40px;}
+.cui_search_list .ico_train{background-position:0 -60px;}
+.cui_search_list .hover .ico_train{background-position:-20px -60px;}
+.cui_search_list .ico_vacation{background-position:0 -80px;}
+.cui_search_list .hover .ico_vacation{background-position:-20px -80px;}
+.cui_search_list .ico_destination{background-position:0 -100px;}
+.cui_search_list .hover .ico_destination{background-position:-20px -100px;}
+.cui_search_list .ico_ticket{background-position:0 -120px;}
+.cui_search_list .hover .ico_ticket{background-position:-20px -120px;}
+.cui_search_list .ico_tuan{background-position:0 -140px;}
+.cui_search_list .hover .ico_tuan{background-position:-20px -140px;}
+.cui_search_list .ico_gs{background-position:0 -160px;}
+.cui_search_list .hover .ico_gs{background-position:-20px -160px;}
+.cui_search_list .ico_food{background-position:0 -180px;}
+.cui_search_list .hover .ico_food{background-position:-20px -180px;}
+.cui_search_list .ico_shopping{background-position:0 -200px;}
+.cui_search_list .hover .ico_shopping{background-position:-20px -200px;}
+.cui_search_list .ico_play{background-position:0 -220px;}
+.cui_search_list .hover .ico_play{background-position:-20px -220px;}
+/*new search wj*/
+.cui_search_list div.search_list_history{padding:0;border-bottom:1px dotted #ccc;}
+.search_list_history a strong{color:#333;}
+.cui_search_list .ico_history{background-position:0 -240px;}
+.cui_search_list a.hover .ico_history{background-position:-20px -240px;}
+.cui_search_list div.search_list_hotel{position:relative;padding:5px 10px 5px 34px;height:30px;color:#333;cursor:pointer;}
+.cui_search_list div.search_list_vacation{position:relative;padding:5px 10px 5px 34px;height:auto;color:#333;cursor:pointer;}
+.search_list_hotel i,.search_list_vacation i{position:absolute;left:9px;}
+.search_hotel_name{margin:0;width:225px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;}
+.search_hotel_name span{color:#999;}
+.search_hotel_name strong{font-weight:normal;color:#06C;}
+.search_list_hotel .search_hotel_grade{display:block;}
+.search_hotel_price{position:absolute;right:18px;top:4px;color:#f60;font-family:arial;}
+.search_hotel_price dfn{font-style:normal;color:#333;font-family:arial;}
+.search_hotel_price span{color:#999;}
+.search_hotel_notes{position:absolute;right:18px;top:18px;color:#999;}
+.search_hotel_notes span{margin-left:5px;color:#333;}
+.cui_search_list .hover .search_hotel_name{color:#fff;}
+.cui_search_list .hover .search_hotel_price dfn{color:#fff;}
+/* diamonds */
+.cui_diamond01,.cui_diamond02,.cui_diamond03,.cui_diamond04,.cui_diamond05,.cui_diamond06,.cui_diamond01_half,.cui_diamond02_half,.cui_diamond03_half,
+.cui_diamond04_half,.cui_diamond05_half,.cui_diamond06_half,.cui_star01,.cui_star02,.cui_star03,.cui_star04,.cui_star05{background-image:url(http://pic.c-ctrip.com/common/un_search.png?141204.png);background-repeat:no-repeat;}
+.cui_diamond01,.cui_diamond02,.cui_diamond03,.cui_diamond04,.cui_diamond05,.cui_diamond06,.cui_diamond01_half,.cui_diamond02_half,.cui_diamond03_half,.cui_diamond04_half,.cui_diamond05_half,.cui_diamond06_half,.cui_star01,.cui_star02,.cui_star03,.cui_star04,.cui_star05{display:inline-block;height:12px;overflow:hidden;_margin-bottom:4px;}
+.cui_diamond01,.cui_diamond02,.cui_diamond03,.cui_diamond04,.cui_diamond05,.cui_diamond06{background-position:0 -268px;}
+.cui_diamond01{width:12px;}
+.cui_diamond02{width:24px;}
+.cui_diamond03{width:36px;}
+.cui_diamond04{width:48px;}
+.cui_diamond05{width:60px;}
+.cui_diamond06{width:72px;}
+.cui_diamond01_half{width:11px;}
+.cui_diamond02_half{width:23px;}
+.cui_diamond03_half{width:35px;}
+.cui_diamond04_half{width:47px;}
+.cui_diamond05_half{width:59px;}
+.cui_diamond06_half{width:71px;}
+.cui_diamond01_half{background-position:-72px -268px;}
+.cui_diamond02_half{background-position:-60px -268px;}
+.cui_diamond03_half{background-position:-48px -268px;}
+.cui_diamond04_half{background-position:-36px -268px;}
+.cui_diamond05_half{background-position:-24px -268px;}
+.cui_diamond06_half{background-position:-12px -268px;}
+/* stars */
+.cui_star01,.cui_star02,.cui_star03,.cui_star04,.cui_star05{background-position:0 -285px;}
+.cui_star01{width:10px;}
+.cui_star02{width:21px;}
+.cui_star03{width:32px;}
+.cui_star04{width:43px;}
+.cui_star05{width:54px;}
+/* stars and diamonds hover*/
+.cui_search_list .hover .cui_diamond01,
+.cui_search_list .hover .cui_diamond02,
+.cui_search_list .hover .cui_diamond03,
+.cui_search_list .hover .cui_diamond04,
+.cui_search_list .hover .cui_diamond05,
+.cui_search_list .hover .cui_diamond06{background-position:0 -298px;}
+.cui_search_list .hover .cui_diamond01_half{background-position:-72px -298px;}
+.cui_search_list .hover .cui_diamond02_half{background-position:-60px -298px;}
+.cui_search_list .hover .cui_diamond03_half{background-position:-48px -298px;}
+.cui_search_list .hover .cui_diamond04_half{background-position:-36px -298px;}
+.cui_search_list .hover .cui_diamond05_half{background-position:-24px -298px;}
+.cui_search_list .hover .cui_diamond06_half{background-position:-12px -298px;}
+.cui_search_list .hover .cui_star01,
+.cui_search_list .hover .cui_star02,
+.cui_search_list .hover .cui_star03,
+.cui_search_list .hover .cui_star04,
+.cui_search_list .hover .cui_star05{background-position:0 -315px;}
+
+
+/*nav-bar*/
+.nav-bar{position: absolute;right: 0;top:0;_width:465px;font-family:'Microsoft yahei'}
+.nav-bar,.nav-bar a{color: #4c4c4c;}
+.nav-bar .user_not_logged,
+.nav-bar .user_logged_in,
+.nav-bar .language,
+.nav-bar .cui_service,
+.nav-bar .cui_wireless{float:left;height: 15px;line-height: 15px;padding:0 10px;margin-top:20px;border-right: 1px solid #B2B2B2;}
+.nav-bar .cui_wireless{border-right: none;margin-top:7px;padding:0;}
+.nav-bar .user_not_logged{padding: 0;}
+.user_not_logged li,.user_logged_in li{float: left;}
+
+/*=myctrip*/
+.user_center{position: relative;z-index:31;}
+.user_center b.arrow,
+.language b.arrow,
+.cui_service  b.arrow{display:inline-block;width: 9px;height: 5px;vertical-align:middle;margin-left:5px;overflow: hidden;background-position: -63px -260px;}
+.user_center a:hover b.arrow,
+.language a:hover b.arrow,
+.language_current b.arrow{background-position:-0px -260px;}
+.cui_service a:hover b.arrow,
+.service_current b.arrow{background-position:-22px -260px;}
+
+.nav-bar .myctrip{border:1px solid #c3c3c3;padding:8px 14px 5px 9px;width:95px;background-color:#fff;color:#333;text-align:left;line-height:1.5;border-bottom-left-radius:3px;border-bottom-right-radius:3px;}
+.nav-bar .myctrip li{display: block;float: none;padding:3px 0;clear:left;height:auto;line-height:1.5;}
+.nav-bar .myctrip li a{color:#06c;font-size:12px;}
+.nav-bar .myctrip li.divider{padding:3px 0;margin-bottom:3px;border-bottom:1px solid #C3C3C3;}
+
+
+/*=not-loged*/
+.ico-user{display: inline-block;width:16px;height: 16px;background-position: 0 -630px;vertical-align: middle;margin:-23px 0 -17px 0;}
+.user_not_logged{display: none;}
+.user_not_logged .user_login{border-right: 1px solid #C3C3C3;padding-right: 5px;}
+.user_not_logged .user_login a{margin:0 5px;}
+.entry_myctrip .badge{position: absolute;right:5px;top: 0;z-index:10000;}
+
+/*=logged*/
+.user_logged_in{display: none;}
+.user_logged_in .user_name{padding-right: 5px;}
+.user_logged_in .badge{float:right;display:inline-block;width:16px;height: 16px;line-height:16px;text-align:center;color:#fff;background-position: 0 -652px;padding:0;font-style: normal;}
+
+/*=droplist-style*/
+.drowndrop{display: none;position:absolute;z-index:10;top:22px;right: 0;background: #fff;}
+.language li .language_en,
+.cui_service li .service_tel,
+.nav-bar .user_center a.entry_myctrip{display:inline-block;padding:3px 3px 0 3px;margin-top:-10px;
+border-top-left-radius:3px;
+border-top-right-radius:3px;
+-moz-border-top-left-radius:3px;
+-moz-border-top-right-radius:3px;}
+.language li .language_en span,
+.cui_service li .service_tel span,
+.nav-bar .user_center a.entry_myctrip span{position:relative;z-index:112;display:inline-block;padding:6px 5px 6px 9px;margin:1px 1px -2px;}
+.language li .language_current,
+.cui_service li .service_current,
+.language li .language_en:hover,
+.cui_service li .service_tel:hover,
+.nav-bar .user_center a.entry_myctrip:hover{background:#E4E7EB;text-decoration: none;cursor:pointer;}
+.language li .language_current span,
+.cui_service li .service_current span,
+.language li .language_en:hover span,
+.cui_service li .service_tel:hover span,
+.nav-bar .user_center a.entry_myctrip:hover span{background-color:#fff;border:1px solid #b8b8b8;border-bottom:none;margin:0px;}
+
+.language_wrap,.service_wrap,.myctrip_wrap{top:17px;*top:19px;left:0px;right:auto;height:auto;background:#e4e7eb;padding:3px;
+border-bottom-left-radius:3px;
+border-bottom++++-right-radius:3px;
+border-top-right-radius:3px;
+-moz-border-bottom-left-radius:3px;
+-moz-border-bottom-right-radius:3px;
+-moz-border-top-right-radius:3px;
+}
+
+/*Language*/
+.nav-bar  ul.language{padding:0;_overflow:hidden;}
+.language li{position: relative;z-index:31;}
+.language li .language_en em.ico-langen{display: inline-block;width: 19px;height:13px;margin-right:5px;vertical-align: middle;}
+.cui_service li .service_tel span{padding-left:5px;}
+.language_list{border:1px solid #b8b8b8;background:#fff;padding-right:10px;width:98px;}
+.language_list li{width:80px;margin:0 9px;line-height:20px;height:20px;padding:6px 0;border-bottom:1px dotted #e4e7eb;}
+.language_list li.first{border-top:1px dotted #e4e7eb;*float:left;_margin-left:4px;}
+.language_list li.last{border-bottom:none;}
+.language_list li a{font-family:Arial,tahoma,verdana,"Microsoft YaHei",Simsun,sans-serif;white-space:nowrap;display: block;padding-left: 25px;color:#4c4c4c;height: 0;padding-top:20px;line-height:20px;overflow:hidden;}
+.language_gb{background-position: 0 -16px;}
+.language_big5{background-position: 0 3px;}
+.language_en em.ico-langen{background-position:-61px -471px;_background-position:-61px -469px;}
+.language_jap{background-position: 0 -430px;}
+.language_korea{background-position: 0 -449px;}
+.language_de{background-position: -61px -485px;}
+.language_fr{background-position: -61px -503px;}
+.language_es{background-position: -61px -520px;}
+.language_ru{background-position: 0 -35px;}
+.language_vn{background-position: 0px -411px;}
+.language_list li a.language_es,.language_list li a.language_de,.language_list li a.language_fr{color:#4C4C4C;height: 20px;padding-top: 0;}
+
+/*Service*/
+.service_wrap{right:0;+right:-9px;left:auto;}
+.service_telnum{color:#06c;font-style:normal;}
+
+.service_tel b.arrow{background-position: -22px -264px;}
+.service_tel a:hover b.arrow,.service_current b.arrow{background-position: -22px -260px;}
+
+
+.cui_service li{position: relative;z-index:30;}
+.cui_service li .service_tel{margin-left:-9px;}
+.service_list{width:200px;overflow: hidden;padding: 8px 15px 8px 15px;border:solid 1px #b8b8b8;background:#fff;}
+.service_list li.service_center{border-bottom: 1px solid #b8b8b8;height:25px;line-height:25px;text-align: right;}
+.service_list li.service_center em{font-family:'Simsun';font-style: normal;color:#06c;padding-left:3px;}
+.service_list li,.service_list dt{line-height: 20px;text-align: left;}
+.service_list dt{color: #ccc;text-align: right;}
+.service_list li dd{text-align: right;}
+.service_list li dd em{color:#06c;font-style:normal;}
+.service_list li a{color: #06c;}
+.nav-bar ul.service_1180{border-right:none;}
+
+/*wireless_mobile*/
+.cui_wireless{}
+.cui_wireless a.wireless{position: relative;display:block;width: 141px;height: 42px;padding-right:10px;background:url(http://pic.c-ctrip.com/common/un_wireless_140722.png) 0 0 no-repeat;text-indent: -100px;overflow: hidden;}
+.cui_wireless a.wireless i{position: absolute;top: 32px;right: 2px;width: 0;height: 0;border: 5px solid #fff;border-top-color: #ff5613;border-bottom: 0 none;font-size: 0;line-height: 0;}
+/*.cui_wireless a.wireless_current i,.cui_wireless a.wireless:hover i{border:5px solid #fff;border-bottom-color:#ff5613;border-top:0 none;}*/
+/*.cui_wireless_hover i{border:5px solid #fff;border-bottom-color:#ff5613;border-top:0 none;}*/
+.cui_wireless_hover {display:block;}
+.cui_wireless_box{display:none;position:absolute;right:0;top:40px;z-index:100;padding-top:12px;}
+.cui_wireless_inbox{padding-top:25px;width:277px;border:3px solid #ffb000;background-color:#fff;cursor:default;}
+.cui_wireless_box:hover{display:block;}
+.cui_hd .cui_wireless_close{position:absolute;right:2px;top:14px;width:38px;height:43px;font:36px SimSun;color:#a9a9a9;}
+.cui_hd .cui_wireless_close:hover{color:#2577E3;text-decoration:none;}
+.cui_wireless_type{margin:0;padding:5px 10px 30px 17px;*zoom:1;}
+.cui_wireless_type:after{content:'\0020';display:block;clear:both;height:0;overflow:hidden;}
+.cui_wireless_type dt{float:left;width:53px;height:52px;margin-right:19px;background-position:0 -50px;font:24px/66px 'Microsoft YaHei';color:#fff;text-align:center;overflow:hidden;_display:inline;_margin-right:16px;}
+.cui_wireless_type dd{position:relative;display:table;*zoom:1;}
+.cui_wireless_title{margin-bottom:10px;font-size:16px;color:#333;}
+.cui_input_box{position:relative;}
+input.cui_wireless_input{width:127px;padding:0 20px 0 3px;border-color:#bbb #ddd #ddd #bbb;border-style:solid;border-width:1px;height:28px;font:14px/28px "Microsoft YaHei", SimSun, Tahoma, Verdana, Arial, sans-serif;outline:none;color:#333;box-shadow:1px 1px 1px #ddd inset;}
+.cui_wireless_input:focus{border-color:#67a1e2;box-shadow:none;}
+.cui_wireless_input::-ms-clear{display:none;}
+.cui_input_error{background-color:#fff7d9;border-color:#d80000;}
+.cui_input_close{position:absolute;top:1px;left:128px;width:24px;height:30px;background-position:-78px -44px;cursor:pointer;overflow:hidden;text-indent:-99em;}
+.cui_wireless_btn,.cui_wireless_btn_disabled{display:block;margin-top:10px;width:150px;height:32px;line-height:32px;color:#fff;font-size:14px;font-family:SimSun, Tahoma, Verdana, Arial;font-weight:bold;cursor:pointer;text-align:center;box-shadow:0 1px 0 rgba(204,204,204,0.7); border-radius:3px; *filter:chroma(color=#000000);overflow:visible;}
+input.cui_wireless_btn{text-shadow:1px 1px 0 #cf7000;background-color:#ffb000;border:solid 1px #e77c00;color:#fff;}
+input.cui_wireless_btn:hover{background-color:#ff8400;border-color:#de7800;}
+input.cui_wireless_btn_disabled{color:#999;background-color:#efefef;border:solid 1px #ccc;font-size:12px;font-weight:normal;cursor:default;}
+input.cui_wireless_btn_disabled:hover{text-decoration:none;}
+.cui_wireless_msg{position:absolute;padding:5px 5px 5px 20px;font-family:Simsun;font-size:12px;line-height:16px;color:#333;overflow:hidden;*zoom:1;white-space:nowrap;}
+.cui_wireless_msg i{float:left;margin-left:-20px;width:16px;height:16px;margin-top:-1px\0;*margin-top:-1px;}
+.cui_wireless_msg i.cui_ico_s{background-position:-60px -50px;}
+.cui_wireless_msg i.cui_ico_w{background-position:-60px -70px;}
+.cui_wireless_code{display:block;width:104px;height:104px;background-position:0 -110px;}
+.cui_link_app{display:block;position:relative;overflow:hidden;*zoom:1;margin-top:-12px;height:20px;padding:10px 0;background-color:#f2f2f2;font:16px/20px 'Microsoft YaHei';color:#4a4a4a;text-align:center;}
+.cui_link_app i{display:inline-block;width:10px;height:14px;margin-left:5px;background-position:-60px -90px;vertical-align:-1px;*display:inline;*zoom:1;overflow:hidden;*vertical-align:4px;}
+.cui_wireless_hover a.wireless i{border:5px solid #fff;border-bottom-color:#ff5613;border-top:0 none;}
+
+
+
+
+/* ----------------------responsive navigation---------------------- */
+/*=nav-background*/
+#cui_nav{font-family:'microsoft yahei',Arial,sans-serif;text-align:left;font-size:12px;width:100%;}
+.base_nav{width:100%;height:40px;background-color:#2577e3;margin:0 auto 54px;}
+.cui_nav_single .base_nav{margin-bottom:10px;}
+/*=nav*/
+.cui_nav{position:relative;z-index:25;min-width:1000px;max-width:1180px;margin:0 auto;height:40px;line-height:37px;font-size:16px;background-color:#2577e3;}
+.cui_nav li{float:left;display:inline-block;height:37px;_float:none;_display:inline;_zoom:1;_vertical-align:top;}
+.cui_nav li a{font-size:16px;}
+.cui_nav li .cui_nav_has,
+.cui_nav li .cui_nav_non{position:relative;display:block;height:37px;border-top:3px solid #2577e3;padding:0 7px;color:#fff;_float:left;cursor:pointer;}
+.cui_nav li .cui_nav_has{padding-right:14px;}
+
+.cui_nav li a.cui_nav_non:hover,
+.cui_nav li a.cui_nav_has:hover,
+.cui_nav li.cui_nav_o .cui_nav_has,
+.cui_nav li.cui_nav_current .cui_nav_has,
+.cui_nav li.cui_nav_current .cui_nav_non,
+.cui_nav li.cui_nav_current .cui_nav_has:hover{height:37px;background:#fff;color:#06c;border-top:3px solid #ffa024;text-decoration:none;}
+.cui_nav li.cui_nav_current_home .cui_nav_non{color:#fff;background:#2577E3;border-top:3px solid #ff9915;}
+.cui_nav li .cui_nav_non span,
+.cui_nav li .cui_nav_has span{display: block;margin-top:-3px;}
+.cui_nav li.cui_nav_unhover .cui_nav_non,
+.cui_nav li.cui_nav_unhover .cui_nav_has{height:36px;}
+.cui_nav li.divider{width:1px;height:16px;padding-left:0;margin:13px 1px 0;_margin-top:11px;background-color:#1d67dd;}
+
+
+/*=sub-nav-margin*/
+#cui_nav_home .cui_nav_non{margin-left:3px;}
+#cui_nav_vac .cui_sub_nav{padding-left:0;}
+#cui_nav_hotel .cui_sub_nav,#cui_nav_vac .cui_sub_nav{padding-left:16px;}
+#cui_nav_flight .cui_sub_nav{padding-left:16px;}
+#cui_nav_trains .cui_sub_nav{padding-left:124px;}
+#cui_nav_car .cui_sub_nav{padding-left:230px;}
+#cui_nav_tuan .cui_sub_nav{padding-left:390px;}
+#cui_nav_g .cui_sub_nav{padding-left:450px;}
+#cui_nav_lpk .cui_sub_nav{padding-left:465px;}
+#cui_nav_sl .cui_sub_nav{padding-left:617px;}
+#cui_nav_more .cui_sub_nav{padding-left:731px;}
+#cui_nav_ticket .cui_sub_nav{padding-left:346px;}
+#cui_nav_destination .cui_sub_nav{padding-left:255px;}
+
+/*=nav-current*/
+.cui_nav li i.cui_ico_triangle{position:absolute;right:4px;top:15px;width:7px;height:4px;overflow:hidden;background-position:-44px -264px;+cursor:pointer;}
+.cui_nav li a:hover .cui_ico_triangle,
+.cui_nav li.cui_nav_current .cui_ico_triangle{background-position:-23px -260px;}
+
+/*=subnav*/
+.cui_nav_current .cui_subnav_wrap,.cui_nav_o .cui_subnav_wrap{display:block;}
+.cui_nav_o .cui_subnav_wrap{z-index:10;}
+.cui_subnav_wrap{display:none;white-space:nowrap;position:absolute;z-index:8;left:0;top:40px;line-height:40px;color:#666;width:100%;background-color:#fff;}
+.cui_nav_current .cui_subnav_wrap{display:block;}
+.cui_nav_current .cui_sub_nav{background:#fff;}
+.cui_sub_nav{width:auto;height:37px;line-height:37px;border:1px solid #bbb;border-top:none;font-size:14px;}
+.cui_sub_nav:before,.cui_sub_nav:after{content: '\0020';display: block;clear: both; height:0; overflow:hidden;}
+.cui_sub_nav li{position:relative;float:left;display:inline-block;height:auto;margin:0 5px;color:#333;font-size:14px;}
+.cui_sub_nav li a{color: #333;font-size:14px;}
+.cui_sub_nav a:hover,.cui_sub_nav a.cui_sub_current{color:#06c;text-decoration: none;}
+/*=icon*/
+.cui_ico_new{position:absolute;z-index:1;left:602px;top:52px;width:24px;height:16px;overflow:hidden;background-position:0 -95px;}
+.cui_ico_beta{position:absolute;z-index:1;margin-top:5px;+margin-top:-3px;_margin-top:-8px;width:29px;height:14px;overflow:hidden;background-position:0 -114px;}
+.cui_ico_sale{position:absolute;z-index:1;top:55px;left:465px;width:29px;height:14px;background-position:0 -133px;overflow:hidden;}
+.cui_ico_hot{position:absolute;z-index:1;top:52px;left:355px;width:24px;height:16px;background-position:0 -76px;overflow:hidden;}
+.cui_ico_price{position:absolute;z-index:1;top:52px;left:492px;width:27px;height:16px;background-position:0 -57px;overflow:hidden;}
+.cui_ico_snatch{position:absolute;z-index:1;top:52px;left:140px;width:27px;height:16px;background-position:0 -171px;overflow:hidden;}
+.cui_ico_popular{position:absolute;z-index:1;top:52px;left:132px;width:27px;height:17px;background-position:0 -674px;overflow:hidden;}
+.cui_ico_1111{position:absolute;z-index:1;top:54px;left:500px;width:23px;height:14px;background-position:0 -631px;overflow:hidden;}
+.cui_ico_save{position:absolute;z-index:1;top:0;left:42px;width:17px;height:16px;background-position:0 -152px;overflow:hidden;}
+.cui_ico_notejj{position:absolute;z-index:1;top:-13px;left:20px;width:37px;height:16px;background-position:0 -610px;overflow:hidden;}
+.cui_ico_rebate{position:absolute;z-index:1;top:-13px;left:42px;width:37px;height:16px;background-position:0 -698px;overflow:hidden;}
+
+#cui_nav .cui_sub_nav a .cui_ico_new,
+#cui_nav .cui_sub_nav a .cui_ico_hot,
+#cui_nav .cui_sub_nav a .cui_ico_notejj,
+#cui_nav .cui_sub_nav a .cui_ico_save,
+#cui_nav .cui_sub_nav a .cui_ico_rebate{top:0px;}
+
+.cui_sub_nav a .cui_ico_new{top:-9px;left:35px;_left:37px;}
+.cui_sub_nav a .cui_ico_notejj{top:-9px;left:52px;_left:54px;}
+.cui_sub_nav a .cui_ico_hot{top:-9px;left:60px;_left:62px;}
+.cui_sub_nav a .cui_ico_save{top:-9px;}
+.cui_subnav_wrap .cui_ico_order{position:absolute;top:10px;right:18px;padding-left:20px;background-position:-67px -542px;line-height:18px;font-size:14px;color:#333;}
+.cui_ico_tips{position:absolute;right:15px;top:14px;display:inline-block;width:25px;height:13px;padding:0 3px;overflow:hidden;background-position: -49px -590px;line-height:13px;text-align:center;color:#de0808;font-family:'Tahoma';font-size:12px;}
+/*#cui_nav_hotel .cui_ico_order{right: 48px;}*/
+#cui_nav_trains .cui_sub_nav a .cui_ico_new{top:-9px;left:62px;_left:64px;}
+
+
+
+
+/*myctrip*/
+li.cui_nav_myctrip{position:absolute;z-index:25;right:0;top:0;width:122px;height:40px;padding:0 5px 0 33px;background:#FF9913 url(http://pic.c-ctrip.com/common/un_header_footer20150317.png) no-repeat -53px -213px;color: #fff;}
+/*myctrip common*/
+.cui_myctrip_log li{float: left;overflow:hidden;height:20px;line-height: 20px;margin:0;padding: 0;font-size:12px;}
+.cui_myctrip_log li,
+.cui_myctrip_log li a{color:#fff;font-size:12px;}
+.cui_myctrip_log li.user{display:inline-block;}
+.cui_myctrip_log li.user p.user_name{width:100px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+.cui_myctrip_log li.user p.user_level,.cui_myctrip_log li.user span.user_avatar{display: none;}
+.cui_myctrip_log li.logout{position:absolute;right:5px;top: 0;}
+.cui_myctrip_log li.myctrip{float: left;width:60%;margin-top:-2px;}
+.cui_myctrip_log li.message{position:absolute;right:3px;bottom:2px;}
+.cui_myctrip_log li.message a.badge{display: inline-block;height: 20px;background-position:-66px -52px;padding:0 0 0 14px;font-weight:normal;border-radius:0;background-color:#FF9913;text-shadow:none;}
+.cui_myctrip_log li.userLogin{padding-top:1px;height:18px;}
+.cui_myctrip_log li.userLogin span{font-size:14px;padding:0 5px;}
+.cui_myctrip_log li.userLogin{font-size: 12px;line-height:1.5;}
+.basebtns_01{width: 100%;height: 35px;line-height: 32px;text-align: center;color: #fff;font-size: 16px;border: 1px solid #d5790a;cursor: pointer;vertical-align: middle;background-color: #ffba14;font-weight: bold;text-shadow: 1px 1px 0 #e57c00;border-radius: 3px;box-shadow: 0 2px 2px rgba(0,0,0,0.2);letter-spacing: 0.4em;text-indent: 0.4em;*text-indent: 0;}
+
+/*myctrip*/
+.cui_myctrip_log li.myctrip a{font-size:14px;}
+.myctrip a b.arrow{display:inline-block;width: 9px;height: 5px;vertical-align:middle;margin-left:3px;overflow: hidden;background-position: -43px -264px;}
+.myctrip a:hover b.arrow,.myctrip a b.b_h{background-position: -43px -259px;}
+.cui_account{position:absolute;left:-1px;top:40px;z-index:10;border:1px solid #c3c3c3;border-top:none;padding:8px 14px 5px;width:131px;background-color:#fff;color:#333;text-align:left;line-height:1.5;border-bottom-left-radius:3px;border-bottom-right-radius:3px;box-shadow:0 0 3px rgba(0,0,0,0.2);}
+.cui_account li{width:100%;display: block;padding:3px 0;clear:left;font-size:12px;height:auto;line-height:1.5;}
+.cui_myctrip_log .cui_account li a{color:#06c;font-size:12px;}
+.cui_account li.divider{width:100%;padding:0;margin:0 0 3px;height:0;line-height:0;border-bottom:1px solid #C3C3C3;font-size:0;background-color:#C3C3C3;overflow:hidden;}
+/* ---------------------header end-------------------------- */
+/**/
+.cui_nav,.cui_hd{width:1180px;}
+.cui_hd{/*background:url(http://pic.c-ctrip.com/index/bg_doodle_140603.png) 135px bottom no-repeat;*/}
+.cui_doodle{position:absolute;z-index:1;top:0;left:120px;max-width:590px;height:59px;}
+.cui_doodle a{position: absolute;bottom:0;}
+
+/* footer */
+.cui_footer{margin-top:20px;padding-bottom:20px;background-color:#f7f7f7;text-align:center;overflow:hidden;clear:both;*zoom:1;}
+.ft_guide{margin:30px auto;width:1180px;*zoom:1;}
+.ft_guide:after{clear:both;content:'.';display:block;height:0;visibility:hidden;line-height:0;}
+.ft_guide a{color:#4C4C4C;}
+.ft_guide .travel_info,
+.ft_guide .join_in,
+.ft_guide .about_ctrip{float:left;padding:0 50px 0 90px;width:170px;height:170px;border-right:1px solid #e1e1e1;text-align:left;color:#666;font-family:Simsun;overflow:hidden;*zoom:1;font-family:'Microsoft yahei';}
+.ft_guide .travel_info{padding-right:20px;}
+.ft_guide .about_ctrip{padding-right:40px;}
+.ft_guide dt{margin-bottom:7px;font-size:12px;font-weight:bold;line-height:30px;}
+.ft_guide dd{float:left;margin-top:8px;width:85px;}
+.ft_guide i{float:left;margin-left:-42px;width:32px;height:32px;}
+.travel_info i{background-position:0 -480px;}
+.join_in i{background-position:0 -520px;}
+.about_ctrip i{background-position:0 -560px;}
+.ft_lang{float:left;padding:3px 0 0 20px;width:230px;overflow:hidden;*zoom:1;}
+.ft_lang dt{display: none;}
+.ft_lang dd{margin-top: 0;width:80px;overflow:hidden;margin:0 0 8px 35px;_margin:0 0 8px 20px;}
+.ft_lang dd a{float:left;display: inline-block;padding:0;width:80px;height:21px;line-height:21px;color:#333;text-align:left;text-indent:24px;overflow:hidden;_display:inline;}
+.ft_lang a:hover{text-decoration:none;}
+.ft_lang .lang_big5{background-position:0 4px;text-indent:-99em;}
+.ft_lang .lang_fr{background-position:-61px -502px;}
+.ft_lang .lang_en{background-position:-61px -467px;}
+.ft_lang .lang_de{background-position:-61px -484px;}
+.ft_lang .lang_jap{background-position:0 -429px;text-indent:-99em;}
+.ft_lang .lang_es{background-position:-61px -519px;}
+.ft_lang .lang_korea{background-position:0 -448px;text-indent:-99em;}
+.ft_lang .lang_ru{background-position:0 -34px;text-indent:-99em;}
+.ft_lang .lang_vn{background-position:0 -410px;text-indent:-99em;}
+.cui_footer .copyright{font-family:Tahoma;color:#999;}
+.cui_footer .copyright a{color:#999;}
+.honour_wrap{display:inline-block;padding-top:18px;*display:inline;*zoom:1;text-align:left;}
+.honour_wrap li{float:left;}
+.honour_wrap a,.honour_wrap span{float:left;margin:0 5px;width:88px;height:32px;border:1px solid #d1d1d1;border-radius:2px;font:12px/32px Simsun;color:#666;overflow:hidden;background-image:url(http://pic.c-ctrip.com/index/phone_list140909.png?20150126);background-color:#fff;background-repeat:no-repeat;background-position:0 0;text-indent:-99em;}
+.honour_wrap a:hover{text-decoration:none;}
+.honour_wrap .honour1{background-position:-88px -50px;text-indent:36px;}
+.honour_wrap .honour2{background-position:-88px -85px;text-indent:36px;}
+.honour_wrap .honour3{background-position:0 -50px;}
+.honour_wrap .honour4{background-position:-88px -118px;text-indent:0;padding:2px 0 2px 37px;width:51px;height:28px;line-height:1.2;}
+.honour_wrap .honour5{background-position:0 -84px;}
+.honour_wrap .honour6{background-position:0 -118px;}
+.honour_wrap .honour7{background-position:0 -155px;width: 128px;}
+.honour_wrap .honour8{background-position:0 -193px;width:90px;}
+
+@media screen and (max-width:1200px){
+	.cui_hd,.cui_nav{width:1000px;}
+	#cui_nav_cruise,li.divider_spec{display: none;}
+	.cui_footer .ft_guide{width:980px;}
+	.cui_footer .ft_guide dl{padding:0 30px 0 66px}
+	.cui_footer .ft_guide .travel_info{padding-left:50px;padding-right:0;}
+	.cui_footer .ft_guide .about_ctrip{padding-right:20px;}
+	.cui_footer .ft_guide .ft_lang{padding-left:25px;width:180px}
+	.cui_footer .ft_guide .ft_lang dd{margin:0 0 8px 6px;}
+
+	/* cui tourism festival theme */
+	.cui_tourism_festival{margin-left:-22px;background:url(http://pic.c-ctrip.com/index/pic_doodle_mar_980.jpg) 0 0 no-repeat;}
+}
+

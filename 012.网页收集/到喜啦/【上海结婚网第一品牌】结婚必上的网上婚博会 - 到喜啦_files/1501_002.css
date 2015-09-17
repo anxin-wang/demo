@@ -1,0 +1,35 @@
+.indexTool{ display:block;position: fixed;z-index: 950;width: 50px;top: 0;right: 0;height: 100%; background:#e5e5e5;}	
+.indexTool .toolMain{position: absolute;z-index: 1;width: 50px;top: 300px;height: 100%;}
+.indexTool .toolMain ul{height: 100%;padding-bottom: 200px;background: #e5e5e5;}
+.indexTool .toolMain ul li{position: relative;overflow: hidden;}
+.indexTool .toolMain ul li a{display: block;width: 100%;height: 100%;text-align: center;color: #ff5384;
+text-decoration: none;-webkit-transition: 0;}
+.indexTool .toolMain ul .customService{width: 98px;height: 87px;position: absolute;top: -95px;
+left: -45px;z-index: 4;}
+.indexTool .toolMain ul .customService a{background:url(/order/img/flag/kefu2.png) no-repeat 0 0;cursor: pointer; text-indent:-9999px;}
+.indexTool .toolMain ul .wechat{width: 50px;height:65px;margin-top:5px;}
+.indexTool .toolMain ul .wechat a{line-height: 101px;
+background: url(/www/img/index/indexTool.png) no-repeat 0 -67px;cursor: pointer;}
+.indexTool .toolMain ul .wechat a:hover{background-position: -50px -67px;color:#fff;}
+.indexTool .toolMain ul .wechat .cur{background-position: -50px -67px;color:#fff;}
+.indexTool .toolMain ul .propose{width: 50px;margin-top:10px;height: 67px;}
+.indexTool .toolMain ul .propose a{line-height: 100px;color: #898989;
+background: url(/www/img/index/indexTool.png) no-repeat 0 -134px;cursor: pointer;}
+.indexTool .toolMain ul .propose a:hover{ background-position:-50px -134px;color:#fff;}
+.indexTool .toolMain ul .backTotop{ display:none;width: 50px;height: 67px; margin-top:4px;}
+.indexTool .toolMain ul .backTotop a{line-height: 98px;color: #898989;
+background: url(/www/img/index/indexTool.png) no-repeat 0 -201px;cursor: pointer;}
+.indexTool .toolMain ul .backTotop a:hover{ background-position:-50px -201px;color:#fff;}
+
+.indexTool .wechatDiv{ display:none;position: absolute;min-width: 174px;top: 305px;*top:301px;left: -175px;opacity: 1;height: 178px;
+border: 1px solid #ff5384;z-index: 2;background:#fff;}
+.indexTool .wechatDiv .wechatContent{width: 172px;color: #999;background: #fff;position: relative;z-index: 2;}
+.wechatDivapp, .wechatDivwechat {height: 66px;padding: 12px 0 10px 0;}
+.wechatDivapp ul, .wechatDivwechat ul {float: left;padding-left: 12px;}
+
+.wechatDiv .wechatTitle {color: #000;line-height: 26px;}
+.wechatDiv .borderIcon {width: 13px;height: 12px;background: url(/www/img/index/indexTool.png) no-repeat 0 -270px;
+position: absolute;z-index: 3;top: 0;left: 0;}
+
+.indexTool .arrowIcon {display: none;width: 5px;height: 10px;background: url(/www/img/index/indexTool.png) no-repeat 0 -282px;
+position: absolute;z-index: 3;top: 328px;right:45px;}
