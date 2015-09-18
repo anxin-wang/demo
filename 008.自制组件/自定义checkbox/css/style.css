@@ -1,0 +1,50 @@
+﻿.page_tit {
+    height: 40px;
+    background: #eae9e9;
+    line-height: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #213967;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.ptit_text {
+    display: inline-block;
+    float: left;
+}
+
+.color_blue {
+    color: #0A67AD;
+}
+
+.advice_window .page_tit{
+    background: none;
+}
+
+.ptit_text {
+    display: inline-block;
+    float: left;
+}
+
+.advice_window .ptit_text{
+    font-weight: normal;
+    color: #9cb7c3;
+}
+
+.radio_checked .radio_ck2 {
+    background: url(../images/icon_01.png);
+    background-size: 15px auto;
+}
+
+.radio_ck, .radio_ck2, .choose_elm, .yellow_gou {
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    background: #FF7F31;
+    margin-top: 13px;
+    margin-right: 10px;
+    float: left;
+    background: url(../images/icon_05.png);
+    background-size: 15px auto;
+}

@@ -1,11 +1,12 @@
 <html>
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-		<title>无标题文档</title>
-		<link rel="stylesheet" href="../../bootstrap/bootstrap.min.css" />
-		<link rel="stylesheet" href="../css/global.css" />
-		
-		
+		<title>移动端弹出窗口</title>
+        <meta name="viewport" content="width=device-width; initial-scale=1.0" />
+		<link rel="stylesheet" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" href="css/global.css" />
+
+
 	</head>
 	<body class="body_bg">
     <div class="container-fluid">
@@ -37,8 +38,8 @@
             </div>
         </div>
 </body>
-	<script src="../../jquery/jquery-1.11.1.js"></script>
-	<script src="../../bootstrap/bootstrap.min.js"></script>
+	<script src="js/jquery-1.7.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
 	<script>
 		$(function () {
 			function pop_window1(winId) {
@@ -47,9 +48,18 @@
 		        $pop.css({ "display": "block", "height": dheight - 60 });
 		        $pop.animate({ "top": "60px" },'slow');
 		    }
-			$(".right_list").on("click", function () {
+            function hide_window(winId){
+                var $pop = $("#" + winId);
+                var dheight = $(document).height();
+                $pop.animate({  "top": "0px" },'slow').hide('fast');
+            }
+			$(".right_list").toggle( function () {
 		        pop_window1("sx_advice_window1");
-		    });
+		    },function(){
+                hide_window("sx_advice_window1")
+            });
+
+            //checkbox
 		    $(".sx_row").on("click", function () {
 		        $(".sx_row").removeClass("sx_row_on");
 		        $(this).toggleClass("sx_row_on");
