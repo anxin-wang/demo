@@ -4,33 +4,181 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f9a8497-16a0-4bfc-bbe2-5ce2b2b41061" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/008.自制组件/pop_menu/modal.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/008.自制组件/自定义checkbox/css/style.css" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\002.布局\grid布局\挑食2\deliciousdiary-guide.min.2264778beb69e6089167613a011f06be.css" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\002.布局\grid布局\挑食\挑食.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\008.自制组件\accordion.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\008.自制组件\assets\css\global.css" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\008.自制组件\checkbox.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\008.自制组件\images_slider.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\008.自制组件\js\jquery-1.7.1.min.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\008.自制组件\pop_menu\pop_menu_1.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/002.布局/grid布局/挑食/挑食_files/base.css" afterPath="$PROJECT_DIR$/002.布局/grid布局/挑食/挑食_files/base.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/002.布局/grid布局/挑食/挑食_files/deliciousdiary-guide.css" afterPath="$PROJECT_DIR$/002.布局/grid布局/挑食/挑食_files/deliciousdiary-guide.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/008.自制组件/pop_menu/flowOver.html" afterPath="$PROJECT_DIR$/008.自制组件/pop_menu/flowOver.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/002.布局/grid布局/挑食2/grid1.html" afterPath="$PROJECT_DIR$/002.布局/grid布局/挑食2/grid1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/008.自制组件/images_slider/images_slider.html" afterPath="$PROJECT_DIR$/008.自制组件/images_slider/images_slider.html" />
+    <list default="true" id="1f9a8497-16a0-4bfc-bbe2-5ce2b2b41061" name="Default" comment="update">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/examples/crop-avatar/img/20150922050700.original.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/examples/crop-avatar/img/20150922050700.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/examples/crop-avatar/img/20150922051041.original.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/examples/crop-avatar/img/20150922051041.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/assets/fonts/FontAwesome.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/docs/apple-touch-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/src/img/bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/assets/img/data.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/docs/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/assets/fonts/fontawesome-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/assets/fonts/fontawesome-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/assets/fonts/fontawesome-webfont.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/assets/fonts/fontawesome-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/assets/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/assets/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/assets/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/assets/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/assets/img/layers.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/examples/crop-avatar/img/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/assets/img/picture-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/assets/img/picture.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/examples/crop-avatar/img/picture.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/src/.csscomb.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/src/.csslintrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/.editorconfig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/.gitattributes" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/.htmlcombrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/src/.jscsrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/src/.jshintrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/Administrator.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/CHANGELOG.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/CONTRIBUTING.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/FAQ.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/LICENSE.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/examples/crop-avatar/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/src/scss/_main.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/src/scss/_mixins.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/src/scss/_utilities.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/src/scss/_variables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/test/options/aspectRatio.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/test/options/autoCrop.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/test/options/background.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/src/js/bind.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/assets/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/assets/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/src/js/build.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/test/events/build.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/test/events/built.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/test/options/center.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/src/js/change.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/test/options/checkImageOrigin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/test/methods/clear.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/test/events/crop.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/test/methods/crop.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/examples/crop-avatar/crop.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/test/options/cropBoxMovable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/test/options/cropBoxResizable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/test/events/cropend.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/test/events/cropmove.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/src/js/cropper.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/src/scss/cropper.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/test/events/cropstart.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/examples/customize-preview.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/test/options/data.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/src/js/defaults.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/test/methods/destroy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/test/methods/disable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/test/options/doubleClickToggle.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/test/options/dragCrop.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/test/methods/enable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/test/events.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/assets/css/font-awesome.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/assets/fonts/fontawesome-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/test/methods/getCanvasData.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/test/methods/getContainerData.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/test/methods/getCropBoxData.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/test/methods/getCroppedCanvas.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/test/methods/getData.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/test/methods/getImageData.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/assets/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/test/options/guides.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/gulpfile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/src/js/handlers.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/test/options/highlight.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/docs/humans.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/demo/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/docs/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/examples/crop-avatar/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/src/js/intro.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/assets/js/jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/src/js/load.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/demo/css/main.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/docs/css/main.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/examples/crop-avatar/css/main.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/test/css/main.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/demo/js/main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/docs/js/main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/examples/crop-avatar/js/main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/test/js/main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/test/methods.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/src/js/methods.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/test/options/minCanvasHeight.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/test/options/minCanvasWidth.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/test/options/minContainerHeight.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/test/options/minContainerWidth.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/test/options/minCropBoxHeight.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/test/options/minCropBoxWidth.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/test/options/modal.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/test/options/mouseWheelZoom.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/test/options/movable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/test/methods/move.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/test/options.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/src/js/outro.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/src/js/plugin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/src/js/preview.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/src/js/prototype.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/assets/css/qunit.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/assets/js/qunit.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/src/js/render.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/test/methods/replace.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/test/methods/reset.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/docs/robots.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/test/options/rotatable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/test/methods/rotate.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/test/options/scalable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/test/methods/scale.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/test/methods/setAspectRatio.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/test/methods/setCanvasData.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/test/methods/setCropBoxData.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/test/methods/setData.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/test/methods/setDragMode.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/test/options/strict.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/src/js/template.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/assets/css/tooltip.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/assets/js/tooltip.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/test/options/touchDragZoom.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/typescript-compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/src/js/utilities.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/src/js/variables.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/test/events/zoom.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/test/methods/zoom.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/003.uploadCrop/cropper-master/test/options/zoomable.js" />
+      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\README.md" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cache\.htaccess" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cache\2a83b83d933c88ab1cf241b01837c8c2.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cache\5b1ed7994ce57347f340b9b0889790a5.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\image-background.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\index.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\m_index.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\static\images\image.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\static\javascript\jcrop\jcrop.mine.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\static\javascript\jcrop\jquery.color.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\static\javascript\jcrop\jquery.jcrop.avatar.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\static\javascript\jcrop\jquery.jcrop.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\static\javascript\jcrop\jquery.jcrop.mobile.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\static\javascript\jquery\jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\static\javascript\jquery\zepto.min.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\static\style\base.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\static\style\jcrop\aq_bgx1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\static\style\jcrop\aq_bgx3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\static\style\jcrop\icon_dot.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\static\style\jcrop\jcrop.gif" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\static\style\jcrop\jquery.jcrop.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\upload.php" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/008.自制组件/pop_menu/dropdown.html" afterPath="$PROJECT_DIR$/008.自制组件/pop_menu/dropdown.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jsDemo_demo.iml" afterPath="$PROJECT_DIR$/.idea/jsDemo_demo.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="E:\workspace\jsDemo_demo\008.自制组件\assets\images\EIP_home_search_lj.png" afterPath="$PROJECT_DIR$/008.自制组件/pop_menu/EIP_home_search_lj.png" />
-      <change type="MOVED" beforePath="E:\workspace\jsDemo_demo\008.自制组件\assets\images\icon_01.png" afterPath="$PROJECT_DIR$/008.自制组件/自定义checkbox/images/icon_01.png" />
-      <change type="MOVED" beforePath="E:\workspace\jsDemo_demo\008.自制组件\assets\images\icon_04.png" afterPath="$PROJECT_DIR$/008.自制组件/自定义checkbox/images/icon_04.png" />
-      <change type="MOVED" beforePath="E:\workspace\jsDemo_demo\008.自制组件\assets\images\icon_list.png" afterPath="$PROJECT_DIR$/008.自制组件/自定义checkbox/images/icon_list.png" />
-      <change type="MOVED" beforePath="E:\workspace\jsDemo_demo\008.自制组件\assets\images\last_layer.png" afterPath="$PROJECT_DIR$/008.自制组件/自定义checkbox/images/last_layer.png" />
-      <change type="MOVED" beforePath="E:\workspace\jsDemo_demo\008.自制组件\assets\images\white_gou.png" afterPath="$PROJECT_DIR$/008.自制组件/自定义checkbox/images/white_gou.png" />
-      <change type="MOVED" beforePath="E:\workspace\jsDemo_demo\008.自制组件\assets\images\window_bg_black.png" afterPath="$PROJECT_DIR$/008.自制组件/自定义checkbox/images/window_bg_black.png" />
-      <change type="MOVED" beforePath="E:\workspace\jsDemo_demo\008.自制组件\pop_menu\pop_menu_2.html" afterPath="$PROJECT_DIR$/008.自制组件/pop_menu/dropdown.html" />
-      <change type="MOVED" beforePath="E:\workspace\jsDemo_demo\008.自制组件\pop_menu\pop_menu_3.html" afterPath="$PROJECT_DIR$/008.自制组件/pop_menu/flowstart.html" />
-      <change type="MOVED" beforePath="E:\workspace\jsDemo_demo\008.自制组件\pop_menu\pop_menu_4.html" afterPath="$PROJECT_DIR$/008.自制组件/pop_menu/pop_menu_mobile.html" />
     </list>
     <ignored path="jsDemo_demo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -45,42 +193,17 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
-  <component name="DaemonCodeAnalyzer">
-    <disable_hints />
-  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="jsDemo_demo" />
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="flowOver.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/008.自制组件/pop_menu/flowOver.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.029411" vertical-offset="0" max-vertical-offset="1550">
-              <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="modal.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/008.自制组件/pop_menu/modal.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.441176" vertical-offset="1950" max-vertical-offset="2625">
-              <caret line="99" column="5" selection-start-line="99" selection-start-column="5" selection-end-line="99" selection-end-column="5" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="dropdown.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/008.自制组件/pop_menu/dropdown.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="2.6818182" vertical-offset="2375" max-vertical-offset="4050">
-              <caret line="154" column="13" selection-start-line="106" selection-start-column="4" selection-end-line="154" selection-end-column="13" />
+            <state vertical-scroll-proportion="10.99138">
+              <caret line="153" column="29" selection-start-line="153" selection-start-column="29" selection-end-line="153" selection-end-column="29" />
               <folding>
                 <element signature="n#style#0;n#div#1;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -88,53 +211,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="images_slider.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/008.自制组件/images_slider/images_slider.html">
+      <file leaf-file-name="diff_between_nthchild_nthoftype.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/009.基础知识实践/diff_between_nthchild_nthoftype.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.352941" vertical-offset="0" max-vertical-offset="4125">
-              <caret line="10" column="36" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="80" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="flowstart.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/008.自制组件/pop_menu/flowstart.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.171875" vertical-offset="0" max-vertical-offset="4075">
-              <caret line="3" column="31" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="31" />
-              <folding>
-                <element signature="n#style#0;n#div#3;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pop_menu_mobile.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/008.自制组件/pop_menu/pop_menu_mobile.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.2058823" vertical-offset="0" max-vertical-offset="1875">
-              <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="checkbox.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/008.自制组件/自定义checkbox/checkbox.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.352941" vertical-offset="625" max-vertical-offset="1175">
-              <caret line="35" column="31" selection-start-line="33" selection-start-column="12" selection-end-line="37" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="global.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/008.自制组件/pop_menu/css/global.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.0" vertical-offset="14820" max-vertical-offset="19825">
-              <caret line="600" column="28" selection-start-line="600" selection-start-column="12" selection-end-line="600" selection-end-column="28" />
+            <state vertical-scroll-proportion="-2.2058823">
+              <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -186,8 +267,12 @@
       </list>
     </option>
   </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
+  </component>
+  <component name="NamedScopeManager">
+    <order />
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
@@ -234,6 +319,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -262,235 +348,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="010.html_attribute" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jsDemo_demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jsDemo_demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="010.html_attribute" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jsDemo_demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jsDemo_demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="010.html_attribute" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jsDemo_demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jsDemo_demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="009.基础知识实践" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jsDemo_demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jsDemo_demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="008.自制组件" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="自定义checkbox" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jsDemo_demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jsDemo_demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="008.自制组件" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="自定义checkbox" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jsDemo_demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jsDemo_demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="008.自制组件" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="自定义checkbox" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jsDemo_demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jsDemo_demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="008.自制组件" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jsDemo_demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jsDemo_demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="008.自制组件" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pop_menu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jsDemo_demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jsDemo_demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="008.自制组件" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pop_menu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jsDemo_demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jsDemo_demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="008.自制组件" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pop_menu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jsDemo_demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jsDemo_demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="008.自制组件" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pop_menu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jsDemo_demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jsDemo_demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="008.自制组件" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images_slider" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -505,57 +363,17 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="002.布局" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jsDemo_demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jsDemo_demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="002.布局" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="grid布局" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jsDemo_demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jsDemo_demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="002.布局" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="grid布局" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="挑食" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../jsDemo_framework-research" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../jsDemo_project" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
@@ -565,6 +383,8 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="LayoutCode.rearrangeEntriesHTML" value="false" />
     <property name="recentsLimit" value="5" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.ChangelistConflict" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -575,9 +395,9 @@
       <recent name="E:\workspace\jsDemo_demo\010.html_attribute\js" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\workspace\jsDemo_demo\008.自制组件\pop_menu" />
       <recent name="E:\workspace\jsDemo_demo\008.自制组件\pop_menu\css" />
       <recent name="E:\workspace\jsDemo_demo\008.自制组件\pop_menu\js" />
-      <recent name="E:\workspace\jsDemo_demo\008.自制组件\pop_menu" />
       <recent name="E:\workspace\jsDemo_demo\008.自制组件\自定义checkbox" />
       <recent name="E:\workspace\jsDemo_demo\010.html_attribute\images" />
     </key>
@@ -608,17 +428,10 @@
       <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
       <method />
     </configuration>
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <method />
-    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <method />
     </configuration>
-    <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
-      <setting name="configLocationType" value="CONFIG_FILE" />
-      <setting name="settingsFile" value="" />
-      <setting name="serverType" value="INTERNAL" />
-      <setting name="preferredDebugBrowser" value="Chrome" />
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
       <method />
     </configuration>
     <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
@@ -626,6 +439,13 @@
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="JsTestDriver-test-runner" factoryName="JsTestDriver">
+      <setting name="configLocationType" value="CONFIG_FILE" />
+      <setting name="settingsFile" value="" />
+      <setting name="serverType" value="INTERNAL" />
+      <setting name="preferredDebugBrowser" value="Chrome" />
       <method />
     </configuration>
     <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
@@ -641,6 +461,7 @@
       <node-options />
       <gulpfile />
       <tasks />
+      <arguments />
       <pass-parent-envs>true</pass-parent-envs>
       <envs />
       <method />
@@ -676,49 +497,52 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
+    <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32789558" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="TypeScript Compiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26101142" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32952693" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22098215" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Duplicates" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952693" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23586309" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32789558" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25372022" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Duplicates" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32789558" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="TypeScript Compiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26101142" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22098215" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23586309" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Duplicates" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Duplicates" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32789558" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25372022" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -733,9 +557,8 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="myTodoPanelSettings">
-      <TodoPanelSettings />
-    </option>
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -750,211 +573,224 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/003.uploadCrop/upload.php">
+    <entry file="file://$PROJECT_DIR$/008.自制组件/pop_menu/css/global.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="600" column="28" selection-start-line="600" selection-start-column="12" selection-end-line="600" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/003.uploadCrop/upload.php">
+    <entry file="file://$PROJECT_DIR$/008.自制组件/pop_menu/flowOver.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/003.uploadCrop/upload.php">
+    <entry file="file://$PROJECT_DIR$/008.自制组件/pop_menu/modal.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="99" column="5" selection-start-line="99" selection-start-column="5" selection-end-line="99" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/003.uploadCrop/upload.php">
+    <entry file="file://$PROJECT_DIR$/008.自制组件/pop_menu/dropdown.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2125" max-vertical-offset="2275">
-          <caret line="85" column="33" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="33" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/008.自制组件/images_slider/images_slider.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="36" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/008.自制组件/pop_menu/flowstart.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="31" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/008.自制组件/pop_menu/pop_menu_mobile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/008.自制组件/自定义checkbox/checkbox.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="35" column="31" selection-start-line="33" selection-start-column="12" selection-end-line="37" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/008.自制组件/pop_menu/css/global.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="600" column="28" selection-start-line="600" selection-start-column="12" selection-end-line="600" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/001.各种纸张效果/demo2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="1375">
+        <state vertical-scroll-proportion="0.0">
           <caret line="14" column="41" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="51" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/001.各种纸张效果/demo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="850">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/001.各种纸张效果/style2.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="24790" max-vertical-offset="28025">
+        <state vertical-scroll-proportion="0.0">
           <caret line="1115" column="1" selection-start-line="1115" selection-start-column="1" selection-end-line="1115" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/001.各种纸张效果/demo2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="1375">
+        <state vertical-scroll-proportion="0.0">
           <caret line="14" column="41" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="51" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/001.各种纸张效果/demo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="350" max-vertical-offset="850">
+        <state vertical-scroll-proportion="0.0">
           <caret line="23" column="71" selection-start-line="23" selection-start-column="71" selection-end-line="23" selection-end-column="71" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/001.各种纸张效果/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="30725">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/001.各种纸张效果/style2.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="24790" max-vertical-offset="28025">
+        <state vertical-scroll-proportion="0.0">
           <caret line="1115" column="1" selection-start-line="1115" selection-start-column="1" selection-end-line="1115" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/001.各种纸张效果/style2.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="24790" max-vertical-offset="28025">
+        <state vertical-scroll-proportion="0.0">
           <caret line="1115" column="1" selection-start-line="1115" selection-start-column="1" selection-end-line="1115" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/001.各种纸张效果/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2972028" vertical-offset="28255" max-vertical-offset="30725">
+        <state vertical-scroll-proportion="0.2972028">
           <caret line="1137" column="15" selection-start-line="1137" selection-start-column="15" selection-end-line="1137" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/001.各种纸张效果/demo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.32527882" vertical-offset="275" max-vertical-offset="850">
+        <state vertical-scroll-proportion="0.32527882">
           <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/001.各种纸张效果/demo2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.37174723" vertical-offset="150" max-vertical-offset="1375">
+        <state vertical-scroll-proportion="0.37174723">
           <caret line="14" column="41" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/003.uploadCrop/upload.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.43706295" vertical-offset="1550" max-vertical-offset="2275">
-          <caret line="72" column="47" selection-start-line="72" selection-start-column="47" selection-end-line="72" selection-end-column="47" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/008.自制组件/metro_style/metro_style.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14018692" vertical-offset="375" max-vertical-offset="1450">
+        <state vertical-scroll-proportion="0.14018692">
           <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/009.基础知识实践/diff_between_nthchild_nthoftype.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5607477" vertical-offset="150" max-vertical-offset="1200">
-          <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/010.html_attribute/js/jquery.isotope.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="556">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/010.html_attribute/html_attribute.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.6398468" vertical-offset="1428" max-vertical-offset="1950">
+        <state vertical-scroll-proportion="-2.6398468">
           <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/004.uploadFile/js/fileupload2.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.40467626" vertical-offset="0" max-vertical-offset="1875">
+        <state vertical-scroll-proportion="0.40467626">
           <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/002.布局/grid布局/挑食2/deliciousdiary-guide..css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.7045455" vertical-offset="975" max-vertical-offset="9625">
+        <state vertical-scroll-proportion="-1.7045455">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/002.布局/grid布局/挑食2/grid1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="153.67647" vertical-offset="5400" max-vertical-offset="43800">
+        <state vertical-scroll-proportion="153.67647">
           <caret line="7" column="57" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
-          <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/002.布局/grid布局/挑食/挑食_files/11413_81618_s.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/002.布局/grid布局/挑食/挑食_files/base.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.243007" vertical-offset="7575" max-vertical-offset="73650">
+        <state vertical-scroll-proportion="-13.243007">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/002.布局/grid布局/挑食/挑食_files/deliciousdiary-guide.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="572">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/002.布局/grid布局/挑食/grid1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5111524" vertical-offset="950" max-vertical-offset="52450">
+        <state vertical-scroll-proportion="0.5111524">
           <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/008.自制组件/自定义checkbox/jquery-1.7.1.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="571">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/008.自制组件/pop_menu/js/jquery-1.7.1.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="571">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -965,92 +801,122 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/008.自制组件/自定义checkbox/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3502627" vertical-offset="0" max-vertical-offset="1375">
+        <state vertical-scroll-proportion="0.3502627">
           <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/008.自制组件/pop_menu/js/bootstrap.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="571">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/008.自制组件/pop_menu/css/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="571">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/008.自制组件/images_slider/images_slider.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.352941" vertical-offset="0" max-vertical-offset="4125">
-          <caret line="10" column="36" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="80" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/008.自制组件/自定义checkbox/checkbox.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.352941" vertical-offset="625" max-vertical-offset="1175">
+        <state vertical-scroll-proportion="0.0">
           <caret line="35" column="31" selection-start-line="33" selection-start-column="12" selection-end-line="37" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/008.自制组件/pop_menu/css/global.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.0" vertical-offset="14820" max-vertical-offset="19825">
+        <state vertical-scroll-proportion="0.0">
           <caret line="600" column="28" selection-start-line="600" selection-start-column="12" selection-end-line="600" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/008.自制组件/images_slider/images_slider.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7277677">
+          <caret line="29" column="53" selection-start-line="29" selection-start-column="53" selection-end-line="29" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/008.自制组件/pop_menu/pop_menu_mobile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/008.自制组件/pop_menu/flowstart.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.171875" vertical-offset="0" max-vertical-offset="4075">
+        <state vertical-scroll-proportion="0.0">
           <caret line="3" column="31" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="31" />
-          <folding>
-            <element signature="n#style#0;n#div#3;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/008.自制组件/pop_menu/flowOver.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.029411" vertical-offset="0" max-vertical-offset="1550">
-          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/008.自制组件/pop_menu/pop_menu_mobile.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.2058823" vertical-offset="0" max-vertical-offset="1875">
-          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/008.自制组件/pop_menu/modal.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.441176" vertical-offset="1950" max-vertical-offset="2625">
+        <state vertical-scroll-proportion="0.7277677">
           <caret line="99" column="5" selection-start-line="99" selection-start-column="5" selection-end-line="99" selection-end-column="5" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/008.自制组件/pop_menu/flowOver.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/002.布局/grid布局/挑食/挑食_files/thumb_023.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/002.布局/grid布局/挑食/挑食_files/thumb_016.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/002.布局/grid布局/挑食/挑食_files/thumb_004.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/002.布局/grid布局/挑食/挑食_files/thumb_002.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/002.布局/grid布局/挑食/挑食_files/4618858_65260_s.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/002.布局/grid布局/挑食/挑食_files/2014473_2153_s.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/002.布局/grid布局/挑食/挑食_files/11413_81618_s.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/009.基础知识实践/diff_between_nthchild_nthoftype.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.2058823">
+          <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/008.自制组件/pop_menu/dropdown.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.6818182" vertical-offset="2375" max-vertical-offset="4050">
-          <caret line="154" column="13" selection-start-line="106" selection-start-column="4" selection-end-line="154" selection-end-column="13" />
+        <state vertical-scroll-proportion="10.99138">
+          <caret line="153" column="29" selection-start-line="153" selection-start-column="29" selection-end-line="153" selection-end-column="29" />
           <folding>
             <element signature="n#style#0;n#div#1;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
