@@ -1,0 +1,21 @@
+/*
+使用em来设置字体
+优点：定义好页面字体的大小比例关系，这样需要将字体整个变大或变小，只需要改一下html的fontsize，就能产生全局的变化，
+包括line－height,font-family等属性，都可以全局设置。如果要改变单个文字的大小，改变对应的倍数即可。
+测试字体效果网站：http://www.typetester.org/
+*/
+html, body {
+    font-size: 12px;
+    font-family: Arial, Sans-Serif;
+    line-height: 1.5em;
+
+}
+
+h1 {
+    font-size: 1em;
+}
+
+.caption {
+    font-size: .8em;
+    line-height: 2em;
+}
