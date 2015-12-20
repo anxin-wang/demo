@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head><title>方法二</title>
+    <style type="text/css">
+        #sidebar {
+            width: 100px;
+            height: 100px;
+            float: left;
+            background-color: #cccccc;
+            border: 2px solid #333333;
+        }
+
+        #Wrap {
+            position: absolute;
+            left: 113px;
+            right: 5px;
+            height: 300px;
+            border: 2px solid #333333;
+            background: #ccc url(http://www.baidu.com/img/baidu_logo.gif) no-repeat;
+        }
+
+        /*for ie6 */
+        #floatSpan {
+            float: right;
+        }
+
+
+    </style>
+</head>
+<body>
+<!--第二种方法：采用左列向左浮动，右列绝对定位。为解决ie6下右列不撑开问题，在右列中设置一元素右浮动(不是个好方法)。-->
+<div id="sidebar"> left</div>
+<div id="Wrap">
+    right<br/>
+    right<br/>
+    right<br/>
+    right<br/>
+    right<br/>
+    right<br/>
+    right<br/>
+    right<br/>
+    right<br/>
+    <span id="floatSpan"></span>
+</div>
+</body>
+</html>

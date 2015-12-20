@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>利用定位来显示垂直局中的图片</title>
+    <style type="text/css">
+        .miao {
+            width:500px;
+            height:220px;
+            line-height:220px;
+            border: 1px solid;
+            text-align: center;
+        }
+        .miao img {
+            vertical-align: middle;
+        }
+    </style>
+    <!--[if IE 6]>
+    <style type="text/css">
+        .miao span {
+            border: 1px solid red;
+            height: 100%; /* 要保证和父元素高度一样才行 */
+            writing-mode: tb-rl;
+            vertical-align: middle;
+        }
+    </style>
+    <![endif]-->
+</head>
+<body>
+<!--当writing-mode为tb-rl 时，文档流是从上到下，从右到左书写。然后设置text-align: center就可以实现垂直方向上的居中。算是一个小技巧吧。-->
+<h1>固定高宽的容器中，图片垂直局中。</h1>
+<p>使用的绝对定位和相对定位的方法</p>
+<div class="miao">
+    <span><img src="http://bbs.blueidea.com/images/default/logo.gif" alt="Logo" /></span>你知道的太多了你知道的太多了你知道的太多了
+</div>
+<hr />
+<div class="miao">
+    <span><img src="http://bbs.blueidea.com/images/default/logo.gif" alt="Logo" /></span>你知道的太多了你知道的太多了你知道的太多了
+</div>
+<hr />
+<div class="miao">
+    <span><img src="http://www.google.cn/intl/zh-CN/images/logo_cn.gif" alt="Google" /></span>你知道的太多了
+</div>
+</body>
+</html>

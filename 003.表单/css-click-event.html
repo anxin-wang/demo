@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+    <title></title>
+    <style>
+        input[type=checkbox] {
+            position: absolute;
+            top: -9999px;
+            left: -9999px;
+        }
+
+        label {
+            display: block;
+            background: #08C;
+            padding: 5px;
+            border: 1px solid rgba(0,0,0,.1);
+            border-radius: 2px;
+            color: white;
+            font-weight: bold;
+        }
+
+        input[type=checkbox]:checked ~ .to-be-changed {
+            color: red;
+        }
+
+
+        .to-be-changed {
+            color: black;
+        }
+
+        .to-be-changed:target {
+            color: red;
+        }
+
+
+        span:focus ~ .to-be-changed {
+            color: red;
+        }
+
+        .to-be-changed {
+            transition: all 0s 9999999s;
+        }
+
+        span:active ~ .to-be-changed {
+            transition: all 0s;
+            color: red;
+        }
+
+
+    </style>
+    <link rel="stylesheet" href="">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <![endif]-->
+</head>
+<body>
+
+<h1>CHECKBOX HACK</h1>
+<input type="checkbox" id="toggle">
+<label for="toggle">Click me!</label>
+<p class="to-be-changed">I'm going to be red! It's gonna be legen... Wait for it...</p>
+
+
+<h1>THE :TARGET WAY</h1>
+<a href="#id">Click me!</a>
+<p id="id" class="to-be-changed">I'm going to be red! It's gonna be legen... Wait for it...</p>
+
+
+<h1>THE :FOCUS WAY</h1>
+<span tabindex="0">Click me!</span>
+<p class="to-be-changed">I'm going to be red! It's gonna be legen... Wait for it...</p>
+
+<h1>TRANSITION HACK</h1>
+<span>Click me!</span>
+<p class="to-be-changed">I'm going to be red! It's gonna be legen... Wait for it...</p>
+
+</body>
+</html>

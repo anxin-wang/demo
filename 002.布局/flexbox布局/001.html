@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+    <title></title>
+    <style>
+        section {
+            display: -ms-flexbox;
+            -ms-box-orient: horizontal; /*IE10中显不一行，类似于flex-direction:row功能*/
+            -ms-box-pack: center; /*ie10水平居中*/
+
+            display: -webkit-flex;
+            display: -moz-flex;
+            display: -ms-flex;
+            display: flex;
+
+            -webkit-flex-flow: row wrap;
+            -moz-flex-flow: row wrap;
+            -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+
+            /*水平居中*/
+            -webkit-justify-content: center;
+            -moz-justify-content: center;
+            -ms-justify-content: center;
+            justify-content: center;
+
+        }
+
+        nav {
+            padding: 1rem;
+            -webkit-flex: 1 100%;
+            -moz-flex: 1 100%;
+            -ms-flex: 1 100%;
+            flex: 1 100%;
+        }
+
+        nav ul {
+            text-align: center;
+            display: -ms-flexbox;
+            -ms-box-orient: horizontal;
+            -ms-box-pack: center;
+
+            display: -webkit-flex;
+            display: -moz-flex;
+            display: -ms-flex;
+            display: flex;
+            -webkit-flex-flow: row wrap;
+            -moz-flex-flow: row wrap;
+            -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+            -webkit-justify-content: center;
+            -moz-justify-content: center;
+            -ms-justify-content: center;
+            justify-content: center;
+            width: 80%;
+        }
+
+        nav a {
+            width: 100%;
+        }
+
+        nav ul li {
+            margin: 0 1.5rem;
+
+            -webkit-flex: auto;
+            -moz-flex: auto;
+            -ms-flex: auto;
+            flex: auto;
+
+            min-width: 5rem;
+        }
+
+        article:nth-of-type(1) {
+            -webkit-flex: 2;
+            -moz-flex: 2;
+            -ms-flex: 2;
+            flex: 2;
+        }
+
+        article:nth-of-type(2) {
+            display: -ms-flexbox;
+            -ms-box-orient: horizontal;
+            -ms-box-pack: center;
+            -ms-box-align: center;
+
+            display: -webkit-flex;
+            display: -moz-flex;
+            display: -ms-flex;
+            display: inline-flex;
+
+            -webkit-flex-flow: row wrap;
+            -moz-flex-flow: row wrap;
+            -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+
+            -webkit-justify-content: center;
+            -moz-justify-content: center;
+            -ms-justify-content: center;
+            justify-content: center;
+
+            -webkit-align-items: center;
+            -moz-align-items: center;
+            -ms-align-items: center;
+            align-items: center;
+
+            -webkit-align-content: flex-start;
+            -moz-align-content: flex-start;
+            -ms-align-content: flex-start;
+            align-content: flex-start;
+        }
+
+        article p {
+            margin: 0.5rem;
+
+            -webkit-flex: 1 20rem;
+            -moz-flex: 1 20rem;
+            -ms-flex: 1 20rem;
+            flex: 1 20rem;
+        }
+
+        article p img {
+            display: block;
+            width: 100%;
+            border: 1px solid black;
+        }
+
+
+    </style>
+    <link rel="stylesheet" href="">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<section>
+    <nav>111</nav>
+    <article>222</article>
+    <article>333</article>
+</section>
+
+
+</body>
+</html>

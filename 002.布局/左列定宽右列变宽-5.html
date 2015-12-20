@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>利用haslayout</title>
+        <style type="text/css">
+            #left {
+                float: left;
+                width: 100px;
+                height: 100px;
+                background-color: #ccc;
+                border: 2px solid #333;
+            }
+
+            #right {
+                overflow: hidden;
+                zoom: 1;
+                border: 2px solid #333;
+                background: #ccc url(http://www.baidu.com/img/baidu_logo.gif) no-repeat;
+            }
+        </style>
+    </head>
+    <body>
+    <!--我们可以借助ie下的haslayout让right列触发haslayout。而FF下则使用overflow:hidden(这个的原理不是很理解)。-->
+        <div id="left"> left</div>
+        <div id="right"> 1111<br/>1111<br/>1111<br/>1111<br/>1111<br/>1111<br/>111<br/>11</div>
+    </body>
+</html>

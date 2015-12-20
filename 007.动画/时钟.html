@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+    <title></title>
+    <style type="text/css">
+        #clock{
+            width: 200px;
+            height: 200px;
+            border: 1px solid black;
+            border-radius: 100px;
+            position:relative;
+            margin:0 auto;
+            background-color:#eee;
+        }
+        #dot{
+            border-radius:2px;
+            width: 8px;
+            height: 8px;
+            position:absolute;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            left: 0;
+            right: 0;
+            background: black;
+        }
+        .needle
+        {
+            -ms-transform-origin: 50% 100%;
+            -webkit-transform-origin: 50% 100%;
+            -moz-transform-origin: 50% 100%;
+            -o-transform-origin: 50% 100%;
+            transform-origin:50% 100%;
+        }
+        #second{
+            position:relative;
+            z-index:5;
+            height: 80px;
+            width: 1px;
+            margin: 20px auto;
+        }
+        #second_needle{
+            height: 100%;
+            width: 100%;
+            position: relative;
+            background: green;
+        }
+        #minute{
+            z-index:4;
+            height: 60px;
+            width: 4px;
+            position: absolute;
+            top: 40px;
+            left: 0px;
+            right: 0px;
+            margin: auto;
+        }
+        #minute_needle{
+            height: 100%;
+            width: 100%;
+            background: blue;
+        }
+        #hour{
+            z-index:3;
+            height: 40px;
+            width: 8px;
+            position: absolute;
+            top: 60px;
+            left: 0px;
+            right: 0px;
+            margin: auto;
+        }
+        #hour_needle{
+            height: 100%;
+            width: 100%;
+            background: red;
+        }
+    </style>
+
+    <link rel="stylesheet" href="">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <![endif]-->
+</head>
+<body>
+<div id="clock">
+    <div id="dot"></div>
+    <div id="second" class="needle">
+        <div id="second_needle">
+        </div>
+    </div>
+    <div id="minute" class="needle">
+        <div id="minute_needle">
+        </div>
+    </div>
+    <div id="hour" class="needle">
+        <div id="hour_needle">
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    //初始化各指钟的位置
+    window.onload = function(){
+        var date = new Date(),
+                second = date.getSeconds(),
+                minute = date.getMinutes(),
+                minuteDeg,
+                hour = date.getHours(),
+                hourDeg;
+        var secondrotate = 'rotate('+second*6+'deg)';
+        var scss = '-moz-transform:' + secondrotate + ';-o-transform:' + secondrotate + ';-ms-transform:' + secondrotate;
+//对?于úwebkit的?浏ˉ览à器÷,要a这a样ù定¨义?
+        document.getElementById('second').style.cssText = scss;
+        document.getElementById('second').style.webkitTransform = secondrotate;
+
+        minuteDeg = minute*6 + second*6/60;
+        var minuterotate = 'rotate('+minuteDeg+'deg)';
+        var minutecss = '-moz-transform:' + minuterotate + ';-o-transform:' + minuterotate + ';-ms-transform:' + minuterotate ;
+        document.getElementById('minute').style.cssText = minutecss;
+        document.getElementById('minute').style.webkitTransform = minuterotate; //对?于úwebkit的?浏ˉ览à器÷,要a这a样ù定¨义?
+        if(hour>12){
+            hour = hour -12;
+        }
+        hourDeg = hour * 30 + minute*30/60;
+        var hourtrotate = 'rotate('+hourDeg+'deg)';
+        var hcss = '-moz-transform:' + hourtrotate + ';-o-transform:' + hourtrotate + ';-ms-transform:' + hourtrotate;
+        document.getElementById('hour').style.cssText = hcss;
+        document.getElementById('hour').style.webkitTransform = hourtrotate; //对?于úwebkit的?浏ˉ览à器÷,要a这a样ù定¨义?
+
+    };
+
+    //周ü期ú性?改?变?秒?钟ó的?位?置?
+    setInterval(function(){
+        var date = new Date(),
+                second = date.getSeconds();
+
+        var secondrotate = 'rotate('+second*6+'deg)';
+        var scss = '-moz-transform:' + secondrotate + ';-o-transform:' + secondrotate + ';-ms-transform:' + secondrotate ;
+        document.getElementById('second').style.cssText = scss;
+        document.getElementById('second').style.webkitTransform = secondrotate; //对?于úwebkit的?浏ˉ览à器÷,要a这a样ù定¨义?
+
+    },1000)
+
+    //周ü期ú性?改?变?分?钟ó的?位?置?
+    setInterval(function(){
+        var date = new Date(),
+                second = date.getSeconds(),
+                minute = date.getMinutes(),
+                minuteDeg;
+        minuteDeg = minute*6 + second*6/60;
+        var minuterotate = 'rotate('+minuteDeg+'deg)';
+        var minutecss = '-moz-transform:' + minuterotate + ';-o-transform:' + minuterotate + ';-ms-transform:' + minuterotate ;
+        document.getElementById('minute').style.cssText = minutecss;
+        document.getElementById('minute').style.webkitTransform = minuterotate; //对?于úwebkit的?浏ˉ览à器÷,要a这a样ù定¨义?
+
+    },6000)
+
+    //周ü期ú性?改?变?时±钟ó的?位?置?
+    setInterval(function(){
+        var date = new Date(),
+                second = date.getSeconds(),
+                minute = date.getMinutes(),
+                hour = date.getHours(),
+                hourDeg;
+
+        if(hour>12){
+            hour = hour -12;
+        }
+        hourDeg = hour * 30 + minute*30/60;
+        var hourtrotate = 'rotate('+hourDeg+'deg)';
+        var hcss = '-moz-transform:' + hourtrotate + ';-o-transform:' + hourtrotate + ';-ms-transform:' + hourtrotate;
+        document.getElementById('hour').style.cssText = hcss;
+        document.getElementById('hour').style.webkitTransform = hourtrotate; //对?于úwebkit的?浏ˉ览à器÷,要a这a样ù定¨义?
+
+    },360000)
+</script>
+
+
+</body>
+</html>

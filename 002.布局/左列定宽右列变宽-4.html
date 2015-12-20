@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style type="text/css"> .left {
+        width: 100px;
+        height: 100px;
+        background-color: #ccc;
+        border: 2px solid #333;
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+
+    .right {
+        height: 300px;
+        margin-left: 104px;
+        border: 2px solid #333;
+        background: #ccc url(http://www.baidu.com/img/baidu_logo.gif) no-repeat;
+    } </style>
+</head>
+<body>
+<!--方法三：左列使用绝对定位，右列使用margin-left定位。-->
+<div style="position:relative;overflow:hidden;width:100%;"> <!-- 使用width是为了解决ie6下的bug -->
+    <div class="left"> left</div>
+    <div class="right"> right<br/>right<br/>right<br/>right<br/>right<br/>right<br/>right<br/>right<br/>right</div>
+</div>
+</body>
+</html>

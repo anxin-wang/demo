@@ -8,7 +8,7 @@
  */
 $up_maxsize = "2000000";
 //定义上传文件大小,Byte
-$up_savepath = "upload_shunzi";
+$up_savepath = "uploaded_files";
 //存储路径,相对于本文件
 $up_rename = "";
 //为了安全,重命名名字

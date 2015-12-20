@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head><title>方法一</title>
+    <style type="text/css">   #left {
+        width: 100px;
+        height: 100px;
+        background-color: #ccc;
+        border: 2px solid #333;
+        float: left;
+    }
+
+    #right {
+        height: 300px;
+        margin-left: 104px;
+        border: 2px solid #333;
+        background: #ccc url(http://www.baidu.com/img/baidu_logo.gif) no-repeat;
+    } </style>
+</head>
+<body>
+<!--第一种方法，网上流传比较广的方法。采用左列left浮动，右列不浮动，采用margin-left定位的方式。此方法会有一个 ie6 3px bug .另外，当浏览器框缩小到一定程度时，右侧会掉下来。-->
+<div id="left"> left</div>
+<div id="right"> 1111<br/>1111<br/>1111<br/>1111<br/>1111<br/>1111<br/>111<br/>11</div>
+</body>
+</html>

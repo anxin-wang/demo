@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+    <title></title>
+    <style>
+
+        .SD-tipbox {
+            background-color: #ffffe9;
+            border: 1px solid #ffde8e;
+            border-radius: 5px;
+            box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+            font-size: 12px;
+            margin: 10px;
+            padding: 5px 25px 5px 10px;
+            position: absolute;
+            z-index: 100;
+        }
+        .SD-tipbox .close-ico, .SD-notice-tip .close-ico {
+            background-image: url("http://css.sodao.com/home/img/close-ico.png");
+            display: block;
+            height: 16px;
+            overflow: hidden;
+            position: absolute;
+            right: 5px;
+            text-indent: -900px;
+            top: 5px;
+            width: 16px;
+        }
+        .SD-tipbox .close-ico:hover, .SD-notice-tip .close-ico:hover {
+            background-position: 0 -16px;
+        }
+        .SD-tipbox p {
+            line-height: 1.5;
+        }
+        .SD-tipbox .SD-tipbox-direction {
+            position: absolute;
+        }
+        .SD-tipbox .SD-tipbox-direction em, .SD-tipbox .SD-tipbox-direction span {
+            font-family: Simsun;
+            font-style: normal;
+            font-size: 16px;
+            height: 19px;
+            line-height: 21px;
+            overflow: hidden;
+            position: absolute;
+            width: 17px;
+        }
+        .SD-tipbox .SD-tipbox-direction em {
+            color: #ffde8e;
+        }
+        .SD-tipbox .SD-tipbox-direction span {
+            color: #ffffe9;
+        }
+        .SD-tipbox .SD-tipbox-up {
+            left: 50%;
+            margin-left: -8px;
+            top: -10px;
+        }
+        .SD-tipbox .SD-tipbox-up span {
+            top: 1px;
+        }
+        .SD-tipbox .SD-tipbox-down {
+            bottom: 9px;
+            left: 50%;
+            margin-left: -8px;
+        }
+        .SD-tipbox .SD-tipbox-down span {
+            top: -1px;
+        }
+        .SD-tipbox .SD-tipbox-right {
+            margin-top: -8px;
+            right: 7px;
+            top: 50%;
+        }
+        .SD-tipbox .SD-tipbox-right span {
+            left: -1px;
+        }
+        .SD-tipbox .SD-tipbox-left {
+            left: -8px;
+            margin-top: -8px;
+            top: 50%;
+        }
+        .SD-tipbox .SD-tipbox-left span {
+            left: 1px;
+        }
+        .SD-notice-tip {
+            margin: 0;
+            width: 200px;
+        }
+        .SD-notice-tip p {
+            line-height: 22px;
+        }
+    </style>
+    <link rel="stylesheet" href="">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <![endif]-->
+</head>
+<body>
+<div style="position:relative; height:100px">
+    <div class="SD-tipbox">
+        <div class="cntBox"><p><a href=" http://www.css88.com/archives/3904">Tip中小三角的实现!</a></p></div>
+        <div class="SD-tipbox-direction SD-tipbox-up"><em>◆</em><span>◆</span></div>
+        <div class="SD-tipbox-direction SD-tipbox-down"><em>◆</em><span>◆</span></div>
+        <div class="SD-tipbox-direction SD-tipbox-left"><em>◆</em><span>◆</span></div>
+        <div class="SD-tipbox-direction SD-tipbox-right"><em>◆</em><span>◆</span></div>
+        <a href="#" class="close-ico" onclick="return false" title="关闭">关闭</a>
+    </div>
+</div>
+<hr>
+<div style="position:relative; height:100px">
+    <div class="SD-tipbox">
+        <div class="cntBox">
+            <p>可以同步设置展示<br>
+            我的空间内容了~</p>
+        </div>
+        <div style="left:20px" class="SD-tipbox-direction SD-tipbox-up"><em>◆</em><span>◆</span></div>
+        <div class="SD-tipbox-direction SD-tipbox-down"><em>◆</em><span>◆</span></div>
+        <div class="SD-tipbox-direction SD-tipbox-left"><em>◆</em><span>◆</span></div>
+        <div class="SD-tipbox-direction SD-tipbox-right"><em>◆</em><span>◆</span></div>
+        <a href="#" class="close-ico" onclick="return false" title="关闭">关闭</a>
+    </div>
+</div>
+
+</body>
+</html>

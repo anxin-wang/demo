@@ -1,0 +1,79 @@
+/*1.建立打印版本的页面，去除不必要的页面元素，如导航、侧栏、广告、版权等。
+这时就可以体现出按“WEB标准”做页面的优势了，用CSS换个版式很容易。
+在打印样式中，CSS的float属性有时可能会引起一些麻烦，会造成打印页面缺失，所以尽量去除不必要块级显示。
+*/
+/* 隐藏不打印项 start */
+h1 span {    /* 副标题 */
+    display: none;
+}
+#sidebar {   /* 侧栏 */
+    display: none;
+}
+#content td.ads {  /* 表格内广告 */
+    display: none;
+}
+#content th.col2 span {  /* 锚链接 */
+    display: none;
+}
+#content #bottom-2 {  /* 页尾表格打印 */
+    display: none;
+}
+/* 隐藏不打印项 end */
+
+
+body {
+    font-family: "Georgia", Times New Roman, Serif;
+    color: #000;
+    background: #fff;
+}
+
+#nav, #side, #footer, .post-meta, #respond, .reply, .post-info {
+    display: none;
+}
+/*字体用pt*/
+#header h1 {
+    text-align: center;
+    font-size: 42pt; font-style: italic;
+    margin: 0;
+}
+#header h2 {
+    text-align: center;
+    font-size: 10pt;
+}
+
+#content h2 {
+    font-size: 32pt
+font-style: italic;
+}
+
+#content h3 {
+    font-size: 18pt;
+    margin: 0;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+/*Display Link Destinations*/
+#main p a:after {
+    content: " ("attr(href)") ";
+    font-size: 10pt;
+}
+/*Split Comments Onto a Separate Page*/
+#comments {
+    page-break-before: always;
+}
+
+ol.commentlist li {
+    list-style: none;
+    border-bottom: 2px solid #eee;
+    margin: 0 0 10pt 0;
+}
+ol.commentlist li div.comment-meta {
+    font-size: 6pt;
+}
+
+
+
+

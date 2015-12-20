@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+    <title></title>
+    <style>
+        .box
+        {
+            padding-top: 50px;
+            padding-bottom: 50px;
+            padding-left: 100px;
+            width: 200px;
+            margin-bottom:50px;
+        }
+        .boxColor
+        {
+            background: -webkit-gradient(linear, left top, left bottom, from(#FFDB4D), to(#EABB00));
+            background: -moz-linear-gradient(top,  #FFDB4D,  #EABB00);
+            filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr=’#FFDB4D’, endColorstr=’#EABB00′);
+        }
+        .shadow_box
+        {
+            -moz-box-shadow: 0px 10px 5px #9C9C9C;
+            -webkit-box-shadow: 0px 10px 5px #9C9C9C;
+            box-shadow: 0px 10px 5px #9C9C9C;
+            position: relative;
+        }
+
+        .shadow_box span.warp
+        {
+            width: 100%;
+            height: 13px;
+            position: absolute;
+            bottom: -26px; /* ~equal to the height + shadow y offset + shadow blur radius */
+            right: 0px;
+            box-shadow: 0px -10px 5px #fff;
+            -moz-box-shadow: 0px -10px 5px #fff;
+            -webkit-box-shadow: 0px -10px 5px #fff;
+            border-radius: 50% / 20px;
+            -moz-border-radius: 50% / 20px;
+            -webkit-border-radius: 400px 20px;
+        }
+
+
+
+
+    </style>
+    <link rel="stylesheet" href="">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <![endif]-->
+</head>
+<body>
+<div class="box boxColor shadow_box" >
+    Warp Shadow
+</div>
+
+<div class="box boxColor shadow_box" >
+    Warp Shadow
+    <span class="warp">Span</span>
+</div>
+
+
+
+</body>
+</html>

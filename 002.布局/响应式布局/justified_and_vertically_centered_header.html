@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+    <title></title>
+    <style>
+        @import url(http://fonts.googleapis.com/css?family=Lato:400,700italic);
+
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            background: #1abc9c;
+            font-family: 'Lato', sans-serif;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        header {
+            text-align: justify;
+            height: 8em;
+            padding: 2em 5%;
+            background: #2c3e50;
+            color: #fff;
+        }
+
+        header::after {
+            content: '';
+            display: inline-block;
+            width: 100%;
+        }
+
+        header > div,
+        header > div::before,
+        header nav,
+        header > div h1 {
+            display: inline-block;
+            vertical-align: middle;
+            text-align: left;
+        }
+
+        header > div {
+            height: 100%;
+        }
+
+        header > div::before {
+            content: '';
+            height: 100%;
+        }
+
+        header > div h1 {
+            font-size: 3em;
+            font-style: italic;
+        }
+
+        header nav a {
+            padding: 0 0.6em;
+            white-space: nowrap;
+        }
+
+        header nav a:last-child {
+            padding-right: 0;
+        }
+
+        @media screen and (max-width: 720px) {
+
+            header {
+                height: auto;
+            }
+
+            header > div,
+            header > div h1,
+            header nav {
+                height: auto;
+                width: auto;
+                display: block;
+                text-align: center;
+            }
+
+        }
+
+
+    </style>
+    <link rel="stylesheet" href="">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <header>
+        <div><h1>Super Bad</h1></div>
+        <nav><a>First Link</a><a>Second Link</a><a>Third Link</a></nav>
+    </header>
+
+
+</body>
+</html>
