@@ -1,0 +1,52 @@
+/*添加简单的媒体查询实现宽屏和窄屏的布局*/
+@media all and (max-width: 480px) {
+    article:nth-of-type(1) {
+        -webkit-flex: 1 100%;
+        -moz-flex: 1 100%;
+        -ms-flex: 1 100%;
+        flex: 1 100%;
+    }
+
+    body {
+        min-width: 320px;
+    }
+
+    nav ul {
+        width: 100%;
+    }
+
+    .no-flexbox-legacy nav, .no-flexbox-legacy article {
+        float: none;
+    }
+
+    .no-flexbox-legacy nav, .no-flexbox-legacy article {
+        width: 100%;
+    }
+}
+@media all and (max-width: 600px) {
+    h1 {
+        font-size: 5rem;
+    }
+
+    .no-flexbox section {
+        -webkit-box-orient: vertical;
+        -moz-box-orient: vertical;
+    }
+
+    .no-flexbox nav {
+        width: 100%;
+        margin-left: -3rem;
+    }
+
+    .no-flexbox nav a, .no-flexbox nav ul, .no-flexbox nav li {
+        width: 100%;
+    }
+
+}
+
+@media all and (min-width: 1100px) {
+    section {
+        width: 1100px;
+        margin: 0 auto;
+    }
+}

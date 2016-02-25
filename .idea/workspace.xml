@@ -5,309 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f9a8497-16a0-4bfc-bbe2-5ce2b2b41061" name="Default" comment="update">
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\.editorconfig" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\.gitattributes" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\.htmlcombrc" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\CHANGELOG.md" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\CONTRIBUTING.md" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\FAQ.md" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\LICENSE.md" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\README.md" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\assets\css\bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\assets\css\font-awesome.min.css" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\assets\css\qunit.css" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\assets\css\tooltip.min.css" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\assets\fonts\FontAwesome.otf" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\assets\fonts\fontawesome-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\assets\fonts\fontawesome-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\assets\fonts\fontawesome-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\assets\fonts\fontawesome-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\assets\fonts\fontawesome-webfont.woff2" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\assets\fonts\glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\assets\fonts\glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\assets\fonts\glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\assets\fonts\glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\assets\fonts\glyphicons-halflings-regular.woff2" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\assets\img\data.jpg" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\assets\img\layers.jpg" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\assets\img\picture-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\assets\img\picture.jpg" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\assets\js\bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\assets\js\jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\assets\js\qunit.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\assets\js\tooltip.min.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\bower.json" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\demo\css\main.css" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\demo\index.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\demo\js\main.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\docs\apple-touch-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\docs\css\main.css" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\docs\favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\docs\humans.txt" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\docs\index.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\docs\js\main.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\docs\robots.txt" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\examples\crop-avatar\README.md" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\examples\crop-avatar\crop.php" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\examples\crop-avatar\css\main.css" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\examples\crop-avatar\img\20150922050700.original.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\examples\crop-avatar\img\20150922050700.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\examples\crop-avatar\img\20150922051041.original.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\examples\crop-avatar\img\20150922051041.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\examples\crop-avatar\img\20150923110501.original.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\examples\crop-avatar\img\20150923110501.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\examples\crop-avatar\img\20150923111224.original.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\examples\crop-avatar\img\20150923111224.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\examples\crop-avatar\img\20150924090055.original.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\examples\crop-avatar\img\20150924090055.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\examples\crop-avatar\img\20150924090134.original.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\examples\crop-avatar\img\20150924090134.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\examples\crop-avatar\img\20150924090709.original.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\examples\crop-avatar\img\20150924090709.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\examples\crop-avatar\img\20150924090728.original.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\examples\crop-avatar\img\20150924090728.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\examples\crop-avatar\img\20150924092445.original.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\examples\crop-avatar\img\20150924092445.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\examples\crop-avatar\img\20150924092513.original.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\examples\crop-avatar\img\20150924092513.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\examples\crop-avatar\img\20150924094618.original.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\examples\crop-avatar\img\20150924094618.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\examples\crop-avatar\img\20150924095046.original.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\examples\crop-avatar\img\20150924095046.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\examples\crop-avatar\img\20150924095117.original.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\examples\crop-avatar\img\20150924095117.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\examples\crop-avatar\img\20150924095136.original.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\examples\crop-avatar\img\20150924095136.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\examples\crop-avatar\img\20150924100035.original.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\examples\crop-avatar\img\20150924100035.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\examples\crop-avatar\img\20150924100300.original.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\examples\crop-avatar\img\20150924100300.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\examples\crop-avatar\img\20150924100515.original.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\examples\crop-avatar\img\20150924100515.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\examples\crop-avatar\img\20150924100553.original.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\examples\crop-avatar\img\20150924100553.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\examples\crop-avatar\img\20150924100734.original.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\examples\crop-avatar\img\20150924100734.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\examples\crop-avatar\img\20150924100811.original.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\examples\crop-avatar\img\20150924100811.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\examples\crop-avatar\img\20150924100835.original.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\examples\crop-avatar\img\20150924100835.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\examples\crop-avatar\img\20150924100851.original.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\examples\crop-avatar\img\20150924100851.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\examples\crop-avatar\img\20150924101130.original.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\examples\crop-avatar\img\20150924101130.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\examples\crop-avatar\img\20150924110322.original.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\examples\crop-avatar\img\20150924110322.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\examples\crop-avatar\img\20150924110332.original.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\examples\crop-avatar\img\20150924110332.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\examples\crop-avatar\img\20150924111301.original.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\examples\crop-avatar\img\20150924111301.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\examples\crop-avatar\img\20150924111318.original.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\examples\crop-avatar\img\20150924111318.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\examples\crop-avatar\img\loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\examples\crop-avatar\img\picture.jpg" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\examples\crop-avatar\index.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\examples\crop-avatar\js\main.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\examples\crop-avatar\js\mobile_main.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\examples\crop-avatar\m-index.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\examples\customize-preview.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\gulpfile.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\package.json" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\src\.csscomb.json" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\src\.csslintrc" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\src\.jscsrc" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\src\.jshintrc" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\src\img\bg.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\src\js\bind.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\src\js\build.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\src\js\change.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\src\js\cropper.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\src\js\defaults.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\src\js\handlers.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\src\js\intro.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\src\js\load.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\src\js\methods.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\src\js\outro.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\src\js\plugin.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\src\js\preview.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\src\js\prototype.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\src\js\render.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\src\js\template.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\src\js\utilities.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\src\js\variables.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\src\scss\_main.scss" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\src\scss\_mixins.scss" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\src\scss\_utilities.scss" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\src\scss\_variables.scss" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\src\scss\cropper.scss" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\test\css\main.css" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\test\events.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\test\events\build.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\test\events\built.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\test\events\crop.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\test\events\cropend.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\test\events\cropmove.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\test\events\cropstart.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\test\events\zoom.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\test\js\main.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\test\methods.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\test\methods\clear.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\test\methods\crop.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\test\methods\destroy.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\test\methods\disable.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\test\methods\enable.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\test\methods\getCanvasData.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\test\methods\getContainerData.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\test\methods\getCropBoxData.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\test\methods\getCroppedCanvas.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\test\methods\getData.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\test\methods\getImageData.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\test\methods\move.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\test\methods\replace.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\test\methods\reset.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\test\methods\rotate.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\test\methods\scale.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\test\methods\setAspectRatio.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\test\methods\setCanvasData.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\test\methods\setCropBoxData.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\test\methods\setData.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\test\methods\setDragMode.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\test\methods\zoom.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\test\options.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\test\options\aspectRatio.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\test\options\autoCrop.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\test\options\background.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\test\options\center.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\test\options\checkImageOrigin.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\test\options\cropBoxMovable.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\test\options\cropBoxResizable.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\test\options\data.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\test\options\doubleClickToggle.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\test\options\dragCrop.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\test\options\guides.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\test\options\highlight.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\test\options\minCanvasHeight.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\test\options\minCanvasWidth.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\test\options\minContainerHeight.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\test\options\minContainerWidth.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\test\options\minCropBoxHeight.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\test\options\minCropBoxWidth.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\test\options\modal.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\test\options\mouseWheelZoom.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\test\options\movable.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\test\options\rotatable.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\test\options\scalable.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\test\options\strict.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\test\options\touchDragZoom.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\003.uploadCrop\cropper-master\test\options\zoomable.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\004.uploadFile\upload_shunzi\testjs.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\008.自制组件\照片堆\html\index.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\008.自制组件\照片堆\img\albatross.jpg" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\008.自制组件\照片堆\img\camping.jpg" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\008.自制组件\照片堆\img\horses.jpg" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\008.自制组件\照片堆\img\lake.jpg" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\008.自制组件\照片堆\img\leaf.jpg" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\008.自制组件\照片堆\img\m_1338484733745.jpg" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\008.自制组件\照片堆\img\raft.jpg" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\008.自制组件\照片堆\img\seal.jpg" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\008.自制组件\照片堆\img\sealions.jpg" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\008.自制组件\照片堆\img\simon.jpg" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\008.自制组件\照片堆\img\us.jpg" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\008.自制组件\照片堆\img\volcanic.jpg" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\008.自制组件\照片堆\img\waterfall.jpg" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\008.自制组件\照片堆\img\whale.jpg" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\008.自制组件\照片堆\img\whiteisland.jpg" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\013.表单样例-Formify\attach.php" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\013.表单样例-Formify\doajaxfileupload.php" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\013.表单样例-Formify\images\captcha.jpg" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\013.表单样例-Formify\images\logo.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\013.表单样例-Formify\images\mail.php" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\013.表单样例-Formify\images\repeat.jpg" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\013.表单样例-Formify\images\sending.gif" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\013.表单样例-Formify\index.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\013.表单样例-Formify\js\Copy of formify.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\013.表单样例-Formify\js\ajaxfileupload.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\013.表单样例-Formify\js\formify.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\013.表单样例-Formify\js\jquery-1.4.2.min.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\013.表单样例-Formify\js\mail.config" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\013.表单样例-Formify\loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\013.表单样例-Formify\mail.config" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\013.表单样例-Formify\mail.php" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\013.表单样例-Formify\phpmailer\LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\013.表单样例-Formify\phpmailer\README" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\013.表单样例-Formify\phpmailer\class.phpmailer.php" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\013.表单样例-Formify\phpmailer\class.pop3.php" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\013.表单样例-Formify\phpmailer\class.smtp.php" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\013.表单样例-Formify\refrences.txt" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\013.表单样例-Formify\securimage\AHGBold.ttf" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\013.表单样例-Formify\securimage\LICENSE.txt" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\013.表单样例-Formify\securimage\README.FONT.txt" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\013.表单样例-Formify\securimage\README.txt" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\013.表单样例-Formify\securimage\audio\0.wav" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\013.表单样例-Formify\securimage\audio\1.wav" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\013.表单样例-Formify\securimage\audio\2.wav" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\013.表单样例-Formify\securimage\audio\3.wav" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\013.表单样例-Formify\securimage\audio\4.wav" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\013.表单样例-Formify\securimage\audio\5.wav" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\013.表单样例-Formify\securimage\audio\6.wav" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\013.表单样例-Formify\securimage\audio\7.wav" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\013.表单样例-Formify\securimage\audio\8.wav" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\013.表单样例-Formify\securimage\audio\9.wav" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\013.表单样例-Formify\securimage\audio\A.wav" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\013.表单样例-Formify\securimage\audio\B.wav" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\013.表单样例-Formify\securimage\audio\C.wav" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\013.表单样例-Formify\securimage\audio\D.wav" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\013.表单样例-Formify\securimage\audio\E.wav" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\013.表单样例-Formify\securimage\audio\F.wav" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\013.表单样例-Formify\securimage\audio\G.wav" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\013.表单样例-Formify\securimage\audio\H.wav" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\013.表单样例-Formify\securimage\audio\I.wav" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\013.表单样例-Formify\securimage\audio\J.wav" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\013.表单样例-Formify\securimage\audio\K.wav" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\013.表单样例-Formify\securimage\audio\L.wav" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\013.表单样例-Formify\securimage\audio\M.wav" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\013.表单样例-Formify\securimage\audio\N.wav" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\013.表单样例-Formify\securimage\audio\O.wav" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\013.表单样例-Formify\securimage\audio\P.wav" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\013.表单样例-Formify\securimage\audio\Q.wav" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\013.表单样例-Formify\securimage\audio\R.wav" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\013.表单样例-Formify\securimage\audio\S.wav" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\013.表单样例-Formify\securimage\audio\T.wav" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\013.表单样例-Formify\securimage\audio\U.wav" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\013.表单样例-Formify\securimage\audio\V.wav" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\013.表单样例-Formify\securimage\audio\W.wav" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\013.表单样例-Formify\securimage\audio\X.wav" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\013.表单样例-Formify\securimage\audio\Y.wav" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\013.表单样例-Formify\securimage\audio\Z.wav" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\013.表单样例-Formify\securimage\audio\error.wav" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\013.表单样例-Formify\securimage\backgrounds\bg3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\013.表单样例-Formify\securimage\backgrounds\bg4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\013.表单样例-Formify\securimage\backgrounds\bg5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\013.表单样例-Formify\securimage\backgrounds\bg6.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\013.表单样例-Formify\securimage\captcha.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\013.表单样例-Formify\securimage\database\.htaccess" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\013.表单样例-Formify\securimage\database\index.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\013.表单样例-Formify\securimage\database\securimage.sqlite" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\013.表单样例-Formify\securimage\example_form.php" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\013.表单样例-Formify\securimage\images\audio_icon.gif" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\013.表单样例-Formify\securimage\images\refresh.gif" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\013.表单样例-Formify\securimage\images\refresh.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\013.表单样例-Formify\securimage\securimage.php" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\013.表单样例-Formify\securimage\securimage_play.php" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\013.表单样例-Formify\securimage\securimage_play.swf" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\013.表单样例-Formify\securimage\securimage_show.php" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\013.表单样例-Formify\securimage\securimage_show_example.php" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\013.表单样例-Formify\securimage\securimage_show_example2.php" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\013.表单样例-Formify\securimage\words\words.txt" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\013.表单样例-Formify\style\default.css" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\013.表单样例-Formify\temp.php" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\013.表单样例-Formify\uploads\output.txt" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\em-font-size.css" afterPath="" />
-      <change type="DELETED" beforePath="E:\workspace\jsDemo_demo\some_snippet.less" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/007.CSS3Demo/untitled.html" afterPath="$PROJECT_DIR$/007.CSS3Demo/untitled.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/004.uploadFile/upload_file.php" afterPath="$PROJECT_DIR$/004.uploadFile/upload_file.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/002.布局/flexbox布局/001.html" afterPath="$PROJECT_DIR$/002.布局/flexbox布局/001.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="jsDemo_demo.iws" />
@@ -329,84 +27,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="fileupload2.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/004.uploadFile/js/fileupload2.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="等高响应布局.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/002.布局/等高响应布局/等高响应布局.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="响应式iframe.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/002.布局/响应式布局/响应式iframe.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
-              <folding>
-                <element signature="n#style#0;n#iframe#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#iframe#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="transition_visibility.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/007.CSS3Demo/transition_visibility.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="print-css.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/013.print_css/print-css.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="print.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/013.print_css/print.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="72" column="36" selection-start-line="72" selection-start-column="36" selection-end-line="72" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="demo.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/001.各种阴影效果/demo.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="45" column="46" selection-start-line="45" selection-start-column="46" selection-end-line="45" selection-end-column="46" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="响应式图片.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/002.布局/响应式布局/响应式图片.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -415,18 +40,78 @@
       <file leaf-file-name="001.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/002.布局/flexbox布局/001.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.5294118">
-              <caret line="136" column="21" selection-start-line="136" selection-start-column="21" selection-end-line="136" selection-end-column="21" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="134" column="0" selection-start-line="134" selection-start-column="0" selection-end-line="134" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="media_queries.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/002.布局/响应式布局/media_queries.css">
+      <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/002.布局/flexbox布局/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.34246576">
-              <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="35" column="21" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="001.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/compare/001.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="33" column="35" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="002.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/compare/002.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="003.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/compare/003.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="004.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/compare/004.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="005.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/compare/005.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="不等宽格子堆砌.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/002.布局/瀑布流布局/不等宽格子堆砌.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="217" column="4" selection-start-line="217" selection-start-column="4" selection-end-line="235" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -438,8 +123,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
-        <option value="Html5" />
         <option value="CSS File" />
+        <option value="Html5" />
       </list>
     </option>
   </component>
@@ -449,11 +134,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/002.布局/垂直居中/007.html" />
-        <option value="$PROJECT_DIR$/002.布局/垂直居中/008.html" />
-        <option value="$PROJECT_DIR$/002.布局/垂直居中/009.html" />
-        <option value="$PROJECT_DIR$/003.表单/原生表单控件优化/自定义原生表单控件.html" />
-        <option value="$PROJECT_DIR$/002.布局/等高响应布局/瀑布流布局.html" />
         <option value="$PROJECT_DIR$/clearfix.css" />
         <option value="$PROJECT_DIR$/css_loading.html" />
         <option value="$PROJECT_DIR$/007.动画/时钟.html" />
@@ -493,13 +173,18 @@
         <option value="$PROJECT_DIR$/002.布局/full_page_background_image_4.html" />
         <option value="$PROJECT_DIR$/002.布局/响应式布局/响应式iframe.html" />
         <option value="$PROJECT_DIR$/002.布局/响应式布局/响应式图片.html" />
-        <option value="$PROJECT_DIR$/002.布局/flexbox布局/001.html" />
         <option value="$PROJECT_DIR$/007.CSS3Demo/transition_visibility.html" />
         <option value="$PROJECT_DIR$/013.print_css/print-css.html" />
         <option value="$PROJECT_DIR$/013.print_css/print.css" />
         <option value="$PROJECT_DIR$/001.各种阴影效果/demo.html" />
         <option value="$PROJECT_DIR$/test.html" />
         <option value="$PROJECT_DIR$/002.布局/响应式布局/media_queries.css" />
+        <option value="$PROJECT_DIR$/002.布局/瀑布流布局/001.html" />
+        <option value="$PROJECT_DIR$/002.布局/瀑布流布局/不等宽格子堆砌.html" />
+        <option value="$PROJECT_DIR$/002.布局/瀑布流布局/不等宽格子堆砌+拖动效果.html" />
+        <option value="$PROJECT_DIR$/002.布局/flexbox布局/001.html" />
+        <option value="$PROJECT_DIR$/002.布局/flexbox布局/index.css" />
+        <option value="$PROJECT_DIR$/012.网页收集/webislove/test.html" />
       </list>
     </option>
   </component>
@@ -515,10 +200,8 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="width" value="1366" />
+    <option name="height" value="728" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -605,7 +288,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="008.自制组件" />
+              <option name="myItemId" value="012.网页收集" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -619,107 +302,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="008.自制组件" />
+              <option name="myItemId" value="012.网页收集" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="照片堆" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jsDemo_demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jsDemo_demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="007.动画" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jsDemo_demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jsDemo_demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="007.动画" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ImageTrans" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jsDemo_demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jsDemo_demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="006.css_icons" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jsDemo_demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jsDemo_demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="002.布局" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jsDemo_demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jsDemo_demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="002.布局" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="响应式布局" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jsDemo_demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jsDemo_demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="002.布局" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="flexbox布局" />
+              <option name="myItemId" value="webislove" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -741,7 +328,7 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="LayoutCode.rearrangeEntriesHTML" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="settings.editor.selected.configurable" value="web.server" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="107" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
@@ -778,13 +365,7 @@
       <recent name="E:\workspace\jsDemo_demo\002.布局" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.css_loading.html">
-    <configuration default="false" name="用字符制作小三角.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:8080/jsDemo_demo/006.边框制作小三角/用字符制作小三角.html">
-      <method />
-    </configuration>
-    <configuration default="false" name="用边框制作小三角.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:8080/jsDemo_demo/006.边框制作小三角/用边框制作小三角.html">
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JavaScript Debug.webislove.html (1)">
     <configuration default="false" name="sticky-footer.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:8080/jsDemo_demo/002.布局/sticky-footer.html">
       <method />
     </configuration>
@@ -792,6 +373,12 @@
       <method />
     </configuration>
     <configuration default="false" name="css_loading.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost/007.动画/css_loading.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="webislove.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost/012.网页收集/webislove/webislove.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="webislove.html (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:8080/jsDemo_demo/012.网页收集/webislove/webislove.html">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -833,19 +420,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.用字符制作小三角.html" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.用边框制作小三角.html" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.sticky-footer.html" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.confirm修改后.html" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.css_loading.html" />
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.sticky-footer.html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.confirm修改后.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.css_loading.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.webislove.html" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.webislove.html (1)" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.css_loading.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.confirm修改后.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.sticky-footer.html" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.用边框制作小三角.html" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.用字符制作小三角.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.webislove.html (1)" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.webislove.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.css_loading.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.confirm修改后.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.sticky-footer.html" />
       </list>
     </recent_temporary>
   </component>
@@ -885,31 +472,31 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
+    <frame x="0" y="0" width="1366" height="728" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21635687" sideWeight="0.4888268" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24755456" sideWeight="0.4888268" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998326" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="TypeScript Compiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25963148" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23404256" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.10367893" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24033614" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25301206" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="CSS-X-Fire" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32569557" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28641573" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21837349" sideWeight="0.5111732" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23567921" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952693" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39966556" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.10367893" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Duplicates" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32608697" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23529412" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -960,24 +547,11 @@
     </PATH>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/002.布局/垂直居中/005.html">
+    <entry file="file://$PROJECT_DIR$/002.布局/瀑布流布局/不等宽格子堆砌.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="53" column="76" selection-start-line="53" selection-start-column="76" selection-end-line="53" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/002.布局/垂直居中/006.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="46" column="77" selection-start-line="46" selection-start-column="77" selection-end-line="46" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/002.布局/垂直居中/007.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="217" column="4" selection-start-line="217" selection-start-column="4" selection-end-line="235" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1135,41 +709,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/compare/002.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/compare/003.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/compare/004.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/compare/005.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/compare/001.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/006.css_icons/加号_减号.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1251,15 +790,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/002.布局/响应式布局/响应式图片.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1267,7 +797,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1275,10 +804,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
-          <folding>
-            <element signature="n#style#0;n#iframe#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#iframe#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1286,7 +811,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1294,7 +818,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1302,7 +825,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="72" column="36" selection-start-line="72" selection-start-column="36" selection-end-line="72" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1310,22 +832,84 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="45" column="46" selection-start-line="45" selection-start-column="46" selection-end-line="45" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/002.布局/响应式布局/media_queries.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/002.布局/响应式布局/响应式图片.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/002.布局/瀑布流布局/不等宽格子堆砌.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="217" column="4" selection-start-line="217" selection-start-column="4" selection-end-line="235" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/002.布局/flexbox布局/001.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.5294118">
-          <caret line="136" column="21" selection-start-line="136" selection-start-column="21" selection-end-line="136" selection-end-column="21" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="134" column="0" selection-start-line="134" selection-start-column="0" selection-end-line="134" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/002.布局/响应式布局/media_queries.css">
+    <entry file="file://$PROJECT_DIR$/002.布局/flexbox布局/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34246576">
-          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="35" column="21" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/compare/002.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/compare/003.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/compare/004.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/compare/005.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/compare/001.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="33" column="35" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
           <folding />
         </state>
       </provider>
